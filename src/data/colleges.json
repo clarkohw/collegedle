@@ -43,5 +43,14 @@
     "longitude": -105.281151,
     "athleticConference": "Ivy",
     "endowment": 50900
+  },
+  {
+    "name": "University of Denver",
+    "studentBody": 7153,
+    "acceptanceRate": 4,
+    "latitude": 39.01049,
+    "longitude": -105.281151,
+    "athleticConference": "Ivy",
+    "endowment": 50900
   }
 ]

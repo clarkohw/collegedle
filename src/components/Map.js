@@ -10,7 +10,7 @@ function Map(props) {
 
   const markerColor = (guess) => {
     const distance = (lat1, lon1, lat2, lon2, unit) => {
-      if (lat1 == lat2 && lon1 == lon2) {
+      if (lat1 === lat2 && lon1 === lon2) {
         return 0;
       } else {
         var radlat1 = (Math.PI * lat1) / 180;
@@ -26,10 +26,10 @@ function Map(props) {
         dist = Math.acos(dist);
         dist = (dist * 180) / Math.PI;
         dist = dist * 60 * 1.1515;
-        if (unit == "K") {
+        if (unit === "K") {
           dist = dist * 1.609344;
         }
-        if (unit == "N") {
+        if (unit === "N") {
           dist = dist * 0.8684;
         }
         return dist;
@@ -43,7 +43,7 @@ function Map(props) {
       props.collegedle["longitude"]
     );
     const colors = ["#6CF", "#FC0", "#F90", "#F60", "#F00", "#390"];
-    if (dist == 0) {
+    if (dist === 0) {
       return colors[5];
     } else if (dist > 1000) {
       return colors[0];
@@ -64,7 +64,7 @@ function Map(props) {
       projectionConfig={{
         scale: 1000,
       }}
-      style={{ height: "510px", width: "500px" }}
+      style={{ height: "410px", width: "600px" }}
     >
       <Geographies geography={geoUrl} fill="#D6D6DA" stroke="#FFFFFF">
         {({ geographies }) =>
@@ -75,7 +75,7 @@ function Map(props) {
       </Geographies>
       {props.guesses.map((guess) => (
         <Marker
-          key={guess["longitude"]}
+          key={guess["name"] + guess["longitude"]}
           coordinates={[guess["longitude"], guess["latitude"]]}
         >
           <circle r={8} fill={markerColor(guess)} />

@@ -1,0 +1,10 @@
+.guess-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.empty-guess {
+  height: 40px;
+  width: 500px;
+  background-color: grey;
+}

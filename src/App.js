@@ -28,11 +28,8 @@ function App() {
         guesses={guesses}
         setGuesses={setGuesses}
       />
-      {guesses.map((guess) => (
-        <div>{guess["name"]}</div>
-      ))}
       <Map collegedle={collegedle} guesses={guesses} />
-      <GuessList />
+      <GuessList collegedle={collegedle} guesses={guesses} />
     </div>
   );
 }
