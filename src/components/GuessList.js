@@ -7,7 +7,7 @@ function GuessList(props) {
     if (index === 0) {
       const difference = props.collegedle["studentBody"] - guess["studentBody"];
       return (
-        "Student population is " +
+        "Hint: Student population is " +
         selectEmoji(difference) +
         "by " +
         Math.abs(difference) +
@@ -16,7 +16,7 @@ function GuessList(props) {
     } else if (index === 1) {
       const difference = props.collegedle["endowment"] - guess["endowment"];
       return (
-        "Endowment is " +
+        "Hint: Endowment is " +
         selectEmoji(difference) +
         "by " +
         Math.abs(difference) +
@@ -27,7 +27,7 @@ function GuessList(props) {
       const difference =
         props.collegedle["acceptanceRate"] - guess["acceptanceRate"];
       return (
-        "Acceptance rate is " +
+        "Hint: Acceptance rate is " +
         selectEmoji(difference) +
         "by " +
         Math.abs(difference) +
@@ -35,7 +35,7 @@ function GuessList(props) {
       );
     } else if (index === 3) {
       return (
-        "The school is in the " +
+        "Hint: The school is in the " +
         props.collegedle["athleticConference"] +
         " athletic conference"
       );
@@ -55,7 +55,7 @@ function GuessList(props) {
       {props.guesses.map((guess, index) => (
         <div>
           <div className="college-name">{guess["name"]}</div>
-          <div>Hint: {getHint(guess, index)} </div>
+          <div> {getHint(guess, index)} </div>
         </div>
       ))}
       {renderGuessBlocks()}
