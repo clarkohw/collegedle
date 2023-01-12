@@ -19,6 +19,10 @@ function SearchBar(props) {
       setSearchValue("");
       if (searchValue["label"] === props.collegedle["name"]) {
         props.setGameState("Won");
+      } else {
+        if (props.guessCount >= 5) {
+          props.setGameState("Lost");
+        }
       }
     }
   };
