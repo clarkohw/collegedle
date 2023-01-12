@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Brown University",
+    "studentBody": 7349,
+    "acceptanceRate": 6,
+    "latitude": 41.82682,
+    "longitude": -71.402931,
+    "athleticConference": "Ivy",
+    "endowment": 6000
+  },
+  {
+    "name": "Harvard University",
+    "studentBody": 7153,
+    "acceptanceRate": 4,
+    "latitude": 42.377,
+    "longitude": -71.1167,
+    "athleticConference": "Ivy",
+    "endowment": 50900
+  },
+  {
+    "name": "Princeton University",
+    "studentBody": 7153,
+    "acceptanceRate": 4,
+    "latitude": 42.377,
+    "longitude": -71.1167,
+    "athleticConference": "Ivy",
+    "endowment": 50900
+  },
+  {
+    "name": "Columbia University",
+    "studentBody": 7153,
+    "acceptanceRate": 4,
+    "latitude": 42.377,
+    "longitude": -71.1167,
+    "athleticConference": "Ivy",
+    "endowment": 50900
+  },
+  {
+    "name": "University of Colorado, Boulder",
+    "studentBody": 7153,
+    "acceptanceRate": 4,
+    "latitude": 42.377,
+    "longitude": -71.1167,
+    "athleticConference": "Ivy",
+    "endowment": 50900
+  }
+]
