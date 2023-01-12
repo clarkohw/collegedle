@@ -21,8 +21,8 @@
     "name": "Princeton University",
     "studentBody": 7153,
     "acceptanceRate": 4,
-    "latitude": 42.377,
-    "longitude": -71.1167,
+    "latitude": 40.34399,
+    "longitude": -74.651451,
     "athleticConference": "Ivy",
     "endowment": 50900
   },
@@ -30,8 +30,8 @@
     "name": "Columbia University",
     "studentBody": 7153,
     "acceptanceRate": 4,
-    "latitude": 42.377,
-    "longitude": -71.1167,
+    "latitude": 40.807537,
+    "longitude": -73.96257,
     "athleticConference": "Ivy",
     "endowment": 50900
   },
@@ -39,8 +39,8 @@
     "name": "University of Colorado, Boulder",
     "studentBody": 7153,
     "acceptanceRate": 4,
-    "latitude": 42.377,
-    "longitude": -71.1167,
+    "latitude": 40.01049,
+    "longitude": -105.281151,
     "athleticConference": "Ivy",
     "endowment": 50900
   }

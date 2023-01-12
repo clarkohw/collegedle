@@ -7,13 +7,14 @@ import {
 
 function Map(props) {
   const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
+
   return (
     <ComposableMap
       projection="geoAlbersUsa"
       projectionConfig={{
         scale: 1000,
       }}
-      style={{ height: "310px", width: "300px" }}
+      style={{ height: "510px", width: "500px" }}
     >
       <Geographies geography={geoUrl} fill="#D6D6DA" stroke="#FFFFFF">
         {({ geographies }) =>
