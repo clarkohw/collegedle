@@ -43,7 +43,9 @@ function Map(props) {
       props.collegedle["longitude"]
     );
     const colors = ["#6CF", "#FC0", "#F90", "#F60", "#F00", "#390"];
-    if (dist > 1000) {
+    if (dist == 0) {
+      return colors[5];
+    } else if (dist > 1000) {
       return colors[0];
     } else if (dist > 500) {
       return colors[1];
@@ -51,10 +53,8 @@ function Map(props) {
       return colors[2];
     } else if (dist > 100) {
       return colors[3];
-    } else if (dist > 50) {
+    } else if (dist <= 50 && dist > 0) {
       return colors[4];
-    } else {
-      return colors[5];
     }
   };
 
