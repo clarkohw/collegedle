@@ -7,7 +7,9 @@ import { useState } from "react";
 
 function App() {
   const [guessOptions, setGuessOptions] = useState(collegeData);
-  const [collegedle, setCollegedle] = useState(guessOptions[0]);
+  const [collegedle, setCollegedle] = useState(
+    guessOptions[Math.round(Math.random() * guessOptions.length)]
+  );
   const [guesses, setGuesses] = useState([]);
   const [gameState, setGameState] = useState("In progress");
   const [guessCount, setGuessCount] = useState(0);
