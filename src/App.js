@@ -9,12 +9,20 @@ function App() {
   const [guessOptions, setGuessOptions] = useState(collegeData);
   const [collegedle, setCollegedle] = useState(guessOptions[0]);
   const [guesses, setGuesses] = useState([]);
+  const [gameState, setGameState] = useState("In progress");
+  const [guessCount, setGuessCount] = useState(0);
+  console.log("devlog gamestate:", gameState, guessCount);
   return (
     <div className="app-container">
       <h1>
         <b>Collegedle</b>
       </h1>
       <SearchBar
+        collegedle={collegedle}
+        gameState={gameState}
+        setGameState={setGameState}
+        guessCount={guessCount}
+        setGuessCount={setGuessCount}
         guessOptions={guessOptions}
         setGuessOptions={setGuessOptions}
         guesses={guesses}

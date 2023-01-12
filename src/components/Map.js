@@ -74,7 +74,10 @@ function Map(props) {
         }
       </Geographies>
       {props.guesses.map((guess) => (
-        <Marker coordinates={[guess["longitude"], guess["latitude"]]}>
+        <Marker
+          key={guess["longitude"]}
+          coordinates={[guess["longitude"], guess["latitude"]]}
+        >
           <circle r={8} fill={markerColor(guess)} />
         </Marker>
       ))}

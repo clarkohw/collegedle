@@ -4,9 +4,28 @@ import TextField from "@mui/material/TextField";
 
 function SearchBar(props) {
   const [searchValue, setSearchValue] = useState("");
+  const submitGuess = () => {
+    if (searchValue !== "") {
+      props.setGuessCount(props.guessCount + 1);
+      props.setGuesses([
+        ...props.guesses,
+        props.guessOptions[searchValue["id"]],
+      ]);
+      props.setGuessOptions(
+        props.guessOptions.filter(
+          (option) => option["name"] !== searchValue["label"]
+        )
+      );
+      setSearchValue("");
+      if (searchValue["label"] === props.collegedle["name"]) {
+        props.setGameState("Won");
+      }
+    }
+  };
   return (
     <div style={{ display: "flex" }}>
       <Autocomplete
+        disabled={props.gameState !== "In progress"}
         sx={{ width: 300 }}
         value={searchValue}
         onChange={(e, newValue) => setSearchValue(newValue)}
@@ -22,24 +41,7 @@ function SearchBar(props) {
           <TextField {...params} label="Enter college name" />
         )}
       />
-      <button
-        onClick={() => {
-          if (searchValue !== "") {
-            props.setGuesses([
-              ...props.guesses,
-              props.guessOptions[searchValue["id"]],
-            ]);
-            props.setGuessOptions(
-              props.guessOptions.filter(
-                (option) => option["name"] !== searchValue["label"]
-              )
-            );
-            setSearchValue("");
-          }
-        }}
-      >
-        Guess
-      </button>
+      <button onClick={submitGuess}>Guess</button>
     </div>
   );
 }
