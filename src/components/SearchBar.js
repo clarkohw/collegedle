@@ -33,14 +33,20 @@ function SearchBar(props) {
   const displayWinLossMessage = () => {
     let text = "";
     if (props.gameState === "Won") {
-      text = <b>You guessed today's Collegedle: {props.collegedle["name"]}</b>;
+      text = (
+        <b style={{ color: "#3E9614" }}>
+          You guessed today's Collegedle: {props.collegedle["name"]}
+        </b>
+      );
     } else if (props.gameState === "Lost") {
       text = <b> Ahhh, you ran out of guesses :(</b>;
     }
     return <div style={{ minHeight: "20px", marginTop: ".8em" }}>{text}</div>;
   };
   return (
-    <div>
+    <div
+      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+    >
       <div style={{ display: "flex" }}>
         <Autocomplete
           disabled={props.gameState !== "In progress"}
