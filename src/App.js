@@ -22,7 +22,7 @@ function App() {
       {guesses.map((guess) => (
         <div>{guess["name"]}</div>
       ))}
-      <Map />
+      <Map guesses={guesses} />
       <GuessList />
     </div>
   );
