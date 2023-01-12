@@ -7,12 +7,21 @@ import { useState } from "react";
 
 function App() {
   const [guessOptions, setGuessOptions] = useState(collegeData);
+  const [guesses, setGuesses] = useState([]);
   return (
     <div className="app-container">
+      <h1>
+        <b>Collegedle</b>
+      </h1>
       <SearchBar
         guessOptions={guessOptions}
         setGuessOptions={setGuessOptions}
+        guesses={guesses}
+        setGuesses={setGuesses}
       />
+      {guesses.map((guess) => (
+        <div>{guess["name"]}</div>
+      ))}
       <Map />
       <GuessList />
     </div>

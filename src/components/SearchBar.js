@@ -3,12 +3,7 @@ import { useState } from "react";
 import TextField from "@mui/material/TextField";
 
 function SearchBar(props) {
-  const initialSearchState = {
-    label: "Enter college name",
-    id: -1,
-  };
-  const [searchValue, setSearchValue] = useState(initialSearchState);
-  console.log("DEVLOG", props.guessOptions);
+  const [searchValue, setSearchValue] = useState("");
   return (
     <div style={{ display: "flex" }}>
       <Autocomplete
@@ -16,20 +11,31 @@ function SearchBar(props) {
         value={searchValue}
         onChange={(e, newValue) => setSearchValue(newValue)}
         id="college-guess-search"
+        isOptionEqualToValue={(option1, option2) =>
+          option1["label"] === option2["label"]
+        }
         options={props.guessOptions.map((college, index) => ({
           label: college["name"],
           id: index,
         }))}
-        renderInput={(params) => <TextField {...params} label="text" />}
+        renderInput={(params) => (
+          <TextField {...params} label="Enter college name" />
+        )}
       />
       <button
         onClick={() => {
-          props.setGuessOptions(
-            props.guessOptions.filter(
-              (option) => option["name"] !== searchValue["label"]
-            )
-          );
-          setSearchValue(initialSearchState);
+          if (searchValue !== "") {
+            props.setGuesses([
+              ...props.guesses,
+              props.guessOptions[searchValue["id"]],
+            ]);
+            props.setGuessOptions(
+              props.guessOptions.filter(
+                (option) => option["name"] !== searchValue["label"]
+              )
+            );
+            setSearchValue("");
+          }
         }}
       >
         Guess
