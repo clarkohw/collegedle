@@ -65,7 +65,15 @@ function SearchBar(props) {
             })),
           ]}
           renderInput={(params) => (
-            <TextField {...params} label="Enter college name" />
+            <TextField
+              {...params}
+              onKeyDown={(event) => {
+                if (event.key == "Enter") {
+                  submitGuess();
+                }
+              }}
+              label="Enter college name"
+            />
           )}
         />
         <button onClick={submitGuess}>Guess</button>
