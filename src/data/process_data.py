@@ -39,7 +39,7 @@ def convert_df_to_json(df):
             "studentBody": row['UGDS'],
             "locale": locales[row['LOCALE']],
             "endowment": row['ENDOWEND'],
-            "latitdue": row['LATITUDE'],
+            "latitude": row['LATITUDE'],
             "longitude": row['LONGITUDE']
         })
     return res

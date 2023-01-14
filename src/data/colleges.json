@@ -5,7 +5,7 @@
     "studentBody": 24368.0,
     "locale": "City: Small",
     "endowment": 784621493.0,
-    "latitdue": 32.599378,
+    "latitude": 32.599378,
     "longitude": -85.488258
   },
   {
@@ -14,7 +14,7 @@
     "studentBody": 3573.0,
     "locale": "Suburb: Large",
     "endowment": 332869066.0,
-    "latitdue": 33.464128,
+    "latitude": 33.464128,
     "longitude": -86.791799
   },
   {
@@ -23,7 +23,7 @@
     "studentBody": 34659.0,
     "locale": "City: Large",
     "endowment": 976567843.0,
-    "latitdue": 32.232672,
+    "latitude": 32.232672,
     "longitude": -110.950815
   },
   {
@@ -32,7 +32,7 @@
     "studentBody": 22624.0,
     "locale": "City: Small",
     "endowment": 1209277289.0,
-    "latitdue": 36.070009,
+    "latitude": 36.070009,
     "longitude": -94.176981
   },
   {
@@ -41,7 +41,7 @@
     "studentBody": 901.0,
     "locale": "City: Medium",
     "endowment": 3085500000.0,
-    "latitdue": 34.137349,
+    "latitude": 34.137349,
     "longitude": -118.125878
   },
   {
@@ -50,7 +50,7 @@
     "studentBody": 21451.0,
     "locale": "Suburb: Small",
     "endowment": 226112910.0,
-    "latitdue": 35.299513,
+    "latitude": 35.299513,
     "longitude": -120.657311
   },
   {
@@ -59,7 +59,7 @@
     "studentBody": 9855.0,
     "locale": "Suburb: Small",
     "endowment": 16131357.0,
-    "latitdue": 37.52577,
+    "latitude": 37.52577,
     "longitude": -120.852511
   },
   {
@@ -68,7 +68,7 @@
     "studentBody": 27862.0,
     "locale": "Suburb: Large",
     "endowment": 105450164.0,
-    "latitdue": 34.057912,
+    "latitude": 34.057912,
     "longitude": -117.821476
   },
   {
@@ -77,7 +77,7 @@
     "studentBody": 15689.0,
     "locale": "City: Medium",
     "endowment": 62941713.0,
-    "latitdue": 39.729712,
+    "latitude": 39.729712,
     "longitude": -121.844859
   },
   {
@@ -86,7 +86,7 @@
     "studentBody": 36874.0,
     "locale": "Suburb: Large",
     "endowment": 83135713.0,
-    "latitdue": 33.881506,
+    "latitude": 33.881506,
     "longitude": -117.885446
   },
   {
@@ -95,7 +95,7 @@
     "studentBody": 13041.0,
     "locale": "Suburb: Large",
     "endowment": 16921045.0,
-    "latitdue": 37.657694,
+    "latitude": 37.657694,
     "longitude": -122.054135
   },
   {
@@ -104,7 +104,7 @@
     "studentBody": 34188.0,
     "locale": "City: Large",
     "endowment": 85609003.0,
-    "latitdue": 33.782818,
+    "latitude": 33.782818,
     "longitude": -118.11204
   },
   {
@@ -113,7 +113,7 @@
     "studentBody": 22820.0,
     "locale": "City: Large",
     "endowment": 49109390.0,
-    "latitdue": 34.066927,
+    "latitude": 34.066927,
     "longitude": -118.168965
   },
   {
@@ -122,7 +122,7 @@
     "studentBody": 34881.0,
     "locale": "City: Large",
     "endowment": 139512006.0,
-    "latitdue": 34.240126,
+    "latitude": 34.240126,
     "longitude": -118.529319
   },
   {
@@ -131,7 +131,7 @@
     "studentBody": 29228.0,
     "locale": "City: Large",
     "endowment": 55008546.0,
-    "latitdue": 38.559415,
+    "latitude": 38.559415,
     "longitude": -121.423549
   },
   {
@@ -140,7 +140,7 @@
     "studentBody": 30796.0,
     "locale": "City: Medium",
     "endowment": 2173287000.0,
-    "latitdue": 37.871918,
+    "latitude": 37.871918,
     "longitude": -122.260463
   },
   {
@@ -149,7 +149,7 @@
     "studentBody": 31142.0,
     "locale": "Suburb: Small",
     "endowment": 484130000.0,
-    "latitdue": 38.539667,
+    "latitude": 38.539667,
     "longitude": -121.749567
   },
   {
@@ -158,7 +158,7 @@
     "studentBody": 29627.0,
     "locale": "City: Large",
     "endowment": 532004000.0,
-    "latitdue": 33.648434,
+    "latitude": 33.648434,
     "longitude": -117.841248
   },
   {
@@ -167,7 +167,7 @@
     "studentBody": 31636.0,
     "locale": "City: Large",
     "endowment": 2359984000.0,
-    "latitdue": 34.07178,
+    "latitude": 34.07178,
     "longitude": -118.442179
   },
   {
@@ -176,7 +176,7 @@
     "studentBody": 22609.0,
     "locale": "City: Large",
     "endowment": 193196000.0,
-    "latitdue": 33.97246,
+    "latitude": 33.97246,
     "longitude": -117.32741
   },
   {
@@ -185,7 +185,7 @@
     "studentBody": 31827.0,
     "locale": "City: Large",
     "endowment": 895245000.0,
-    "latitdue": 32.877749,
+    "latitude": 32.877749,
     "longitude": -117.235866
   },
   {
@@ -194,7 +194,7 @@
     "studentBody": 23166.0,
     "locale": "Suburb: Midsize",
     "endowment": 278285000.0,
-    "latitdue": 34.416297,
+    "latitude": 34.416297,
     "longitude": -119.846426
   },
   {
@@ -203,7 +203,7 @@
     "studentBody": 17207.0,
     "locale": "City: Small",
     "endowment": 115645000.0,
-    "latitdue": 36.995584,
+    "latitude": 36.995584,
     "longitude": -122.058801
   },
   {
@@ -212,7 +212,7 @@
     "studentBody": 907.0,
     "locale": "City: Medium",
     "endowment": 10783408.0,
-    "latitdue": 38.069061,
+    "latitude": 38.069061,
     "longitude": -122.231551
   },
   {
@@ -221,7 +221,7 @@
     "studentBody": 7231.0,
     "locale": "City: Medium",
     "endowment": 412064000.0,
-    "latitdue": 33.79302,
+    "latitude": 33.79302,
     "longitude": -117.852518
   },
   {
@@ -230,7 +230,7 @@
     "studentBody": 1262.0,
     "locale": "Suburb: Large",
     "endowment": 952269000.0,
-    "latitdue": 34.102154,
+    "latitude": 34.102154,
     "longitude": -117.711188
   },
   {
@@ -239,7 +239,7 @@
     "studentBody": 827.0,
     "locale": "Suburb: Large",
     "endowment": 319714177.0,
-    "latitdue": 34.106515,
+    "latitude": 34.106515,
     "longitude": -117.709837
   },
   {
@@ -248,7 +248,7 @@
     "studentBody": 6564.0,
     "locale": "City: Large",
     "endowment": 477020000.0,
-    "latitdue": 33.97085,
+    "latitude": 33.97085,
     "longitude": -118.415744
   },
   {
@@ -257,7 +257,7 @@
     "studentBody": 1835.0,
     "locale": "City: Large",
     "endowment": 439089409.0,
-    "latitdue": 34.127124,
+    "latitude": 34.127124,
     "longitude": -118.210908
   },
   {
@@ -266,7 +266,7 @@
     "studentBody": 3457.0,
     "locale": "Suburb: Large",
     "endowment": 908307000.0,
-    "latitdue": 34.037786,
+    "latitude": 34.037786,
     "longitude": -118.707077
   },
   {
@@ -275,7 +275,7 @@
     "studentBody": 922.0,
     "locale": "Suburb: Large",
     "endowment": 144435157.0,
-    "latitdue": 34.104107,
+    "latitude": 34.104107,
     "longitude": -117.706675
   },
   {
@@ -284,7 +284,7 @@
     "studentBody": 1462.0,
     "locale": "Suburb: Large",
     "endowment": 2254547000.0,
-    "latitdue": 34.099027,
+    "latitude": 34.099027,
     "longitude": -117.714556
   },
   {
@@ -293,7 +293,7 @@
     "studentBody": 31293.0,
     "locale": "City: Large",
     "endowment": 353237246.0,
-    "latitdue": 32.77525,
+    "latitude": 32.77525,
     "longitude": -117.071228
   },
   {
@@ -302,7 +302,7 @@
     "studentBody": 5454.0,
     "locale": "City: Large",
     "endowment": 532240000.0,
-    "latitdue": 32.770816,
+    "latitude": 32.770816,
     "longitude": -117.192073
   },
   {
@@ -311,7 +311,7 @@
     "studentBody": 23411.0,
     "locale": "City: Large",
     "endowment": 139667872.0,
-    "latitdue": 37.721224,
+    "latitude": 37.721224,
     "longitude": -122.476799
   },
   {
@@ -320,7 +320,7 @@
     "studentBody": 5810.0,
     "locale": "City: Large",
     "endowment": 419920000.0,
-    "latitdue": 37.776618,
+    "latitude": 37.776618,
     "longitude": -122.450477
   },
   {
@@ -329,7 +329,7 @@
     "studentBody": 27614.0,
     "locale": "City: Large",
     "endowment": 148747339.0,
-    "latitdue": 37.336569,
+    "latitude": 37.336569,
     "longitude": -121.880621
   },
   {
@@ -338,7 +338,7 @@
     "studentBody": 5606.0,
     "locale": "City: Medium",
     "endowment": 1034167000.0,
-    "latitdue": 37.348362,
+    "latitude": 37.348362,
     "longitude": -121.93784
   },
   {
@@ -347,7 +347,7 @@
     "studentBody": 930.0,
     "locale": "Suburb: Large",
     "endowment": 374862269.0,
-    "latitdue": 34.104147,
+    "latitude": 34.104147,
     "longitude": -117.711294
   },
   {
@@ -356,7 +356,7 @@
     "studentBody": 7231.0,
     "locale": "Suburb: Large",
     "endowment": 41676331.0,
-    "latitdue": 38.340274,
+    "latitude": 38.340274,
     "longitude": -122.677066
   },
   {
@@ -365,7 +365,7 @@
     "studentBody": 19521.0,
     "locale": "City: Large",
     "endowment": 5914358000.0,
-    "latitdue": 34.021281,
+    "latitude": 34.021281,
     "longitude": -118.284169
   },
   {
@@ -374,7 +374,7 @@
     "studentBody": 2023.0,
     "locale": "City: Large",
     "endowment": 768785461.0,
-    "latitdue": 38.84886,
+    "latitude": 38.84886,
     "longitude": -104.822697
   },
   {
@@ -383,7 +383,7 @@
     "studentBody": 5173.0,
     "locale": "Suburb: Large",
     "endowment": 255678903.0,
-    "latitdue": 39.751443,
+    "latitude": 39.751443,
     "longitude": -105.223364
   },
   {
@@ -392,7 +392,7 @@
     "studentBody": 23332.0,
     "locale": "City: Medium",
     "endowment": 410081225.0,
-    "latitdue": 40.574805,
+    "latitude": 40.574805,
     "longitude": -105.080732
   },
   {
@@ -401,7 +401,7 @@
     "studentBody": 5683.0,
     "locale": "City: Large",
     "endowment": 772073079.0,
-    "latitdue": 39.678005,
+    "latitude": 39.678005,
     "longitude": -104.963259
   },
   {
@@ -410,7 +410,7 @@
     "studentBody": 1711.0,
     "locale": "City: Small",
     "endowment": 316270000.0,
-    "latitdue": 41.379833,
+    "latitude": 41.379833,
     "longitude": -72.107321
   },
   {
@@ -419,7 +419,7 @@
     "studentBody": 18658.0,
     "locale": "Suburb: Large",
     "endowment": 438656096.0,
-    "latitdue": 41.809098,
+    "latitude": 41.809098,
     "longitude": -72.249948
   },
   {
@@ -428,7 +428,7 @@
     "studentBody": 4319.0,
     "locale": "Suburb: Large",
     "endowment": 317391000.0,
-    "latitdue": 41.157673,
+    "latitude": 41.157673,
     "longitude": -73.255903
   },
   {
@@ -437,7 +437,7 @@
     "studentBody": 2838.0,
     "locale": "City: Small",
     "endowment": 1130907000.0,
-    "latitdue": 41.554665,
+    "latitude": 41.554665,
     "longitude": -72.657146
   },
   {
@@ -446,7 +446,7 @@
     "studentBody": 4701.0,
     "locale": "City: Medium",
     "endowment": 31201686000.0,
-    "latitdue": 41.311158,
+    "latitude": 41.311158,
     "longitude": -72.926688
   },
   {
@@ -455,7 +455,7 @@
     "studentBody": 18618.0,
     "locale": "Suburb: Large",
     "endowment": 1453189476.0,
-    "latitdue": 39.679577,
+    "latitude": 39.679577,
     "longitude": -75.752822
   },
   {
@@ -464,7 +464,7 @@
     "studentBody": 7510.0,
     "locale": "City: Large",
     "endowment": 701308000.0,
-    "latitdue": 38.936005,
+    "latitude": 38.936005,
     "longitude": -77.088875
   },
   {
@@ -473,7 +473,7 @@
     "studentBody": 11106.0,
     "locale": "City: Large",
     "endowment": 1802656000.0,
-    "latitdue": 38.89923,
+    "latitude": 38.89923,
     "longitude": -77.048363
   },
   {
@@ -482,7 +482,7 @@
     "studentBody": 7119.0,
     "locale": "City: Large",
     "endowment": 1863711000.0,
-    "latitdue": 38.908809,
+    "latitude": 38.908809,
     "longitude": -77.073463
   },
   {
@@ -491,7 +491,7 @@
     "studentBody": 61111.0,
     "locale": "Suburb: Large",
     "endowment": 160837792.0,
-    "latitdue": 28.602159,
+    "latitude": 28.602159,
     "longitude": -81.200889
   },
   {
@@ -500,7 +500,7 @@
     "studentBody": 24396.0,
     "locale": "City: Small",
     "endowment": 288677501.0,
-    "latitdue": 26.372421,
+    "latitude": 26.372421,
     "longitude": -80.102978
   },
   {
@@ -509,7 +509,7 @@
     "studentBody": 41220.0,
     "locale": "Suburb: Large",
     "endowment": 218684250.0,
-    "latitdue": 25.75732,
+    "latitude": 25.75732,
     "longitude": -80.373928
   },
   {
@@ -518,7 +518,7 @@
     "studentBody": 32384.0,
     "locale": "City: Medium",
     "endowment": 699912745.0,
-    "latitdue": 30.440756,
+    "latitude": 30.440756,
     "longitude": -84.291921
   },
   {
@@ -527,7 +527,7 @@
     "studentBody": 34237.0,
     "locale": "City: Medium",
     "endowment": 1844523000.0,
-    "latitdue": 29.64629,
+    "latitude": 29.64629,
     "longitude": -82.347911
   },
   {
@@ -536,7 +536,7 @@
     "studentBody": 14308.0,
     "locale": "City: Large",
     "endowment": 116830075.0,
-    "latitdue": 30.27194,
+    "latitude": 30.27194,
     "longitude": -81.509144
   },
   {
@@ -545,7 +545,7 @@
     "studentBody": 37002.0,
     "locale": "City: Large",
     "endowment": 532155863.0,
-    "latitdue": 28.061458,
+    "latitude": 28.061458,
     "longitude": -82.413232
   },
   {
@@ -554,7 +554,7 @@
     "studentBody": 6978.0,
     "locale": "City: Large",
     "endowment": 9169027771.0,
-    "latitdue": 33.790183,
+    "latitude": 33.790183,
     "longitude": -84.325512
   },
   {
@@ -563,7 +563,7 @@
     "studentBody": 29705.0,
     "locale": "City: Medium",
     "endowment": 1362445927.0,
-    "latitdue": 33.956262,
+    "latitude": 33.956262,
     "longitude": -83.374039
   },
   {
@@ -572,7 +572,7 @@
     "studentBody": 7010.0,
     "locale": "City: Large",
     "endowment": 7199520706.0,
-    "latitdue": 41.787994,
+    "latitude": 41.787994,
     "longitude": -87.599539
   },
   {
@@ -581,7 +581,7 @@
     "studentBody": 14009.0,
     "locale": "City: Large",
     "endowment": 751412000.0,
-    "latitdue": 41.877618,
+    "latitude": 41.877618,
     "longitude": -87.62724
   },
   {
@@ -590,7 +590,7 @@
     "studentBody": 17955.0,
     "locale": "Suburb: Midsize",
     "endowment": 151372576.0,
-    "latitdue": 40.509403,
+    "latitude": 40.509403,
     "longitude": -88.990058
   },
   {
@@ -599,7 +599,7 @@
     "studentBody": 11531.0,
     "locale": "City: Large",
     "endowment": 701356311.0,
-    "latitdue": 42.000765,
+    "latitude": 42.000765,
     "longitude": -87.656872
   },
   {
@@ -608,7 +608,7 @@
     "studentBody": 8401.0,
     "locale": "City: Small",
     "endowment": 8484706000.0,
-    "latitdue": 42.050356,
+    "latitude": 42.050356,
     "longitude": -87.679858
   },
   {
@@ -617,7 +617,7 @@
     "studentBody": 4404.0,
     "locale": "City: Large",
     "endowment": 216806000.0,
-    "latitdue": 39.8374,
+    "latitude": 39.8374,
     "longitude": -86.172167
   },
   {
@@ -626,7 +626,7 @@
     "studentBody": 1731.0,
     "locale": "Town: Distant",
     "endowment": 692896381.0,
-    "latitdue": 39.640904,
+    "latitude": 39.640904,
     "longitude": -86.860363
   },
   {
@@ -635,7 +635,7 @@
     "studentBody": 32621.0,
     "locale": "City: Small",
     "endowment": 1209430160.0,
-    "latitdue": 39.16609,
+    "latitude": 39.16609,
     "longitude": -86.526559
   },
   {
@@ -644,7 +644,7 @@
     "studentBody": 8854.0,
     "locale": "Suburb: Large",
     "endowment": 12319422000.0,
-    "latitdue": 41.703058,
+    "latitude": 41.703058,
     "longitude": -86.238959
   },
   {
@@ -653,7 +653,7 @@
     "studentBody": 1969.0,
     "locale": "City: Small",
     "endowment": 226747984.0,
-    "latitdue": 39.483602,
+    "latitude": 39.483602,
     "longitude": -87.326749
   },
   {
@@ -662,7 +662,7 @@
     "studentBody": 2814.0,
     "locale": "City: Medium",
     "endowment": 219800168.0,
-    "latitdue": 41.60129,
+    "latitude": 41.60129,
     "longitude": -93.652163
   },
   {
@@ -671,7 +671,7 @@
     "studentBody": 1490.0,
     "locale": "Town: Remote",
     "endowment": 2090750000.0,
-    "latitdue": 41.747952,
+    "latitude": 41.747952,
     "longitude": -92.722094
   },
   {
@@ -680,7 +680,7 @@
     "studentBody": 26566.0,
     "locale": "City: Small",
     "endowment": 1034248323.0,
-    "latitdue": 42.026212,
+    "latitude": 42.026212,
     "longitude": -93.648504
   },
   {
@@ -689,7 +689,7 @@
     "studentBody": 21909.0,
     "locale": "City: Small",
     "endowment": 2530872000.0,
-    "latitdue": 41.661935,
+    "latitude": 41.661935,
     "longitude": -91.536425
   },
   {
@@ -698,7 +698,7 @@
     "studentBody": 18438.0,
     "locale": "City: Small",
     "endowment": 1830892448.0,
-    "latitdue": 38.958549,
+    "latitude": 38.958549,
     "longitude": -95.247567
   },
   {
@@ -707,7 +707,7 @@
     "studentBody": 16063.0,
     "locale": "City: Small",
     "endowment": 628723073.0,
-    "latitdue": 39.188648,
+    "latitude": 39.188648,
     "longitude": -96.581077
   },
   {
@@ -716,7 +716,7 @@
     "studentBody": 1333.0,
     "locale": "Town: Distant",
     "endowment": 327202228.0,
-    "latitdue": 37.645709,
+    "latitude": 37.645709,
     "longitude": -84.779392
   },
   {
@@ -725,7 +725,7 @@
     "studentBody": 21788.0,
     "locale": "City: Large",
     "endowment": 1365421938.0,
-    "latitdue": 38.038911,
+    "latitude": 38.038911,
     "longitude": -84.504747
   },
   {
@@ -734,7 +734,7 @@
     "studentBody": 14309.0,
     "locale": "City: Large",
     "endowment": 707458000.0,
-    "latitdue": 38.216862,
+    "latitude": 38.216862,
     "longitude": -85.760412
   },
   {
@@ -743,7 +743,7 @@
     "studentBody": 1876.0,
     "locale": "City: Small",
     "endowment": 341587046.0,
-    "latitdue": 44.105299,
+    "latitude": 44.105299,
     "longitude": -70.203333
   },
   {
@@ -752,7 +752,7 @@
     "studentBody": 1776.0,
     "locale": "Town: Fringe",
     "endowment": 1780970000.0,
-    "latitdue": 43.907134,
+    "latitude": 43.907134,
     "longitude": -69.963942
   },
   {
@@ -761,7 +761,7 @@
     "studentBody": 2155.0,
     "locale": "Town: Remote",
     "endowment": 878323000.0,
-    "latitdue": 44.564211,
+    "latitude": 44.564211,
     "longitude": -69.66337
   },
   {
@@ -770,7 +770,7 @@
     "studentBody": 5752.0,
     "locale": "City: Large",
     "endowment": 6750092000.0,
-    "latitdue": 39.328977,
+    "latitude": 39.328977,
     "longitude": -76.621595
   },
   {
@@ -779,7 +779,7 @@
     "studentBody": 3813.0,
     "locale": "City: Large",
     "endowment": 232556135.0,
-    "latitdue": 39.346358,
+    "latitude": 39.346358,
     "longitude": -76.621872
   },
   {
@@ -788,7 +788,7 @@
     "studentBody": 10838.0,
     "locale": "Suburb: Large",
     "endowment": 102354652.0,
-    "latitdue": 39.256686,
+    "latitude": 39.256686,
     "longitude": -76.711607
   },
   {
@@ -797,7 +797,7 @@
     "studentBody": 30214.0,
     "locale": "Suburb: Large",
     "endowment": 723802307.0,
-    "latitdue": 38.988178,
+    "latitude": 38.988178,
     "longitude": -76.944721
   },
   {
@@ -806,7 +806,7 @@
     "studentBody": 7023.0,
     "locale": "Suburb: Small",
     "endowment": 72171385.0,
-    "latitdue": 38.34648,
+    "latitude": 38.34648,
     "longitude": -75.604815
   },
   {
@@ -815,7 +815,7 @@
     "studentBody": 18629.0,
     "locale": "City: Small",
     "endowment": 90321060.0,
-    "latitdue": 39.393622,
+    "latitude": 39.393622,
     "longitude": -76.611164
   },
   {
@@ -824,7 +824,7 @@
     "studentBody": 1745.0,
     "locale": "Suburb: Large",
     "endowment": 2565147877.0,
-    "latitdue": 42.372459,
+    "latitude": 42.372459,
     "longitude": -72.518493
   },
   {
@@ -833,7 +833,7 @@
     "studentBody": 2435.0,
     "locale": "Suburb: Large",
     "endowment": 487676935.0,
-    "latitdue": 42.297017,
+    "latitude": 42.297017,
     "longitude": -71.264057
   },
   {
@@ -842,7 +842,7 @@
     "studentBody": 4059.0,
     "locale": "City: Small",
     "endowment": 263227000.0,
-    "latitdue": 42.385995,
+    "latitude": 42.385995,
     "longitude": -71.222839
   },
   {
@@ -851,7 +851,7 @@
     "studentBody": 9681.0,
     "locale": "City: Small",
     "endowment": 2579462416.0,
-    "latitdue": 42.336213,
+    "latitude": 42.336213,
     "longitude": -71.169242
   },
   {
@@ -860,7 +860,7 @@
     "studentBody": 16359.0,
     "locale": "City: Large",
     "endowment": 2421115000.0,
-    "latitdue": 42.351118,
+    "latitude": 42.351118,
     "longitude": -71.107942
   },
   {
@@ -869,7 +869,7 @@
     "studentBody": 3481.0,
     "locale": "City: Small",
     "endowment": 1073589248.0,
-    "latitdue": 42.365727,
+    "latitude": 42.365727,
     "longitude": -71.260155
   },
   {
@@ -878,7 +878,7 @@
     "studentBody": 6099.0,
     "locale": "City: Medium",
     "endowment": 41894380000.0,
-    "latitdue": 42.374471,
+    "latitude": 42.374471,
     "longitude": -71.118313
   },
   {
@@ -887,7 +887,7 @@
     "studentBody": 2962.0,
     "locale": "City: Medium",
     "endowment": 760298642.0,
-    "latitdue": 42.23752,
+    "latitude": 42.23752,
     "longitude": -71.808214
   },
   {
@@ -896,7 +896,7 @@
     "studentBody": 23884.0,
     "locale": "Suburb: Large",
     "endowment": 368421559.0,
-    "latitdue": 42.385999,
+    "latitude": 42.385999,
     "longitude": -72.526728
   },
   {
@@ -905,7 +905,7 @@
     "studentBody": 4360.0,
     "locale": "City: Medium",
     "endowment": 18381518000.0,
-    "latitdue": 42.359243,
+    "latitude": 42.359243,
     "longitude": -71.093226
   },
   {
@@ -914,7 +914,7 @@
     "studentBody": 1912.0,
     "locale": "Suburb: Large",
     "endowment": 789036745.0,
-    "latitdue": 42.256838,
+    "latitude": 42.256838,
     "longitude": -72.575511
   },
   {
@@ -923,7 +923,7 @@
     "studentBody": 15130.0,
     "locale": "City: Large",
     "endowment": 995188121.0,
-    "latitdue": 42.339992,
+    "latitude": 42.339992,
     "longitude": -71.088782
   },
   {
@@ -932,7 +932,7 @@
     "studentBody": 2183.0,
     "locale": "Suburb: Large",
     "endowment": 1907178016.0,
-    "latitdue": 42.318111,
+    "latitude": 42.318111,
     "longitude": -72.638097
   },
   {
@@ -941,7 +941,7 @@
     "studentBody": 6053.0,
     "locale": "Suburb: Large",
     "endowment": 1889477000.0,
-    "latitdue": 42.40855,
+    "latitude": 42.40855,
     "longitude": -71.118293
   },
   {
@@ -950,7 +950,7 @@
     "studentBody": 2260.0,
     "locale": "Suburb: Large",
     "endowment": 2285397000.0,
-    "latitdue": 42.291554,
+    "latitude": 42.291554,
     "longitude": -71.306605
   },
   {
@@ -959,7 +959,7 @@
     "studentBody": 1917.0,
     "locale": "Town: Fringe",
     "endowment": 2727112504.0,
-    "latitdue": 42.712725,
+    "latitude": 42.712725,
     "longitude": -73.203132
   },
   {
@@ -968,7 +968,7 @@
     "studentBody": 4804.0,
     "locale": "City: Medium",
     "endowment": 505506000.0,
-    "latitdue": 42.274853,
+    "latitude": 42.274853,
     "longitude": -71.808339
   },
   {
@@ -977,7 +977,7 @@
     "studentBody": 2963.0,
     "locale": "City: Small",
     "endowment": 228189000.0,
-    "latitdue": 42.787298,
+    "latitude": 42.787298,
     "longitude": -86.102089
   },
   {
@@ -986,7 +986,7 @@
     "studentBody": 1445.0,
     "locale": "City: Small",
     "endowment": 243580141.0,
-    "latitdue": 42.290789,
+    "latitude": 42.290789,
     "longitude": -85.601857
   },
   {
@@ -995,7 +995,7 @@
     "studentBody": 31189.0,
     "locale": "City: Medium",
     "endowment": 12308473000.0,
-    "latitdue": 42.275921,
+    "latitude": 42.275921,
     "longitude": -83.742769
   },
   {
@@ -1004,7 +1004,7 @@
     "studentBody": 38413.0,
     "locale": "City: Small",
     "endowment": 3473656730.0,
-    "latitdue": 42.73212,
+    "latitude": 42.73212,
     "longitude": -84.476111
   },
   {
@@ -1013,7 +1013,7 @@
     "studentBody": 1918.0,
     "locale": "Town: Distant",
     "endowment": 868695391.0,
-    "latitdue": 44.462318,
+    "latitude": 44.462318,
     "longitude": -93.154666
   },
   {
@@ -1022,7 +1022,7 @@
     "studentBody": 2049.0,
     "locale": "City: Large",
     "endowment": 692308000.0,
-    "latitdue": 44.938565,
+    "latitude": 44.938565,
     "longitude": -93.168053
   },
   {
@@ -1031,7 +1031,7 @@
     "studentBody": 30907.0,
     "locale": "City: Large",
     "endowment": 3699522229.0,
-    "latitdue": 44.972851,
+    "latitude": 44.972851,
     "longitude": -93.235464
   },
   {
@@ -1040,7 +1040,7 @@
     "studentBody": 16083.0,
     "locale": "Town: Remote",
     "endowment": 674153290.0,
-    "latitdue": 34.365529,
+    "latitude": 34.365529,
     "longitude": -89.537434
   },
   {
@@ -1049,7 +1049,7 @@
     "studentBody": 22622.0,
     "locale": "City: Medium",
     "endowment": 1065746506.0,
-    "latitdue": 38.94531,
+    "latitude": 38.94531,
     "longitude": -92.328843
   },
   {
@@ -1058,7 +1058,7 @@
     "studentBody": 6050.0,
     "locale": "Town: Remote",
     "endowment": 201118527.0,
-    "latitdue": 37.953426,
+    "latitude": 37.953426,
     "longitude": -91.775583
   },
   {
@@ -1067,7 +1067,7 @@
     "studentBody": 2054.0,
     "locale": "City: Large",
     "endowment": 38149258.0,
-    "latitdue": 39.032318,
+    "latitude": 39.032318,
     "longitude": -94.573003
   },
   {
@@ -1076,7 +1076,7 @@
     "studentBody": 7304.0,
     "locale": "City: Large",
     "endowment": 1197420728.0,
-    "latitdue": 38.636801,
+    "latitude": 38.636801,
     "longitude": -90.2351
   },
   {
@@ -1085,7 +1085,7 @@
     "studentBody": 4445.0,
     "locale": "City: Large",
     "endowment": 565975000.0,
-    "latitdue": 41.265361,
+    "latitude": 41.265361,
     "longitude": -95.947811
   },
   {
@@ -1094,7 +1094,7 @@
     "studentBody": 20128.0,
     "locale": "City: Large",
     "endowment": 1008858169.0,
-    "latitdue": 40.817598,
+    "latitude": 40.817598,
     "longitude": -96.700508
   },
   {
@@ -1103,7 +1103,7 @@
     "studentBody": 16637.0,
     "locale": "City: Large",
     "endowment": 367473493.0,
-    "latitdue": 39.543642,
+    "latitude": 39.543642,
     "longitude": -119.815377
   },
   {
@@ -1112,7 +1112,7 @@
     "studentBody": 4146.0,
     "locale": "Town: Remote",
     "endowment": 5975179828.0,
-    "latitdue": 43.704115,
+    "latitude": 43.704115,
     "longitude": -72.289949
   },
   {
@@ -1121,7 +1121,7 @@
     "studentBody": 16262.0,
     "locale": "Suburb: Large",
     "endowment": 49869000.0,
-    "latitdue": 40.860414,
+    "latitude": 40.860414,
     "longitude": -74.198141
   },
   {
@@ -1130,7 +1130,7 @@
     "studentBody": 8311.0,
     "locale": "City: Large",
     "endowment": 135572000.0,
-    "latitdue": 40.741997,
+    "latitude": 40.741997,
     "longitude": -74.177113
   },
   {
@@ -1139,7 +1139,7 @@
     "studentBody": 4688.0,
     "locale": "City: Small",
     "endowment": 25944283000.0,
-    "latitdue": 40.348732,
+    "latitude": 40.348732,
     "longitude": -74.659365
   },
   {
@@ -1148,7 +1148,7 @@
     "studentBody": 5146.0,
     "locale": "Suburb: Large",
     "endowment": 21000000.0,
-    "latitdue": 41.080942,
+    "latitude": 41.080942,
     "longitude": -74.174086
   },
   {
@@ -1157,7 +1157,7 @@
     "studentBody": 5387.0,
     "locale": "City: Small",
     "endowment": 49963000.0,
-    "latitdue": 39.948064,
+    "latitude": 39.948064,
     "longitude": -75.12224
   },
   {
@@ -1166,7 +1166,7 @@
     "studentBody": 8887.0,
     "locale": "City: Large",
     "endowment": 165258000.0,
-    "latitdue": 40.739122,
+    "latitude": 40.739122,
     "longitude": -74.175809
   },
   {
@@ -1175,7 +1175,7 @@
     "studentBody": 5822.0,
     "locale": "Suburb: Large",
     "endowment": 270000000.0,
-    "latitdue": 40.742336,
+    "latitude": 40.742336,
     "longitude": -74.246027
   },
   {
@@ -1184,7 +1184,7 @@
     "studentBody": 3787.0,
     "locale": "Suburb: Large",
     "endowment": 225009000.0,
-    "latitdue": 40.744776,
+    "latitude": 40.744776,
     "longitude": -74.025334
   },
   {
@@ -1193,7 +1193,7 @@
     "studentBody": 1190.0,
     "locale": "Town: Remote",
     "endowment": 61109894.0,
-    "latitdue": 34.067041,
+    "latitude": 34.067041,
     "longitude": -106.905211
   },
   {
@@ -1202,7 +1202,7 @@
     "studentBody": 2744.0,
     "locale": "City: Large",
     "endowment": 356579000.0,
-    "latitdue": 40.810098,
+    "latitude": 40.810098,
     "longitude": -73.963346
   },
   {
@@ -1211,7 +1211,7 @@
     "studentBody": 2867.0,
     "locale": "Town: Remote",
     "endowment": 197482756.0,
-    "latitdue": 44.662716,
+    "latitude": 44.662716,
     "longitude": -74.999359
   },
   {
@@ -1220,7 +1220,7 @@
     "studentBody": 3032.0,
     "locale": "Town: Distant",
     "endowment": 959652631.0,
-    "latitdue": 42.819475,
+    "latitude": 42.819475,
     "longitude": -75.536346
   },
   {
@@ -1229,7 +1229,7 @@
     "studentBody": 8148.0,
     "locale": "City: Large",
     "endowment": 11257021000.0,
-    "latitdue": 40.808286,
+    "latitude": 40.808286,
     "longitude": -73.961885
   },
   {
@@ -1238,7 +1238,7 @@
     "studentBody": 14741.0,
     "locale": "City: Small",
     "endowment": 6882707803.0,
-    "latitdue": 42.4472,
+    "latitude": 42.4472,
     "longitude": -76.483084
   },
   {
@@ -1247,7 +1247,7 @@
     "studentBody": 14054.0,
     "locale": "City: Large",
     "endowment": 99951116.0,
-    "latitdue": 40.631517,
+    "latitude": 40.631517,
     "longitude": -73.949898
   },
   {
@@ -1256,7 +1256,7 @@
     "studentBody": 16921.0,
     "locale": "City: Large",
     "endowment": 131460813.0,
-    "latitdue": 40.768669,
+    "latitude": 40.768669,
     "longitude": -73.964795
   },
   {
@@ -1265,7 +1265,7 @@
     "studentBody": 12087.0,
     "locale": "City: Large",
     "endowment": 8146681.0,
-    "latitdue": 40.872962,
+    "latitude": 40.872962,
     "longitude": -73.895379
   },
   {
@@ -1274,7 +1274,7 @@
     "studentBody": 9099.0,
     "locale": "City: Large",
     "endowment": 712775000.0,
-    "latitdue": 40.859354,
+    "latitude": 40.859354,
     "longitude": -73.882705
   },
   {
@@ -1283,7 +1283,7 @@
     "studentBody": 1901.0,
     "locale": "Suburb: Midsize",
     "endowment": 1020321000.0,
-    "latitdue": 43.050245,
+    "latitude": 43.050245,
     "longitude": -75.408195
   },
   {
@@ -1292,7 +1292,7 @@
     "studentBody": 4934.0,
     "locale": "Suburb: Small",
     "endowment": 337301846.0,
-    "latitdue": 42.422154,
+    "latitude": 42.422154,
     "longitude": -76.494136
   },
   {
@@ -1301,7 +1301,7 @@
     "studentBody": 3352.0,
     "locale": "City: Large",
     "endowment": 119179757.0,
-    "latitdue": 40.889756,
+    "latitude": 40.889756,
     "longitude": -73.901893
   },
   {
@@ -1310,7 +1310,7 @@
     "studentBody": 27276.0,
     "locale": "City: Large",
     "endowment": 4578665100.0,
-    "latitdue": 40.729452,
+    "latitude": 40.729452,
     "longitude": -73.997264
   },
   {
@@ -1319,7 +1319,7 @@
     "studentBody": 7710.0,
     "locale": "City: Large",
     "endowment": 193827052.0,
-    "latitdue": 40.711014,
+    "latitude": 40.711014,
     "longitude": -74.004719
   },
   {
@@ -1328,7 +1328,7 @@
     "studentBody": 6265.0,
     "locale": "City: Small",
     "endowment": 740260000.0,
-    "latitdue": 42.729978,
+    "latitude": 42.729978,
     "longitude": -73.676646
   },
   {
@@ -1337,7 +1337,7 @@
     "studentBody": 12489.0,
     "locale": "Suburb: Large",
     "endowment": 954032000.0,
-    "latitdue": 43.084188,
+    "latitude": 43.084188,
     "longitude": -77.67386
   },
   {
@@ -1346,7 +1346,7 @@
     "studentBody": 6299.0,
     "locale": "City: Medium",
     "endowment": 2329949000.0,
-    "latitdue": 43.126397,
+    "latitude": 43.126397,
     "longitude": -77.631202
   },
   {
@@ -1355,7 +1355,7 @@
     "studentBody": 2574.0,
     "locale": "Suburb: Small",
     "endowment": 357075000.0,
-    "latitdue": 43.097035,
+    "latitude": 43.097035,
     "longitude": -73.785335
   },
   {
@@ -1364,7 +1364,7 @@
     "studentBody": 22059.0,
     "locale": "Suburb: Large",
     "endowment": 788909963.0,
-    "latitdue": 43.000942,
+    "latitude": 43.000942,
     "longitude": -78.789458
   },
   {
@@ -1373,7 +1373,7 @@
     "studentBody": 1714.0,
     "locale": "City: Medium",
     "endowment": 38819510.0,
-    "latitdue": 43.034765,
+    "latitude": 43.034765,
     "longitude": -76.138724
   },
   {
@@ -1382,7 +1382,7 @@
     "studentBody": 1508.0,
     "locale": "City: Large",
     "endowment": 7442680.0,
-    "latitdue": 40.807217,
+    "latitude": 40.807217,
     "longitude": -73.795309
   },
   {
@@ -1391,7 +1391,7 @@
     "studentBody": 14252.0,
     "locale": "City: Medium",
     "endowment": 1390552629.0,
-    "latitdue": 43.040176,
+    "latitude": 43.040176,
     "longitude": -76.136975
   },
   {
@@ -1400,7 +1400,7 @@
     "studentBody": 2421.0,
     "locale": "Suburb: Large",
     "endowment": 1097975650.0,
-    "latitdue": 41.686895,
+    "latitude": 41.686895,
     "longitude": -73.895088
   },
   {
@@ -1409,7 +1409,7 @@
     "studentBody": 1979.0,
     "locale": "Suburb: Large",
     "endowment": 905857947.0,
-    "latitdue": 35.499767,
+    "latitude": 35.499767,
     "longitude": -80.843979
   },
   {
@@ -1418,7 +1418,7 @@
     "studentBody": 6650.0,
     "locale": "City: Large",
     "endowment": 8474071000.0,
-    "latitdue": 36.001135,
+    "latitude": 36.001135,
     "longitude": -78.937624
   },
   {
@@ -1427,7 +1427,7 @@
     "studentBody": 6291.0,
     "locale": "Suburb: Midsize",
     "endowment": 259166993.0,
-    "latitdue": 36.104148,
+    "latitude": 36.104148,
     "longitude": -79.50344
   },
   {
@@ -1436,7 +1436,7 @@
     "studentBody": 5438.0,
     "locale": "City: Medium",
     "endowment": 1350187000.0,
-    "latitdue": 36.133609,
+    "latitude": 36.133609,
     "longitude": -80.277446
   },
   {
@@ -1445,7 +1445,7 @@
     "studentBody": 5360.0,
     "locale": "City: Large",
     "endowment": 1850806000.0,
-    "latitdue": 41.507419,
+    "latitude": 41.507419,
     "longitude": -81.609596
   },
   {
@@ -1454,7 +1454,7 @@
     "studentBody": 8589.0,
     "locale": "City: Medium",
     "endowment": 608637000.0,
-    "latitdue": 39.739547,
+    "latitude": 39.739547,
     "longitude": -84.176113
   },
   {
@@ -1463,7 +1463,7 @@
     "studentBody": 2253.0,
     "locale": "Suburb: Small",
     "endowment": 912965000.0,
-    "latitdue": 40.071505,
+    "latitude": 40.071505,
     "longitude": -82.523272
   },
   {
@@ -1472,7 +1472,7 @@
     "studentBody": 1610.0,
     "locale": "Town: Distant",
     "endowment": 419099295.0,
-    "latitdue": 40.374408,
+    "latitude": 40.374408,
     "longitude": -82.397977
   },
   {
@@ -1481,7 +1481,7 @@
     "studentBody": 2647.0,
     "locale": "Town: Fringe",
     "endowment": 999379881.0,
-    "latitdue": 41.291992,
+    "latitude": 41.291992,
     "longitude": -82.216795
   },
   {
@@ -1490,7 +1490,7 @@
     "studentBody": 2905.0,
     "locale": "City: Large",
     "endowment": 1082619000.0,
-    "latitdue": 36.152324,
+    "latitude": 36.152324,
     "longitude": -95.945941
   },
   {
@@ -1499,7 +1499,7 @@
     "studentBody": 1814.0,
     "locale": "City: Large",
     "endowment": 240342122.0,
-    "latitdue": 45.450882,
+    "latitude": 45.450882,
     "longitude": -122.669137
   },
   {
@@ -1508,7 +1508,7 @@
     "studentBody": 26048.0,
     "locale": "City: Small",
     "endowment": 676829637.0,
-    "latitdue": 44.56395,
+    "latitude": 44.56395,
     "longitude": -123.274723
   },
   {
@@ -1517,7 +1517,7 @@
     "studentBody": 17972.0,
     "locale": "City: Medium",
     "endowment": 912452558.0,
-    "latitdue": 44.045146,
+    "latitude": 44.045146,
     "longitude": -123.075792
   },
   {
@@ -1526,7 +1526,7 @@
     "studentBody": 3536.0,
     "locale": "City: Large",
     "endowment": 217584000.0,
-    "latitdue": 45.572724,
+    "latitude": 45.572724,
     "longitude": -122.726691
   },
   {
@@ -1535,7 +1535,7 @@
     "studentBody": 1349.0,
     "locale": "City: Large",
     "endowment": 545093997.0,
-    "latitdue": 45.480959,
+    "latitude": 45.480959,
     "longitude": -122.630348
   },
   {
@@ -1544,7 +1544,7 @@
     "studentBody": 1298.0,
     "locale": "Suburb: Large",
     "endowment": 866030000.0,
-    "latitdue": 40.02736,
+    "latitude": 40.02736,
     "longitude": -75.313223
   },
   {
@@ -1553,7 +1553,7 @@
     "studentBody": 3684.0,
     "locale": "Town: Distant",
     "endowment": 844765000.0,
-    "latitdue": 40.954317,
+    "latitude": 40.954317,
     "longitude": -76.882616
   },
   {
@@ -1562,7 +1562,7 @@
     "studentBody": 6539.0,
     "locale": "City: Large",
     "endowment": 2068859860.0,
-    "latitdue": 40.44357,
+    "latitude": 40.44357,
     "longitude": -79.941993
   },
   {
@@ -1571,7 +1571,7 @@
     "studentBody": 1899.0,
     "locale": "City: Small",
     "endowment": 452877131.0,
-    "latitdue": 40.202796,
+    "latitude": 40.202796,
     "longitude": -77.197854
   },
   {
@@ -1580,7 +1580,7 @@
     "studentBody": 14492.0,
     "locale": "City: Large",
     "endowment": 798335000.0,
-    "latitdue": 39.955217,
+    "latitude": 39.955217,
     "longitude": -75.190051
   },
   {
@@ -1589,7 +1589,7 @@
     "studentBody": 2242.0,
     "locale": "City: Small",
     "endowment": 379765954.0,
-    "latitdue": 40.048045,
+    "latitude": 40.048045,
     "longitude": -76.319037
   },
   {
@@ -1598,7 +1598,7 @@
     "studentBody": 2507.0,
     "locale": "City: Small",
     "endowment": 322736790.0,
-    "latitdue": 39.836597,
+    "latitude": 39.836597,
     "longitude": -77.236792
   },
   {
@@ -1607,7 +1607,7 @@
     "studentBody": 1306.0,
     "locale": "Suburb: Large",
     "endowment": 503436957.0,
-    "latitdue": 40.007452,
+    "latitude": 40.007452,
     "longitude": -75.305207
   },
   {
@@ -1616,7 +1616,7 @@
     "studentBody": 2489.0,
     "locale": "Suburb: Large",
     "endowment": 862906000.0,
-    "latitdue": 40.69956,
+    "latitude": 40.69956,
     "longitude": -75.209786
   },
   {
@@ -1625,7 +1625,7 @@
     "studentBody": 5191.0,
     "locale": "City: Small",
     "endowment": 1369863000.0,
-    "latitdue": 40.606822,
+    "latitude": 40.606822,
     "longitude": -75.380236
   },
   {
@@ -1634,7 +1634,7 @@
     "studentBody": 10507.0,
     "locale": "City: Large",
     "endowment": 14877363000.0,
-    "latitdue": 39.950929,
+    "latitude": 39.950929,
     "longitude": -75.19391
   },
   {
@@ -1643,7 +1643,7 @@
     "studentBody": 1435.0,
     "locale": "Suburb: Large",
     "endowment": 2103670000.0,
-    "latitdue": 39.905159,
+    "latitude": 39.905159,
     "longitude": -75.354278
   },
   {
@@ -1652,7 +1652,7 @@
     "studentBody": 26969.0,
     "locale": "City: Large",
     "endowment": 680097000.0,
-    "latitdue": 39.980546,
+    "latitude": 39.980546,
     "longitude": -75.156859
   },
   {
@@ -1661,7 +1661,7 @@
     "studentBody": 3740.0,
     "locale": "City: Large",
     "endowment": 941025000.0,
-    "latitdue": 39.948274,
+    "latitude": 39.948274,
     "longitude": -75.158266
   },
   {
@@ -1670,7 +1670,7 @@
     "studentBody": 6980.0,
     "locale": "Suburb: Large",
     "endowment": 797015000.0,
-    "latitdue": 40.039388,
+    "latitude": 40.039388,
     "longitude": -75.345457
   },
   {
@@ -1679,7 +1679,7 @@
     "studentBody": 6632.0,
     "locale": "City: Medium",
     "endowment": 4377466000.0,
-    "latitdue": 41.82617,
+    "latitude": 41.82617,
     "longitude": -71.40385
   },
   {
@@ -1688,7 +1688,7 @@
     "studentBody": 4242.0,
     "locale": "City: Medium",
     "endowment": 231720254.0,
-    "latitdue": 41.842742,
+    "latitude": 41.842742,
     "longitude": -71.437446
   },
   {
@@ -1697,7 +1697,7 @@
     "studentBody": 13971.0,
     "locale": "Suburb: Large",
     "endowment": 244551694.0,
-    "latitdue": 41.484691,
+    "latitude": 41.484691,
     "longitude": -71.527356
   },
   {
@@ -1706,7 +1706,7 @@
     "studentBody": 1736.0,
     "locale": "City: Medium",
     "endowment": 349011544.0,
-    "latitdue": 41.825935,
+    "latitude": 41.825935,
     "longitude": -71.407692
   },
   {
@@ -1715,7 +1715,7 @@
     "studentBody": 9100.0,
     "locale": "City: Medium",
     "endowment": 102922649.0,
-    "latitdue": 32.784225,
+    "latitude": 32.784225,
     "longitude": -79.939794
   },
   {
@@ -1724,7 +1724,7 @@
     "studentBody": 20796.0,
     "locale": "Suburb: Large",
     "endowment": 770924097.0,
-    "latitdue": 34.679381,
+    "latitude": 34.679381,
     "longitude": -82.835114
   },
   {
@@ -1733,7 +1733,7 @@
     "studentBody": 2341.0,
     "locale": "Suburb: Large",
     "endowment": 670014077.0,
-    "latitdue": 34.924676,
+    "latitude": 34.924676,
     "longitude": -82.440458
   },
   {
@@ -1742,7 +1742,7 @@
     "studentBody": 1801.0,
     "locale": "City: Large",
     "endowment": 341178021.0,
-    "latitdue": 35.154405,
+    "latitude": 35.154405,
     "longitude": -89.990803
   },
   {
@@ -1751,7 +1751,7 @@
     "studentBody": 7052.0,
     "locale": "City: Large",
     "endowment": 6917370802.0,
-    "latitdue": 36.14659,
+    "latitude": 36.14659,
     "longitude": -86.803369
   },
   {
@@ -1760,7 +1760,7 @@
     "studentBody": 14329.0,
     "locale": "City: Medium",
     "endowment": 1381438000.0,
-    "latitdue": 31.546872,
+    "latitude": 31.546872,
     "longitude": -97.121041
   },
   {
@@ -1769,7 +1769,7 @@
     "studentBody": 38116.0,
     "locale": "City: Large",
     "endowment": 930029968.0,
-    "latitdue": 29.720393,
+    "latitude": 29.720393,
     "longitude": -95.343537
   },
   {
@@ -1778,7 +1778,7 @@
     "studentBody": 32814.0,
     "locale": "City: Medium",
     "endowment": 223931433.0,
-    "latitdue": 33.211178,
+    "latitude": 33.211178,
     "longitude": -97.148422
   },
   {
@@ -1787,7 +1787,7 @@
     "studentBody": 4052.0,
     "locale": "City: Large",
     "endowment": 6166323000.0,
-    "latitdue": 29.717897,
+    "latitude": 29.717897,
     "longitude": -95.402035
   },
   {
@@ -1796,7 +1796,7 @@
     "studentBody": 6793.0,
     "locale": "Suburb: Large",
     "endowment": 1614131000.0,
-    "latitdue": 32.843612,
+    "latitude": 32.843612,
     "longitude": -96.783365
   },
   {
@@ -1805,7 +1805,7 @@
     "studentBody": 9689.0,
     "locale": "City: Large",
     "endowment": 1584160000.0,
-    "latitdue": 32.70961,
+    "latitude": 32.70961,
     "longitude": -97.364758
   },
   {
@@ -1814,7 +1814,7 @@
     "studentBody": 32412.0,
     "locale": "City: Large",
     "endowment": 744155860.0,
-    "latitdue": 33.583448,
+    "latitude": 33.583448,
     "longitude": -101.874783
   },
   {
@@ -1823,7 +1823,7 @@
     "studentBody": 33376.0,
     "locale": "City: Medium",
     "endowment": 2257760000.0,
-    "latitdue": 40.250851,
+    "latitude": 40.250851,
     "longitude": -111.649281
   },
   {
@@ -1832,7 +1832,7 @@
     "studentBody": 21087.0,
     "locale": "City: Small",
     "endowment": 436491736.0,
-    "latitdue": 41.740748,
+    "latitude": 41.740748,
     "longitude": -111.81391
   },
   {
@@ -1841,7 +1841,7 @@
     "studentBody": 23645.0,
     "locale": "City: Medium",
     "endowment": 1071908000.0,
-    "latitdue": 40.762484,
+    "latitude": 40.762484,
     "longitude": -111.846044
   },
   {
@@ -1850,7 +1850,7 @@
     "studentBody": 2571.0,
     "locale": "Town: Distant",
     "endowment": 994205788.0,
-    "latitdue": 44.009117,
+    "latitude": 44.009117,
     "longitude": -73.176068
   },
   {
@@ -1859,7 +1859,7 @@
     "studentBody": 10585.0,
     "locale": "City: Small",
     "endowment": 562493000.0,
-    "latitdue": 44.477325,
+    "latitude": 44.477325,
     "longitude": -73.196646
   },
   {
@@ -1868,7 +1868,7 @@
     "studentBody": 26514.0,
     "locale": "Suburb: Large",
     "endowment": 138038291.0,
-    "latitdue": 38.829976,
+    "latitude": 38.829976,
     "longitude": -77.307428
   },
   {
@@ -1877,7 +1877,7 @@
     "studentBody": 19550.0,
     "locale": "City: Small",
     "endowment": 116670157.0,
-    "latitdue": 38.436311,
+    "latitude": 38.436311,
     "longitude": -78.870484
   },
   {
@@ -1886,7 +1886,7 @@
     "studentBody": 3304.0,
     "locale": "City: Medium",
     "endowment": 2405602000.0,
-    "latitdue": 37.577393,
+    "latitude": 37.577393,
     "longitude": -77.538806
   },
   {
@@ -1895,7 +1895,7 @@
     "studentBody": 21334.0,
     "locale": "City: Medium",
     "endowment": 1992337915.0,
-    "latitdue": 37.54962,
+    "latitude": 37.54962,
     "longitude": -77.452697
   },
   {
@@ -1904,7 +1904,7 @@
     "studentBody": 1820.0,
     "locale": "Town: Distant",
     "endowment": 1630163000.0,
-    "latitdue": 37.788939,
+    "latitude": 37.788939,
     "longitude": -79.443018
   },
   {
@@ -1913,7 +1913,7 @@
     "studentBody": 4836.0,
     "locale": "City: Medium",
     "endowment": 313733000.0,
-    "latitdue": 47.666531,
+    "latitude": 47.666531,
     "longitude": -117.400625
   },
   {
@@ -1922,7 +1922,7 @@
     "studentBody": 4230.0,
     "locale": "City: Large",
     "endowment": 238887506.0,
-    "latitdue": 47.608859,
+    "latitude": 47.608859,
     "longitude": -122.318851
   },
   {
@@ -1931,7 +1931,7 @@
     "studentBody": 25084.0,
     "locale": "Town: Distant",
     "endowment": 1083966272.0,
-    "latitdue": 46.730448,
+    "latitude": 46.730448,
     "longitude": -117.158168
   },
   {
@@ -1940,7 +1940,7 @@
     "studentBody": 14121.0,
     "locale": "City: Small",
     "endowment": 90008289.0,
-    "latitdue": 48.737812,
+    "latitude": 48.737812,
     "longitude": -122.485734
   },
   {
@@ -1949,7 +1949,7 @@
     "studentBody": 1339.0,
     "locale": "City: Small",
     "endowment": 586334718.0,
-    "latitdue": 46.069815,
+    "latitude": 46.069815,
     "longitude": -118.331546
   },
   {
@@ -1958,7 +1958,7 @@
     "studentBody": 7828.0,
     "locale": "City: Large",
     "endowment": 693744000.0,
-    "latitdue": 43.03903,
+    "latitude": 43.03903,
     "longitude": -87.927961
   },
   {
@@ -1967,7 +1967,7 @@
     "studentBody": 10093.0,
     "locale": "City: Small",
     "endowment": 51064993.0,
-    "latitdue": 44.798284,
+    "latitude": 44.798284,
     "longitude": -91.501906
   },
   {
@@ -1976,7 +1976,7 @@
     "studentBody": 31651.0,
     "locale": "City: Large",
     "endowment": 4587597181.0,
-    "latitdue": 43.075409,
+    "latitude": 43.075409,
     "longitude": -89.404098
   },
   {
@@ -1985,7 +1985,7 @@
     "studentBody": 6366.0,
     "locale": "Suburb: Large",
     "endowment": 28948111000.0,
-    "latitdue": 37.429434,
+    "latitude": 37.429434,
     "longitude": -122.167359
   },
   {
@@ -1994,7 +1994,7 @@
     "studentBody": 4552.0,
     "locale": "City: Medium",
     "endowment": 74260091.0,
-    "latitdue": 47.244594,
+    "latitude": 47.244594,
     "longitude": -122.438541
   },
   {
@@ -2003,7 +2003,7 @@
     "studentBody": 6456.0,
     "locale": "Suburb: Midsize",
     "endowment": 27698971.0,
-    "latitdue": 36.652397,
+    "latitude": 36.652397,
     "longitude": -121.796178
   },
   {
@@ -2012,7 +2012,7 @@
     "studentBody": 290.0,
     "locale": "Suburb: Large",
     "endowment": 369737000.0,
-    "latitdue": 42.293527,
+    "latitude": 42.293527,
     "longitude": -71.263378
   }
 ]
