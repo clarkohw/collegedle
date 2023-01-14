@@ -34,11 +34,7 @@ function GuessList(props) {
         " percent"
       );
     } else if (index === 3) {
-      return (
-        "Hint: The school is in the " +
-        props.collegedle["athleticConference"] +
-        " athletic conference"
-      );
+      return "Hint: the locale of the school is " + props.collegedle["locale"];
     }
   };
 

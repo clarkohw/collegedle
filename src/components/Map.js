@@ -73,14 +73,14 @@ function Map(props) {
           ))
         }
       </Geographies>
-      {props.guesses.map((guess) => (
+      {/* {props.guesses.map((guess) => (
         <Marker
           key={guess["name"] + guess["longitude"]}
           coordinates={[guess["longitude"], guess["latitude"]]}
         >
           <circle r={8} fill={markerColor(guess)} />
         </Marker>
-      ))}
+      ))} */}
     </ComposableMap>
   );
 }
