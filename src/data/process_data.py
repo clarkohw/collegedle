@@ -35,7 +35,7 @@ def convert_df_to_json(df):
     for _index, row in df.iterrows():
         res.append({
             "name": row['INSTNM'],
-            "admissionRate": row['ADM_RATE'],
+            "admissionRate": 100 * row['ADM_RATE'],
             "studentBody": row['UGDS'],
             "locale": locales[row['LOCALE']],
             "endowment": row['ENDOWEND'],

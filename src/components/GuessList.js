@@ -25,7 +25,7 @@ function GuessList(props) {
     } else if (index === 2) {
       //acceptance rate
       const difference =
-        props.collegedle["acceptanceRate"] - guess["acceptanceRate"];
+        props.collegedle["admissionRate"] - guess["admissionRate"];
       return (
         "Hint: Acceptance rate is " +
         selectEmoji(difference) +

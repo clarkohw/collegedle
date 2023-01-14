@@ -39,7 +39,13 @@ function SearchBar(props) {
         </b>
       );
     } else if (props.gameState === "Lost") {
-      text = <b> Ahhh, you ran out of guesses :(</b>;
+      text = (
+        <b>
+          {" "}
+          Ahhh, you ran out of guesses :(. The collegedle was:{" "}
+          {props.collegedle["name"]}
+        </b>
+      );
     }
     return <div style={{ minHeight: "20px", marginTop: ".8em" }}>{text}</div>;
   };
