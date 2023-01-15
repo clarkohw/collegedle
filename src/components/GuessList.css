@@ -1,12 +1,13 @@
 .guess-list {
   display: flex;
   flex-direction: column;
-  row-gap: 5px;
+  row-gap: 15px;
 }
 .empty-guess {
   height: 40px;
   width: 600px;
   background-color: grey;
+  border-radius: 8px;
 }
 
 .correct-guess {
@@ -16,4 +17,18 @@
   font-size: 36px;
   padding: 10px;
   max-width: 600px;
+  border-radius: 8px;
+}
+
+.guess {
+  background-color: #f6f4f4;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+.hint {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
 }
