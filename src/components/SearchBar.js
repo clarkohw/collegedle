@@ -24,7 +24,7 @@ function SearchBar(props) {
       if (searchValue["label"] === props.collegedle["name"]) {
         props.setGameState("Won");
       } else {
-        if (props.guesses.length + 1 >= 5) {
+        if (props.guesses.length + 1 >= 6) {
           props.setGameState("Lost");
         }
       }

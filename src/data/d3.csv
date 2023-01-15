@@ -1,4 +1,4 @@
-School,Nickname,City,State,Conference
+INSTNM,Nickname,City,State,Conference
 Adrian College,Bulldogs,Adrian,Michigan,Michigan Intercollegiate Athletic Association
 Agnes Scott College,Scotties,Decatur,Georgia,Collegiate Conference of the South
 Albertus Magnus College,Falcons,New Haven,Connecticut,Great Northeast Athletic Conference
@@ -23,7 +23,7 @@ Averett University,Cougars,Danville,Virginia,Old Dominion Athletic Conference
 Babson College,Beavers,Wellesley,Massachusetts,New England Women's and Men's Athletic Conference
 Baldwin Wallace University,Yellow Jackets,Berea,Ohio,Ohio Athletic Conference
 Bard College,Raptors,Annandale-on-Hudson,New York,Liberty League
-Baruch College,Bearcats,New York,New York,City University of New York Athletic Conference
+CUNY Baruch College,Bearcats,New York,New York,City University of New York Athletic Conference
 Bates College,Bobcats,Lewiston,Maine,New England Small College Athletic Conference
 Belhaven University,Blazers,Jackson,Mississippi,Collegiate Conference of the South
 Beloit College,Buccaneers,Beloit,Wisconsin,Midwest Conference
@@ -71,7 +71,7 @@ Chapman University,Panthers,Orange,California,Southern California Intercollegiat
 Chatham University,Cougars,Pittsburgh,Pennsylvania,Presidents' Athletic Conference
 University of Chicago,Maroons,Chicago,Illinois,University Athletic Association
 Christopher Newport University,Captains,Newport News,Virginia,Coast to Coast Athletic Conference
-City College of New York (CCNY),Beavers,New York,New York,City University of New York Athletic Conference
+CUNY City College of New York,Beavers,New York,New York,City University of New York Athletic Conference
 "Claremont McKenna College, Harvey Mudd College, and Scripps College",Stags and Athenas,Claremont,California,Southern California Intercollegiate Athletic Conference
 Clark University,Cougars,Worcester,Massachusetts,New England Women's and Men's Athletic Conference
 Clarks Summit University,Defenders,Clarks Summit,Pennsylvania,Colonial States Athletic Conference
@@ -151,7 +151,7 @@ Heidelberg University,Student Princes,Tiffin,Ohio,Ohio Athletic Conference
 Hendrix College,Warriors,Conway,Arkansas,Southern Athletic Association
 Hilbert College,Hawks,Hamburg,New York,Allegheny Mountain Collegiate Conference
 Hiram College,Terriers,Hiram,Ohio,North Coast Athletic Conference
-Hobart College,Statesmen,Geneva,New York,Liberty League
+Hobart and William Smith Colleges,Statesmen,Geneva,New York,Liberty League
 Hollins University,None,Roanoke,Virginia,Old Dominion Athletic Conference
 Hood College,Blazers,Frederick,Maryland,MAC Commonwealth
 Hope College,Flying Dutchmen,Holland,Michigan,Michigan Intercollegiate Athletic Association

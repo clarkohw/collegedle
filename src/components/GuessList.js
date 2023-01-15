@@ -57,13 +57,17 @@ function GuessList(props) {
         "%"
       );
     } else if (index === 3) {
-      return "Hint: the locale of the school is " + props.collegedle["locale"];
+      return (
+        "Hint: Atheltic conference is " + props.collegedle["athleticConference"]
+      );
+    } else if (index === 4) {
+      return "Hint: Mascot is " + props.collegedle["mascot"];
     }
   };
 
   const renderGuessBlocks = () => {
     const blocks = [];
-    for (let i = 0; i < 5 - props.guesses.length; i++) {
+    for (let i = 0; i < 6 - props.guesses.length; i++) {
       blocks.push(<div key={i} className="empty-guess"></div>);
     }
     return blocks;
