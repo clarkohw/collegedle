@@ -3,14 +3,22 @@ import "./GuessList.css";
 
 function GuessList(props) {
   const guessComponent = (guess, index) => {
-    return (
-      <div className="guess-hint">
-        <div className="guess">
+    if (guess["name"] === props.collegedle["name"]) {
+      return (
+        <div className="correct-guess">
           <b>{guess["name"]}</b>
         </div>
-        <div className="hint">{getHint(guess, index)}</div>
-      </div>
-    );
+      );
+    } else {
+      return (
+        <div className="guess-hint">
+          <div className="guess">
+            <b>{guess["name"]}</b>
+          </div>
+          <div className="hint">{getHint(guess, index)}</div>
+        </div>
+      );
+    }
   };
   const getHint = (guess, index) => {
     const selectEmoji = (difference) => (difference > 0 ? " ⬆️ " : " ⬇️ ");

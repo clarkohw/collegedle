@@ -6,15 +6,15 @@
 .empty-guess {
   height: 40px;
   width: 600px;
-  background-color: grey;
+  background-color: #f6f4f4;
   border-radius: 8px;
 }
 
 .correct-guess {
   /* background-color: "#3E9614"; */
-  background-color: green;
+  background-color: #3e9614;
   color: white;
-  font-size: 36px;
+  font-size: 24px;
   padding: 10px;
   max-width: 600px;
   border-radius: 8px;

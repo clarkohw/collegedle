@@ -42,7 +42,7 @@ function SearchBar(props) {
       text = (
         <b>
           {" "}
-          Ahhh, you ran out of guesses :(. The collegedle was:{" "}
+          Ahhh, you ran out of guesses :( The collegedle was:{" "}
           {props.collegedle["name"]}
         </b>
       );
