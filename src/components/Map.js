@@ -42,6 +42,13 @@ function Map(props) {
       props.collegedle["latitude"],
       props.collegedle["longitude"]
     );
+    console.log("devlog", props.collegedle["name"], dist);
+    // const color = (1 - dist / 2000) * 255;
+    // if (dist > 500) {
+    //   return "rgb(255, 255, " + color + ")";
+    // } else {
+    //   return "rgb(255, " + color + ", " + 0 + ")";
+    // }
     const colors = ["#6CF", "#FC0", "#F90", "#F60", "#F00", "#390"];
     if (dist === 0) {
       return colors[5];
@@ -51,7 +58,7 @@ function Map(props) {
       return colors[1];
     } else if (dist > 250) {
       return colors[2];
-    } else if (dist > 100) {
+    } else if (dist > 50) {
       return colors[3];
     } else if (dist <= 50 && dist > 0) {
       return colors[4];
