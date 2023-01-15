@@ -63,8 +63,11 @@ def get_athletic_info():
     college_names.sort()
     f.close()
     d1 = pandas.read_csv("data/d1.csv", usecols=["INSTNM", "Nickname", "Conference"])
+    d1["Conference"] = d1['Conference'].astype(str) + " (D1)"
     d2 = pandas.read_csv("data/d2.csv", usecols=["INSTNM", "Nickname", "Conference"])    
+    d2["Conference"] = d2['Conference'].astype(str) + " (D2)" 
     d3 = pandas.read_csv("data/d3.csv", usecols=["INSTNM", "Nickname", "Conference"])    
+    d3["Conference"] = d3['Conference'].astype(str) + " (D3)"
     return pandas.concat([d1, d2, d3], axis=0)
 
 def simplify_csv(filename):
