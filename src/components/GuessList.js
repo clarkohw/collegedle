@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import "./GuessList.css";
 
 function GuessList(props) {

@@ -74,7 +74,7 @@ function SearchBar(props) {
             <TextField
               {...params}
               onKeyDown={(event) => {
-                if (event.key == "Enter") {
+                if (event.key === "Enter") {
                   submitGuess();
                 }
               }}
