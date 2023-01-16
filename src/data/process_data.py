@@ -7,6 +7,16 @@ college_names = json.load(f)
 college_names.sort()
 f.close()
 
+def get_locale(code):
+    if 11 >= code <= 13:
+        return "City"
+    if 21 >= code <= 23:
+        return "Suburb"
+    if 31 >= code <= 33:
+        return "Town"
+    if 41 >= code <= 43:
+        return "Rural" 
+    
 def convert_df_to_json(df):
     res = []
     for _index, row in df.iterrows():
@@ -14,6 +24,7 @@ def convert_df_to_json(df):
             "name": row['INSTNM'],
             "admissionRate": 100 * round(row['ADM_RATE'], 2),
             "studentBody": row['UGDS'],
+            "locale": get_locale(row['LOCALE']),
             "endowment": round(row['ENDOWEND'] / 1000000000, 2),
             "latitude": row['LATITUDE'],
             "longitude": row['LONGITUDE'],

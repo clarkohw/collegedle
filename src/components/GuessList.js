@@ -34,16 +34,7 @@ function GuessList(props) {
         " students"
       );
     } else if (index === 1) {
-      const difference =
-        Math.round((props.collegedle["endowment"] - guess["endowment"]) * 100) /
-        100;
-      return (
-        "Hint: Endowment is " +
-        selectEmoji(difference) +
-        "by " +
-        Math.abs(difference) +
-        " billion dollars"
-      );
+      return "Hint: locale is " + props.collegedle["locale"];
     } else if (index === 2) {
       //acceptance rate
       const difference =
