@@ -35,6 +35,7 @@ def write_data(filename):
     res = pandas.merge(get_athletic_info(), college_list, on="INSTNM")
     res.fillna("N/A")
     output_file = open(filename, "w")
+    print(get_missing_names(college_names, res))
     json.dump(convert_df_to_json(res), output_file)
     output_file.close()
     
