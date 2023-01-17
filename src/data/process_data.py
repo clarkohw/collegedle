@@ -44,10 +44,8 @@ def write_data(filename):
     scorecard_df = pandas.read_csv("/Users/clarkoh-willeke/Downloads/college_scorecard_simple.csv", usecols=["INSTNM", "ADM_RATE", "UGDS", "LOCALE", "ENDOWEND", "LATITUDE", "LONGITUDE"])
     college_list = (scorecard_df.query('INSTNM in @college_names')) 
     res = pandas.merge(left=college_list, right=get_athletic_info(), how='left', on="INSTNM")
+    res = res.replace(np.nan, "NA").drop_duplicates(subset=["INSTNM"])
     output_file = open(filename, "w")
-    # print(get_missing_names(college_names, res))
-    print(res[res['Nickname'].isna()][0:30])
-    res = res.replace(np.nan, "NA")
     json.dump(convert_df_to_json(res), output_file)
     output_file.close()
     
@@ -62,11 +60,4 @@ def get_athletic_info():
     other = pandas.read_csv("data/other_athletic.csv", usecols=["INSTNM", "Nickname", "Conference"])
     return pandas.concat([d1, d2, d3, other], axis=0)
 
-def simplify_csv(filename):
-    data = pandas.read_csv(filename, usecols=["INSTNM", "ADM_RATE", "UGDS", "LOCALE", "ENDOWEND", "LATITUDE", "LONGITUDE"])
-    data = data.dropna()
-    data.to_csv("data/filtered_college_data.csv")
-
-# simplify_csv("/Users/clarkoh-willeke/Downloads/college_scorecard.csv")
 write_data("data/colleges.json")
-# print(get_missing_names(college_names, get_athletic_info()))
