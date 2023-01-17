@@ -24,13 +24,13 @@ Bryant University,Bryant,Bulldogs,Smithfield,RI,Private,FCS,America East Confere
 Bucknell University,Bucknell,Bison,Lewisburg,PA,Private,FCS,Patriot League
 Butler University,Butler,Bulldogs,Indianapolis,IN,Private,FCS,Big East Conference
 California Baptist University,Cal Baptist,Lancers,Riverside,CA,Private,Non-football,Western Athletic Conference
-California Polytechnic State University,Cal Poly,Mustangs,San Luis Obispo,CA,Public,FCS,Big West Conference
-"California State University, Bakersfield",Cal State Bakersfield,Roadrunners,Bakersfield,CA,Public,Non-football,Big West Conference
-"California State University, Fresno",Fresno State,Bulldogs,Fresno,CA,Public,FBS,Mountain West Conference
-"California State University, Fullerton",Cal State Fullerton,Titans,Fullerton,CA,Public,Non-football,Big West Conference
-"California State University, Long Beach",Long Beach State,Beach,Long Beach,CA,Public,Non-football,Big West Conference
-"California State University, Northridge",Cal State Northridge,Matadors,Northridge,CA,Public,Non-football,Big West Conference
-"California State University, Sacramento",Sacramento State,Hornets,Sacramento,CA,Public,FCS,Big Sky Conference
+California Polytechnic State University-San Luis Obispo,Cal Poly,Mustangs,San Luis Obispo,CA,Public,FCS,Big West Conference
+"California State University-Bakersfield",Cal State Bakersfield,Roadrunners,Bakersfield,CA,Public,Non-football,Big West Conference
+"California State University-Fresno",Fresno State,Bulldogs,Fresno,CA,Public,FBS,Mountain West Conference
+"California State University-Fullerton",Cal State Fullerton,Titans,Fullerton,CA,Public,Non-football,Big West Conference
+"California State University-Long Beach",Long Beach State,Beach,Long Beach,CA,Public,Non-football,Big West Conference
+"California State University-Northridge",Cal State Northridge,Matadors,Northridge,CA,Public,Non-football,Big West Conference
+"California State University-Sacramento",Sacramento State,Hornets,Sacramento,CA,Public,FCS,Big Sky Conference
 Campbell University,Campbell,Fighting Camels,Buies Creek,NC,Private,FCS,Big South Conference
 Canisius College,Canisius,Golden Griffins,Buffalo,NY,Private,Non-football,Metro Atlantic Athletic Conference
 Central Connecticut State University,Central Connecticut,Blue Devils,New Britain,CT,Public,FCS,Northeast Conference
@@ -90,10 +90,10 @@ Howard University,Howard,Bison,Washington,DC,Private,FCS,Mid-Eastern Athletic Co
 Idaho State University,Idaho State,Bengals,Pocatello,ID,Public,FCS,Big Sky Conference
 Illinois State University,Illinois State,Redbirds,Normal,IL,Public,FCS,Missouri Valley Conference
 Indiana State University,Indiana State,Sycamores,Terre Haute,IN,Public,FCS,Missouri Valley Conference
-Indiana University Bloomington,Indiana,Hoosiers,Bloomington,IN,Public,FBS,Big Ten Conference
+Indiana University-Bloomington,Indiana,Hoosiers,Bloomington,IN,Public,FBS,Big Ten Conference
 Indiana University-Purdue University Indianapolis,IUPUI,Jaguars,Indianapolis,IN,Public,Non-football,Horizon League
 Iona University,Iona,Gaels,New Rochelle,NY,Private,Non-football,Metro Atlantic Athletic Conference
-Iowa State University of Science and Technology,Iowa State,Cyclones,Ames,IA,Public,FBS,Big 12 Conference
+Iowa State University,Iowa State,Cyclones,Ames,IA,Public,FBS,Big 12 Conference
 Jackson State University,Jackson State,Tigers,Jackson,MS,Public,FCS,Southwestern Athletic Conference
 Jacksonville State University,Jacksonville State,Gamecocks,Jacksonville,AL,Public,FCS,ASUN Conference
 Jacksonville University,Jacksonville,Dolphins,Jacksonville,FL,Private,Non-football,ASUN Conference
@@ -105,7 +105,7 @@ Lafayette College,Lafayette,Leopards,Easton,PA,Private,FCS,Patriot League
 Lamar University,Lamar,Cardinals,Beaumont,TX,Public,FCS,Southland Conference
 La Salle University,La Salle,Explorers,Philadelphia,PA,Private,Non-football,Atlantic 10 Conference
 Lehigh University,Lehigh,Mountain Hawks,Bethlehem,PA,Private,FCS,Patriot League
-Leland Stanford Junior University,Stanford,Cardinal,Stanford,CA,Private,FBS,Pac-12 Conference
+Stanford University,Stanford,Cardinal,Stanford,CA,Private,FBS,Pac-12 Conference
 Liberty University,Liberty,Flames,Lynchburg,VA,Private,FBS,ASUN Conference
 Lipscomb University,Lipscomb,Bisons,Nashville,TN,Private,Non-football,ASUN Conference
 Long Island University,LIU,Sharks,Brooklyn & Brookville,NY,Private,FCS,Northeast Conference
@@ -149,7 +149,7 @@ Northern Kentucky University,Northern Kentucky,Norse,Highland Heights,KY,Public,
 Northwestern State University of Louisiana,Northwestern State,Demons,Natchitoches,LA,Public,FCS,Southland Conference
 Northwestern University,Northwestern,Wildcats,Evanston,IL,Private,FBS,Big Ten Conference
 Oakland University,Oakland,Golden Grizzlies,Rochester,MI,Public,Non-football,Horizon League
-Oklahoma State University-Stillwater,Oklahoma State,Cowboys,Stillwater,OK,Public,FBS,Big 12 Conference
+Oklahoma State University,Oklahoma State,Cowboys,Stillwater,OK,Public,FBS,Big 12 Conference
 Old Dominion University,Old Dominion,Monarchs,Norfolk,VA,Public,FBS,Sun Belt Conference
 Oral Roberts University,Oral Roberts,Golden Eagles,Tulsa,OK,Private,Non-football,Summit League
 Oregon State University,Oregon State,Beavers,Corvallis,OR,Public,FBS,Pac-12 Conference
@@ -192,7 +192,7 @@ Southern Illinois University Carbondale,Southern Illinois,Salukis,Carbondale,IL,
 Southern Illinois University Edwardsville,SIU Edwardsville,Cougars,Edwardsville,IL,Public,Non-football,Ohio Valley Conference
 Southern Methodist University,SMU,Mustangs,University Park,TX,Private,FBS,American Athletic Conference
 Southern Utah University,Southern Utah,Thunderbirds,Cedar City,UT,Public,FCS,Western Athletic Conference
-State University of Iowa,Iowa,Hawkeyes,Iowa City,IA,Public,FBS,Big Ten Conference
+University of Iowa,Iowa,Hawkeyes,Iowa City,IA,Public,FBS,Big Ten Conference
 SUNY Albany,Albany,Great Danes,Albany,NY,Public,FCS,America East Conference
 SUNY Binghamton,Binghamton,Bearcats,Vestal,NY,Public,Non-football,America East Conference
 SUNY Buffalo,Buffalo,Bulls,Buffalo,NY,Public,FBS,Mid-American Conference
@@ -209,10 +209,10 @@ Texas Christian University,TCU,Horned Frogs,Fort Worth,TX,Private,FBS,Big 12 Con
 Texas Southern University,Texas Southern,Tigers,Houston,TX,Public,FCS,Southwestern Athletic Conference
 Texas State University,Texas State,Bobcats,San Marcos,TX,Public,FBS,Sun Belt Conference
 Texas Tech University,Texas Tech,Red Raiders,Lubbock,TX,Public,FBS,Big 12 Conference
-"The Citadel, The Military College of South Carolina",The Citadel,Bulldogs,Charleston,SC,Public,FCS,Southern Conference
-The College of William and Mary in Virginia,William & Mary,Tribe,Williamsburg,VA,Public,FCS,Colonial Athletic Association
+"Citadel Military College of South Carolina",The Citadel,Bulldogs,Charleston,SC,Public,FCS,Southern Conference
+William & Mary,William & Mary,Tribe,Williamsburg,VA,Public,FCS,Colonial Athletic Association
 The George Washington University,George Washington,Colonials,Washington,DC,Private,Non-football,Atlantic 10 Conference
-The Ohio State University,Ohio State,Buckeyes,Columbus,OH,Public,FBS,Big Ten Conference
+Ohio State University,Ohio State,Buckeyes,Columbus,OH,Public,FBS,Big Ten Conference
 The Ohio University,Ohio,Bobcats,Athens,OH,Public,FBS,Mid-American Conference
 The Pennsylvania State University,Penn State,Nittany Lions,State College,PA,Public,FBS,Big Ten Conference
 The University of Akron,Akron,Zips,Akron,OH,Public,FBS,Mid-American Conference
@@ -226,8 +226,8 @@ The University of Texas at Austin,Texas,Longhorns,Austin,TX,Public,FBS,Big 12 Co
 The University of Texas at El Paso,UTEP,Miners,El Paso,TX,Public,FBS,Conference USA
 The University of Texas at San Antonio,UTSA,Roadrunners,San Antonio,TX,Public,FBS,Conference USA
 The University of Texas Rio Grande Valley,UTRGV,Vaqueros,Edinburg,TX,Public,Non-football,Western Athletic Conference
-The University of Tulsa,Tulsa,Golden Hurricane,Tulsa,OK,Private,FBS,American Athletic Conference
-The University of Vermont and State Agricultural College,Vermont,Catamounts,Burlington,VT,Public,Non-football,America East Conference
+University of Tulsa,Tulsa,Golden Hurricane,Tulsa,OK,Private,FBS,American Athletic Conference
+University of Vermont,Vermont,Catamounts,Burlington,VT,Public,Non-football,America East Conference
 Towson University,Towson,Tigers,Towson,MD,Public,FCS,Colonial Athletic Association
 Troy University,Troy,Trojans,Troy,AL,Public,FBS,Sun Belt Conference
 Tulane University of Louisiana,Tulane,Green Wave,New Orleans,LA,Private,FBS,American Athletic Conference
@@ -239,12 +239,13 @@ University of Arizona,Arizona,Wildcats,Tucson,AZ,Public,FBS,Pac-12 Conference
 University of Arkansas,Arkansas,Razorbacks,Fayetteville,AR,Public,FBS,Southeastern Conference
 University of Arkansas at Little Rock,Little Rock,Trojans,Little Rock,AR,Public,Non-football,Ohio Valley Conference
 University of Arkansas at Pine Bluff,Arkansas-Pine Bluff,Golden Lions,Pine Bluff,AR,Public,FCS,Southwestern Athletic Conference
-"University of California, Berkeley",California,Golden Bears,Berkeley,CA,Public,FBS,Pac-12 Conference
-"University of California, Davis",UC Davis,Aggies,Davis,CA,Public,FCS,Big West Conference
-"University of California, Irvine",UC Irvine,Anteaters,Irvine,CA,Public,Non-football,Big West Conference
-"University of California, Los Angeles",UCLA,Bruins,Los Angeles,CA,Public,FBS,Pac-12 Conference
-"University of California, Riverside",UC Riverside,Highlanders,Riverside,CA,Public,Non-football,Big West Conference
-"University of California, Santa Barbara",UC Santa Barbara,Gauchos,Santa Barbara,CA,Public,Non-football,Big West Conference
+"University of California-Berkeley",California,Golden Bears,Berkeley,CA,Public,FBS,Pac-12 Conference
+"University of California-Davis",UC Davis,Aggies,Davis,CA,Public,FCS,Big West Conference
+"University of California-Irvine",UC Irvine,Anteaters,Irvine,CA,Public,Non-football,Big West Conference
+"University of California-Los Angeles",UCLA,Bruins,Los Angeles,CA,Public,FBS,Pac-12 Conference
+"University of California-Riverside",UC Riverside,Highlanders,Riverside,CA,Public,Non-football,Big West Conference
+University of California-San Diego,UC San Diego,Tritons,s,ca,pub,non,Big West Conference
+"University of California-Santa Barbara",UC Santa Barbara,Gauchos,Santa Barbara,CA,Public,Non-football,Big West Conference
 University of Central Arkansas,Central Arkansas,Bears,Conway,AR,Public,FCS,ASUN Conference
 University of Central Florida,UCF,Knights,Orlando,FL,Public,FBS,American Athletic Conference
 University of Cincinnati,Cincinnati,Bearcats,Cincinnati,OH,Public,FBS,American Athletic Conference
@@ -269,23 +270,23 @@ University of Louisiana at Lafayette,Louisiana,Ragin' Cajuns,Lafayette,LA,Public
 University of Louisiana at Monroe,Louisiana-Monroe,Warhawks,Monroe,LA,Public,FBS,Sun Belt Conference
 University of Louisville,Louisville,Cardinals,Louisville,KY,Public,FBS,Atlantic Coast Conference
 University of Maine,Maine,Black Bears,Orono,ME,Public,FCS,America East Conference
-"University of Maryland, Baltimore County",UMBC,Retrievers,Catonsville,MD,Public,Non-football,America East Conference
-"University of Maryland, College Park",Maryland,Terrapins,College Park,MD,Public,FBS,Big Ten Conference
+"University of Maryland-Baltimore County",UMBC,Retrievers,Catonsville,MD,Public,Non-football,America East Conference
+"University of Maryland-College Park",Maryland,Terrapins,College Park,MD,Public,FBS,Big Ten Conference
 University of Maryland Eastern Shore,Maryland Eastern Shore,Hawks,Princess Anne,MD,Public,Non-football,Mid-Eastern Athletic Conference
-University of Massachusetts Amherst,UMass,Minutemen,Amherst,MA,Public,FBS,Atlantic 10 Conference
+University of Massachusetts-Amherst,UMass,Minutemen,Amherst,MA,Public,FBS,Atlantic 10 Conference
 University of Massachusetts Lowell,UMass Lowell,River Hawks,Lowell,MA,Public,Non-football,America East Conference
 University of Memphis,Memphis,Tigers,Memphis,TN,Public,FBS,American Athletic Conference
 University of Miami,Miami (Florida),Hurricanes,Coral Gables,FL,Private,FBS,Atlantic Coast Conference
-University of Michigan,Michigan,Wolverines,Ann Arbor,MI,Public,FBS,Big Ten Conference
-University of Minnesota,Minnesota,Golden Gophers,Minneapolis,MN,Public,FBS,Big Ten Conference
+University of Michigan-Ann Arbor,Michigan,Wolverines,Ann Arbor,MI,Public,FBS,Big Ten Conference
+University of Minnesota-Twin Cities,Minnesota,Golden Gophers,Minneapolis,MN,Public,FBS,Big Ten Conference
 University of Mississippi,Ole Miss,Rebels,Oxford,MS,Public,FBS,Southeastern Conference
 University of Missouri-Columbia,Missouri,Tigers,Columbia,MO,Public,FBS,Southeastern Conference
 University of Missouri-Kansas City,Kansas City,Roos,Kansas City,MO,Public,Non-football,Summit League
 University of Montana,Montana,Grizzlies,Missoula,MT,Public,FCS,Big Sky Conference
 University of Nebraska-Lincoln,Nebraska,Cornhuskers,Lincoln,NE,Public,FBS,Big Ten Conference
 University of Nebraska Omaha,Omaha,Mavericks,Omaha,NE,Public,Non-football,Summit League
-"University of Nevada, Las Vegas",UNLV,Rebels,Paradise,NV,Public,FBS,Mountain West Conference
-"University of Nevada, Reno",Nevada,Wolf Pack,Reno,NV,Public,FBS,Mountain West Conference
+"University of Nevada-Las Vegas",UNLV,Rebels,Paradise,NV,Public,FBS,Mountain West Conference
+"University of Nevada-Reno",Nevada,Wolf Pack,Reno,NV,Public,FBS,Mountain West Conference
 University of New Hampshire,New Hampshire,Wildcats,Durham,NH,Public,FCS,America East Conference
 University of New Orleans,New Orleans,Privateers,New Orleans,LA,Public,Non-football,Southland Conference
 University of North Alabama,North Alabama,Lions,Florence,AL,Public,FCS,ASUN Conference
@@ -299,11 +300,11 @@ University of Northern Colorado,Northern Colorado,Bears,Greeley,CO,Public,FCS,Bi
 University of Northern Iowa,Northern Iowa,Panthers,Cedar Falls,IA,Public,FCS,Missouri Valley Conference
 University of North Florida,North Florida,Ospreys,Jacksonville,FL,Public,Non-football,ASUN Conference
 University of North Texas,North Texas,Mean Green,Denton,TX,Public,FBS,Conference USA
-University of Notre Dame du Lac,Notre Dame,Fighting Irish,Notre Dame,IN,Private,FBS,Atlantic Coast Conference
+University of Notre Dame,Notre Dame,Fighting Irish,Notre Dame,IN,Private,FBS,Atlantic Coast Conference
 University of Oklahoma,Oklahoma,Sooners,Norman,OK,Public,FBS,Big 12 Conference
 University of Oregon,Oregon,Ducks,Eugene,OR,Public,FBS,Pac-12 Conference
 University of Pennsylvania,Penn,Quakers,Philadelphia,PA,Private,FCS,Ivy League
-University of Pittsburgh-Pittsburg Campus,Pittsburgh,Panthers,Pittsburgh,PA,Public,FBS,Atlantic Coast Conference
+University of Pittsburgh-Pittsburgh Campus,Pittsburgh,Panthers,Pittsburgh,PA,Public,FBS,Atlantic Coast Conference
 University of Portland,Portland,Pilots,Portland,OR,Private,Non-football,West Coast Conference
 University of Rhode Island,Rhode Island,Rams,Kingston,RI,Public,FCS,Atlantic 10 Conference
 University of Richmond,Richmond,Spiders,Richmond,VA,Private,FCS,Atlantic 10 Conference
@@ -344,7 +345,7 @@ Western Kentucky University,Western Kentucky,Hilltoppers,Bowling Green,KY,Public
 Western Michigan University,Western Michigan,Broncos,Kalamazoo,MI,Public,FBS,Mid-American Conference
 West Virginia University,West Virginia,Mountaineers,Morgantown,WV,Public,FBS,Big 12 Conference
 Wichita State University,Wichita State,Shockers,Wichita,KS,Public,Non-football,American Athletic Conference
-William Marsh Rice University,Rice,Owls,Houston,TX,Public,FBS,Conference USA
+Rice University,Rice,Owls,Houston,TX,Public,FBS,Conference USA
 Winthrop University,Winthrop,Eagles,Rock Hill,SC,Public,Non-football,Big South Conference
 Wofford College,Wofford,Terriers,Spartanburg,SC,Private,FCS,Southern Conference
 Wright State University,Wright State,Raiders,Dayton,OH,Public,Non-football,Horizon League

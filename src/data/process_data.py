@@ -1,6 +1,6 @@
 import json
-import os
 import pandas
+import numpy as np
 
 f = open("data/college_names.json", "r")
 college_names = json.load(f)
@@ -43,10 +43,11 @@ def get_missing_names(names_list, college_data_list):
 def write_data(filename):
     scorecard_df = pandas.read_csv("/Users/clarkoh-willeke/Downloads/college_scorecard_simple.csv", usecols=["INSTNM", "ADM_RATE", "UGDS", "LOCALE", "ENDOWEND", "LATITUDE", "LONGITUDE"])
     college_list = (scorecard_df.query('INSTNM in @college_names')) 
-    res = pandas.merge(get_athletic_info(), college_list, on="INSTNM")
-    res.fillna("N/A")
+    res = pandas.merge(left=college_list, right=get_athletic_info(), how='left', on="INSTNM")
     output_file = open(filename, "w")
-    print(get_missing_names(college_names, res))
+    # print(get_missing_names(college_names, res))
+    print(res[res['Nickname'].isna()])
+    res = res.replace(np.nan, "NA")
     json.dump(convert_df_to_json(res), output_file)
     output_file.close()
     
