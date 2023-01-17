@@ -47,9 +47,13 @@ function TopBar() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            How to play
-          </Typography>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <Typography id="modal-modal-title" variant="h6" component="h2">
+              How to play
+            </Typography>
+            <Button onClick={handleClose}>X</Button>
+          </div>
+
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             Everyday there is a new mystery US college. Your goal is to guess
             which school it is in the fewest number of guesses. Each incorrect
@@ -57,6 +61,10 @@ function TopBar() {
             geographically to the target school. The hotter the color the closer
             you are to the answer.{" "}
           </Typography>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            {" "}
+            <Button onClick={handleClose}>play</Button>
+          </div>
         </Box>
       </Modal>
     </div>
