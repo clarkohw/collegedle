@@ -46,7 +46,7 @@ def write_data(filename):
     res = pandas.merge(left=college_list, right=get_athletic_info(), how='left', on="INSTNM")
     output_file = open(filename, "w")
     # print(get_missing_names(college_names, res))
-    print(res[res['Nickname'].isna()])
+    print(res[res['Nickname'].isna()][0:30])
     res = res.replace(np.nan, "NA")
     json.dump(convert_df_to_json(res), output_file)
     output_file.close()
@@ -59,7 +59,8 @@ def get_athletic_info():
     d2["Conference"] = d2['Conference'].astype(str) + " (D2)" 
     d3 = pandas.read_csv("data/d3.csv", usecols=["INSTNM", "Nickname", "Conference"])    
     d3["Conference"] = d3['Conference'].astype(str) + " (D3)"
-    return pandas.concat([d1, d2, d3], axis=0)
+    other = pandas.read_csv("data/other_athletic.csv", usecols=["INSTNM", "Nickname", "Conference"])
+    return pandas.concat([d1, d2, d3, other], axis=0)
 
 def simplify_csv(filename):
     data = pandas.read_csv(filename, usecols=["INSTNM", "ADM_RATE", "UGDS", "LOCALE", "ENDOWEND", "LATITUDE", "LONGITUDE"])

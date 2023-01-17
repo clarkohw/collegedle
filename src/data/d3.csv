@@ -42,16 +42,16 @@ Brandeis University,Judges,Waltham,Massachusetts,University Athletic Association
 Brevard College,Tornados,Brevard,North Carolina,USA South Athletic Conference
 Bridgewater College,Eagles,Bridgewater,Virginia,Old Dominion Athletic Conference
 Bridgewater State University,Bears,Bridgewater,Massachusetts,Massachusetts State Collegiate Athletic Conference
-Brooklyn College,Bulldogs,Brooklyn,New York,City University of New York Athletic Conference
+CUNY Brooklyn College,Bulldogs,Brooklyn,New York,City University of New York Athletic Conference
 Bryn Athyn College,Lions,Bryn Athyn,Pennsylvania,Colonial States Athletic Conference
 Bryn Mawr College,Owls,Bryn Mawr,Pennsylvania,Centennial Conference
 Buena Vista University,Beavers,Storm Lake,Iowa,American Rivers Conference
 Buffalo State College,Bengals,Buffalo,New York,State University of New York Athletic Conference
 Cabrini University,Cavaliers,Radnor,Pennsylvania,Atlantic East Conference
 Cairn University,Highlanders,Langhorne,Pennsylvania,Colonial States Athletic Conference
-California Institute of Technology (Caltech),Beavers,Pasadena,California,Southern California Intercollegiate Athletic Conference
+California Institute of Technology,Beavers,Pasadena,California,Southern California Intercollegiate Athletic Conference
 California Lutheran University (Cal Lutheran),Kingsmen and Regals,Thousand Oaks,California,Southern California Intercollegiate Athletic Conference
-"University of California-Santa Cruz (UC Santa Cruz)",Banana Slugs,Santa Cruz,California,Coast to Coast Athletic Conference
+"University of California-Santa Cruz",Banana Slugs,Santa Cruz,California,Coast to Coast Athletic Conference
 Calvin University,Knights,Grand Rapids,Michigan,Michigan Intercollegiate Athletic Association
 Capital University,Crusaders,Bexley,Ohio,Ohio Athletic Conference
 Carleton College,Knights,Northfield,Minnesota,Minnesota Intercollegiate Athletic Conference
@@ -127,7 +127,7 @@ Fitchburg State University,Falcons,Fitchburg,Massachusetts,Massachusetts State C
 Fontbonne University,Griffins,St. Louis,Missouri,St. Louis Intercollegiate Athletic Conference
 Framingham State University,Rams,Framingham,Massachusetts,Massachusetts State Collegiate Athletic Conference
 Franciscan University of Steubenville,Barons,Steubenville,Ohio,Presidents' Athletic Conference
-Franklin & Marshall College,Diplomats,Lancaster,Pennsylvania,Centennial Conference
+Franklin and Marshall College,Diplomats,Lancaster,Pennsylvania,Centennial Conference
 Franklin College,Grizzlies,Franklin,Indiana,Heartland Collegiate Athletic Conference
 Gallaudet University,Bison,Washington,District of Columbia,United East Conference
 Geneva College,Golden Tornadoes,Beaver Falls,Pennsylvania,Presidents' Athletic Conference
@@ -159,7 +159,7 @@ Hood College,Blazers,Frederick,Maryland,MAC Commonwealth
 Hope College,Flying Dutchmen,Holland,Michigan,Michigan Intercollegiate Athletic Association
 Houghton College,Highlanders,Houghton,New York,Empire 8
 Howard Payne University,Yellow Jackets,Brownwood,Texas,American Southwest Conference
-Hunter College,Hawks,New York,New York,City University of New York Athletic Conference
+CUNY Hunter College,Hawks,New York,New York,City University of New York Athletic Conference
 Huntingdon College,Hawks,Montgomery,Alabama,Collegiate Conference of the South
 Husson University,Eagles,Bangor,Maine,North Atlantic Conference
 Illinois College,Blueboys and Lady Blues,Jacksonville,Illinois,Midwest Conference
@@ -191,7 +191,7 @@ Lasell College,Lasers,Newton,Massachusetts,Great Northeast Athletic Conference
 Lawrence University,Vikings,Appleton,Wisconsin,Midwest Conference
 Lebanon Valley College,Flying Dutchmen,Annville,Pennsylvania,"MAC Commonwealth
 (MAC Freedom in 2023)"
-Lehman College,Lightning,The Bronx,New York,City University of New York Athletic Conference
+CUNY Lehman College,Lightning,The Bronx,New York,City University of New York Athletic Conference
 Lesley University,Lynx,Boston,Massachusetts,"New England Collegiate Conference
 (North Atlantic Conference in 2023)"
 LeTourneau University,Yellow Jackets,Longview,Texas,American Southwest Conference
@@ -260,7 +260,7 @@ Neumann University,Knights,Aston,Pennsylvania,Atlantic East Conference
 New England College,Pilgrims,Henniker,New Hampshire,"New England Collegiate Conference
 (Great Northeast Athletic Conference in 2023)"
 University of New England,Nor'easters,Biddeford,Maine,Commonwealth Coast Conference
-The College of New Jersey (TCNJ),Lions,Ewing,New Jersey,New Jersey Athletic Conference
+The College of New Jersey,Lions,Ewing,New Jersey,New Jersey Athletic Conference
 New Jersey City University,Gothic Knights,Jersey City,New Jersey,New Jersey Athletic Conference
 State University of New York at Brockport (SUNY Brockport),Golden Eagles,Brockport,New York,State University of New York Athletic Conference
 State University of New York at Canton (SUNY Canton),Kangaroos,Canton,New York,North Atlantic Conference
@@ -269,7 +269,7 @@ State University of New York at Cortland (SUNY Cortland),Red Dragons,Cortland,Ne
 State University of New York at Delhi (SUNY Delhi),Broncos,Delhi,New York,North Atlantic Conference
 State University of New York at Fredonia (SUNY Fredonia),Blue Devils,Fredonia,New York,State University of New York Athletic Conference
 State University of New York at Geneseo (SUNY Geneseo),Knights,Geneseo,New York,State University of New York Athletic Conference
-State University of New York Maritime College (SUNY Maritime),Privateers,The Bronx,New York,Skyline Conference
+SUNY Maritime College,Privateers,The Bronx,New York,Skyline Conference
 State University of New York at Morrisville (SUNY Morrisville),Mustangs,Morrisville,New York,"United East Conference
 (North Atlantic Conference in 2023)"
 State University of New York Polytechnic Institute (SUNY Poly),Wildcats,Marcy,New York,North Atlantic Conference
@@ -343,19 +343,19 @@ College of Saint Benedict,Bennies,St. Joseph,Minnesota,Minnesota Intercollegiate
 St. Catherine University,Wildcats,St. Paul,Minnesota,Minnesota Intercollegiate Athletic Conference
 Saint Elizabeth University,Screaming Eagles,Convent Station,New Jersey,United East Conference
 St. John Fisher College,Cardinals,Pittsford,New York,Empire 8
-Saint John's University,Johnnies,Collegeville,Minnesota,Minnesota Intercollegiate Athletic Conference
+Saint Johns University,Johnnies,Collegeville,Minnesota,Minnesota Intercollegiate Athletic Conference
 University of Saint Joseph,Blue Jays,West Hartford,Connecticut,Great Northeast Athletic Conference
 St. Joseph's College (Brooklyn),Bears,Brooklyn,New York,Skyline Conference
 St. Joseph's College (Long Island),Golden Eagles,Long Island,New York,Skyline Conference
 Saint Joseph's College of Maine,Monks,Standish,Maine,Great Northeast Athletic Conference
-St. Lawrence University,Saints,Canton,New York,Liberty League
+St Lawrence University,Saints,Canton,New York,Liberty League
 Saint Mary's College,Belles,Notre Dame,Indiana,Michigan Intercollegiate Athletic Association
 St. Mary's College of Maryland,Seahawks,St. Mary's City,Maryland,United East Conference
 Saint Mary's University of Minnesota,Cardinals,Winona,Minnesota,Minnesota Intercollegiate Athletic Conference
 St. Norbert College,Green Knights,De Pere,Wisconsin,Northern Athletics Collegiate Conference
-St. Olaf College,Oles,Northfield,Minnesota,Minnesota Intercollegiate Athletic Conference
+St Olaf College,Oles,Northfield,Minnesota,Minnesota Intercollegiate Athletic Conference
 The College of St. Scholastica,Saints,Duluth,Minnesota,Minnesota Intercollegiate Athletic Conference
-University of St. Thomas (Texas),Celts,Houston,Texas,Southern Collegiate Athletic Conference
+University of St Thomas,Celts,Houston,Texas,Southern Collegiate Athletic Conference
 Saint Vincent College,Bearcats,Latrobe,Pennsylvania,Presidents' Athletic Conference
 Salem College,Spirits,Winston-Salem,North Carolina,USA South Athletic Conference
 Salem State University,Vikings,Salem,Massachusetts,Massachusetts State Collegiate Athletic Conference
@@ -408,7 +408,7 @@ Wartburg College,Knights,Waverly,Iowa,American Rivers Conference
 Washington & Jefferson College,Presidents,Washington,Pennsylvania,Presidents' Athletic Conference
 Washington and Lee University,Generals,Lexington,Virginia,Old Dominion Athletic Conference
 Washington College,Shoremen,Chestertown,Maryland,Centennial Conference
-Washington University in St. Louis,Bears,St. Louis,Missouri,University Athletic Association
+Washington University in St Louis,Bears,St. Louis,Missouri,University Athletic Association
 Waynesburg University,Yellow Jackets,Waynesburg,Pennsylvania,Presidents' Athletic Conference
 Webster University,Gorloks,St. Louis,Missouri,St. Louis Intercollegiate Athletic Conference
 Wellesley College,Blue,Wellesley,Massachusetts,New England Women's and Men's Athletic Conference
@@ -448,8 +448,8 @@ University of Wisconsin-Stout,Blue Devils,Menomonie,Wisconsin,Wisconsin Intercol
 University of Wisconsin-Superior,Yellow Jackets,Superior,Wisconsin,Upper Midwest Athletic Conference
 University of Wisconsin-Whitewater,Warhawks,Whitewater,Wisconsin,Wisconsin Intercollegiate Athletic Conference
 Wittenberg University,Tigers,Springfield,Ohio,North Coast Athletic Conference
-College of Wooster,Fighting Scots,Wooster,Ohio,North Coast Athletic Conference
-Worcester Polytechnic Institute (WPI),Engineers,Worcester,Massachusetts,New England Women's and Men's Athletic Conference
+The College of Wooster,Fighting Scots,Wooster,Ohio,North Coast Athletic Conference
+Worcester Polytechnic Institute,Engineers,Worcester,Massachusetts,New England Women's and Men's Athletic Conference
 Worcester State University,Lancers,Worcester,Massachusetts,Massachusetts State Collegiate Athletic Conference
 Yeshiva University,Maccabees,New York,New York,Skyline Conference
 "York College, City University of New York",Cardinals,Queens,New York,City University of New York Athletic Conference
