@@ -4,7 +4,7 @@ import numpy as np
 
 f = open("data/college_names.json", "r")
 college_names = json.load(f)
-college_names.sort()
+# college_names.sort()
 f.close()
 
 def get_locale(code):

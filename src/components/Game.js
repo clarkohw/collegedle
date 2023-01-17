@@ -1,4 +1,5 @@
 import SearchBar from "./SearchBar";
+import namesList from "../data/college_names.json";
 import Map from "./Map";
 import GuessList from "./GuessList";
 import collegeData from "../data/colleges.json";
@@ -6,15 +7,19 @@ import { useState } from "react";
 
 function Game() {
   const [guessOptions, setGuessOptions] = useState(collegeData);
-  //   const [collegedle, setCollegedle] = useState({});
-  const [collegedle, setCollegedle] = useState(
-    guessOptions[Math.round(Math.random() * guessOptions.length)]
-  );
+  const generateCollegedle = () => {
+    const softLaunch = 110;
+    const today = new Date(Date.now());
+    const index =
+      (today.getFullYear() * (today.getDate() + today.getMonth() + 1)) %
+      softLaunch;
+    return guessOptions.find((item) => item.name === namesList[index]);
+  };
+  const [collegedle, setCollegedle] = useState(generateCollegedle());
   const [guesses, setGuesses] = useState([]);
   const [gameState, setGameState] = useState("In progress");
   const [guessCount, setGuessCount] = useState(0);
 
-  console.log("devlog gamestate:", gameState, guessCount);
   return (
     <div>
       <SearchBar
