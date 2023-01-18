@@ -92,7 +92,7 @@ function SearchBar(props) {
           variant="contained"
           onClick={submitGuess}
         >
-          Guess
+          <b>Guess</b>
         </Button>
       </div>
       {displayWinLossMessage()}

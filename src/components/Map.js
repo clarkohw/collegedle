@@ -77,7 +77,7 @@ function Map(props) {
           <g>
             <circle
               r={8}
-              strokeWidth={0.5}
+              strokeWidth={2}
               stroke="#000000"
               fill={markerColor(guess)}
             />
