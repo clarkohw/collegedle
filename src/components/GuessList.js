@@ -34,7 +34,9 @@ function GuessList(props) {
         " students"
       );
     } else if (index === 1) {
-      return "Hint: locale is " + props.collegedle["locale"];
+      return (
+        "Hint: located in a " + props.collegedle["locale"] + " environment"
+      );
     } else if (index === 2) {
       //acceptance rate
       const difference =
