@@ -1,4 +1,4 @@
-import { Autocomplete, createFilterOptions } from "@mui/material";
+import { Autocomplete } from "@mui/material";
 import { matchSorter } from "match-sorter";
 import { useState } from "react";
 import TextField from "@mui/material/TextField";
