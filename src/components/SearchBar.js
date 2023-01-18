@@ -64,13 +64,10 @@ function SearchBar(props) {
           isOptionEqualToValue={(option1, option2) =>
             option1["label"] === option2["label"]
           }
-          options={[
-            initialSeachValue,
-            ...props.guessOptions.map((college, index) => ({
-              label: college["name"],
-              id: index,
-            })),
-          ]}
+          options={props.guessOptions.map((college, index) => ({
+            label: college["name"],
+            id: index,
+          }))}
           renderInput={(params) => (
             <TextField
               {...params}
