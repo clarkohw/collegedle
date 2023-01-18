@@ -19,7 +19,7 @@ function Map(props) {
       }}
       className="map"
     >
-      <ZoomableGroup center={[0, 0]} zoom={1}>
+      <ZoomableGroup minZoom={0.2} center={[0, 0]} zoom={1}>
         <Geographies geography={geoUrl} fill="#D6D6DA" stroke="#FFFFFF">
           {({ geographies }) =>
             geographies.map((geo) => (
