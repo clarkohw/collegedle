@@ -29,7 +29,8 @@ def convert_df_to_json(df):
             "latitude": row['LATITUDE'],
             "longitude": row['LONGITUDE'],
             "mascot": row["Nickname"],
-            "athleticConference": row["Conference"]
+            "athleticConference": row["Conference"],
+            "commonName": row["Common Name"]
         })
     return res
 
@@ -51,13 +52,13 @@ def write_data(filename):
     
 
 def get_athletic_info():
-    d1 = pandas.read_csv("data/d1.csv", usecols=["INSTNM", "Nickname", "Conference"])
+    d1 = pandas.read_csv("data/d1.csv", usecols=["INSTNM", "Nickname", "Conference", "Common Name"])
     d1["Conference"] = d1['Conference'].astype(str) + " (D1)"
-    d2 = pandas.read_csv("data/d2.csv", usecols=["INSTNM", "Nickname", "Conference"])    
+    d2 = pandas.read_csv("data/d2.csv", usecols=["INSTNM", "Nickname", "Conference", "Common Name"])    
     d2["Conference"] = d2['Conference'].astype(str) + " (D2)" 
-    d3 = pandas.read_csv("data/d3.csv", usecols=["INSTNM", "Nickname", "Conference"])    
+    d3 = pandas.read_csv("data/d3.csv", usecols=["INSTNM", "Nickname", "Conference", "Common Name"])    
     d3["Conference"] = d3['Conference'].astype(str) + " (D3)"
-    other = pandas.read_csv("data/other_athletic.csv", usecols=["INSTNM", "Nickname", "Conference"])
+    other = pandas.read_csv("data/other_athletic.csv", usecols=["INSTNM", "Nickname", "Conference", "Common Name"])
     return pandas.concat([d1, d2, d3, other], axis=0)
 
 write_data("data/colleges.json")

@@ -76,7 +76,8 @@ function SearchBar(props) {
           options={props.guessOptions.map((college, index) => ({
             label: college["name"],
             id: index,
-            commonName: college["commonName"] || "",
+            commonName:
+              college["commonName"] === "NA" ? "" : college["commonName"],
           }))}
           renderInput={(params) => (
             <TextField
