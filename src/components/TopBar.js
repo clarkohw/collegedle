@@ -30,12 +30,14 @@ function TopBar() {
     >
       <Button
         onClick={handleOpen}
-        style={{ fontSize: "36px", visibility: "hidden" }}
+        style={{ fontSize: "24px", visibility: "hidden" }}
       >
         ❓
       </Button>
-      <h1>Collegedle</h1>
-      <Button onClick={handleOpen} style={{ fontSize: "36px" }}>
+      <Typography variant="h4">
+        <b>Collegedle</b>
+      </Typography>
+      <Button onClick={handleOpen} style={{ fontSize: "24px" }}>
         ❓
       </Button>
       <Modal
