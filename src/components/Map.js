@@ -7,8 +7,6 @@ import {
 } from "react-simple-maps";
 import "./Map.css";
 import { getColor } from "../util/color";
-import { useState } from "react";
-import { Button } from "@mui/material";
 
 function Map(props) {
   const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
