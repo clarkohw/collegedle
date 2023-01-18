@@ -1,6 +1,7 @@
 import { Autocomplete } from "@mui/material";
 import { useState } from "react";
 import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
 
 function SearchBar(props) {
   const initialSeachValue = {
@@ -53,10 +54,10 @@ function SearchBar(props) {
     <div
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
-      <div style={{ display: "flex" }}>
+      <div style={{ width: "100%", display: "flex" }}>
         <Autocomplete
           disabled={props.gameState !== "In progress"}
-          sx={{ width: 300 }}
+          fullWidth
           value={searchValue}
           onChange={(e, newValue) => setSearchValue(newValue)}
           id="college-guess-search"
@@ -79,10 +80,19 @@ function SearchBar(props) {
                 }
               }}
               label="Enter college name"
+              variant="filled"
+              InputProps={{ disableUnderline: true }}
+              style={{ borderRadius: "8px" }}
             />
           )}
         />
-        <button onClick={submitGuess}>Guess</button>
+        <Button
+          style={{ marginLeft: "10px" }}
+          variant="contained"
+          onClick={submitGuess}
+        >
+          Guess
+        </Button>
       </div>
       {displayWinLossMessage()}
     </div>
