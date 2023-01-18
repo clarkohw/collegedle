@@ -1,3 +1,5 @@
+import { Typography } from "@mui/material";
+import { generateTheme } from "../util/createTheme";
 import "./GuessList.css";
 
 function GuessList(props) {
@@ -5,16 +7,22 @@ function GuessList(props) {
     if (guess["name"] === props.collegedle["name"]) {
       return (
         <div className="correct-guess">
-          <b>{guess["name"]}</b>
+          <Typography variant="body1">
+            <b>{guess["name"]}</b>
+          </Typography>
         </div>
       );
     } else {
       return (
         <div className="guess-hint">
           <div className="guess">
-            <b>{guess["name"]}</b>
+            <Typography variant="body1">
+              <b>{guess["name"]}</b>
+            </Typography>
           </div>
-          <div className="hint">{getHint(guess, index)}</div>
+          <Typography variant="body1" className="hint">
+            {getHint(guess, index)}
+          </Typography>
         </div>
       );
     }
@@ -59,8 +67,15 @@ function GuessList(props) {
 
   const renderGuessBlocks = () => {
     const blocks = [];
+    const padding = generateTheme().typography.body1.fontSize;
     for (let i = 0; i < 6 - props.guesses.length; i++) {
-      blocks.push(<div key={i} className="empty-guess"></div>);
+      blocks.push(
+        <div
+          key={i}
+          style={{ paddingTop: padding }}
+          className="empty-guess"
+        ></div>
+      );
     }
     return blocks;
   };

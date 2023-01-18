@@ -4,8 +4,8 @@
   row-gap: 15px;
 }
 .empty-guess {
-  height: 40px;
   background-color: #f6f4f4;
+  padding: 10px;
   border-radius: 8px;
 }
 
@@ -13,7 +13,6 @@
   /* background-color: "#3E9614"; */
   background-color: #3e9614;
   color: white;
-  font-size: 24px;
   padding: 10px;
   border-radius: 8px;
 }
@@ -21,7 +20,6 @@
 .guess {
   background-color: #f6f4f4;
   padding: 10px;
-  font-size: 24px;
   border-radius: 8px;
   max-width: 90vw;
 }
