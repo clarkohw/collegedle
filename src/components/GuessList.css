@@ -5,7 +5,7 @@
 }
 .empty-guess {
   height: 40px;
-  width: 600px;
+  max-width: 700px;
   background-color: #f6f4f4;
   border-radius: 8px;
 }
@@ -25,6 +25,7 @@
   padding: 10px;
   font-size: 24px;
   border-radius: 8px;
+  max-width: 90vw;
 }
 
 .hint {

@@ -28,7 +28,7 @@ function TopBar() {
       style={{
         display: "flex",
         justifyContent: "space-between",
-        width: "100vw",
+        // width: "100vw",
       }}
     >
       <Button
@@ -37,7 +37,7 @@ function TopBar() {
       >
         ❓
       </Button>
-      <h1>Collegedle</h1>
+      <h1>COLLEGEDLE</h1>
       <Button onClick={handleOpen} style={{ fontSize: "36px" }}>
         ❓
       </Button>

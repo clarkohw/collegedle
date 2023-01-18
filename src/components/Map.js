@@ -59,7 +59,7 @@ function Map(props) {
       projectionConfig={{
         scale: 1000,
       }}
-      style={{ height: "410px", width: "600px" }}
+      className="map"
     >
       <Geographies geography={geoUrl} fill="#D6D6DA" stroke="#FFFFFF">
         {({ geographies }) =>

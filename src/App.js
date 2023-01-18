@@ -1,13 +1,14 @@
 import "./App.css";
 import Game from "./components/Game";
 import TopBar from "./components/TopBar";
+import { Container } from "@mui/system";
 
 function App() {
   return (
-    <div className="app-container">
+    <Container maxWidth="sm">
       <TopBar></TopBar>
       <Game />
-    </div>
+    </Container>
   );
 }
 
