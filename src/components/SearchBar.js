@@ -1,4 +1,5 @@
-import { Autocomplete } from "@mui/material";
+import { Autocomplete, createFilterOptions } from "@mui/material";
+import { matchSorter } from "match-sorter";
 import { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
@@ -50,6 +51,13 @@ function SearchBar(props) {
     }
     return <div style={{ minHeight: "20px", marginTop: ".8em" }}>{text}</div>;
   };
+
+  const filterOptions = (options, { inputValue }) => {
+    return matchSorter(options, inputValue, {
+      keys: ["label", "commonName"],
+    });
+  };
+
   return (
     <div
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
@@ -57,6 +65,7 @@ function SearchBar(props) {
       <div style={{ width: "100%", display: "flex" }}>
         <Autocomplete
           disabled={props.gameState !== "In progress"}
+          filterOptions={filterOptions}
           fullWidth
           value={searchValue}
           onChange={(e, newValue) => setSearchValue(newValue)}
@@ -67,6 +76,7 @@ function SearchBar(props) {
           options={props.guessOptions.map((college, index) => ({
             label: college["name"],
             id: index,
+            commonName: college["commonName"] || "",
           }))}
           renderInput={(params) => (
             <TextField
