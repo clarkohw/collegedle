@@ -68,18 +68,6 @@ function GuessList(props) {
   return (
     <div className="guess-list">
       {props.guesses.map((guess, index) => guessComponent(guess, index))}
-      {/* {props.guesses.map((guess, index) =>
-        guess["name"] === props.collegedle["name"] ? (
-          <div className="correct-guess">
-            <b>{guess["name"]}</b>
-          </div>
-        ) : (
-          <div>
-            <div className="college-name">{guess["name"]}</div>
-            <div> {getHint(guess, index)} </div>
-          </div>
-        )
-      )} */}
       {renderGuessBlocks()}
     </div>
   );
