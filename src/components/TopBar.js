@@ -69,7 +69,7 @@ function TopBar() {
               justifyContent: "center",
             }}
           >
-            <img src={colorScale}></img>
+            <img src={colorScale} alt="Color scale"></img>
             <Button onClick={handleClose}>play</Button>
           </div>
         </Box>
