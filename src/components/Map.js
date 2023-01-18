@@ -6,6 +6,7 @@ import {
 } from "react-simple-maps";
 import { scaleSequentialSqrt } from "d3-scale";
 import { interpolateYlOrRd } from "d3-scale-chromatic";
+import "./Map.css";
 
 function Map(props) {
   const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
@@ -69,10 +70,21 @@ function Map(props) {
       </Geographies>
       {props.guesses.map((guess) => (
         <Marker
+          className="marker"
           key={guess["name"] + guess["longitude"]}
           coordinates={[guess["longitude"], guess["latitude"]]}
         >
-          <circle r={8} stroke="#000000" fill={markerColor(guess)} />
+          <g>
+            <circle
+              r={8}
+              strokeWidth={0.5}
+              stroke="#000000"
+              fill={markerColor(guess)}
+            />
+          </g>
+          <text className="label" textAnchor="middle" y={25}>
+            {guess["name"]}
+          </text>
         </Marker>
       ))}
     </ComposableMap>
