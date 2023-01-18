@@ -5,7 +5,6 @@
 }
 .empty-guess {
   height: 40px;
-  max-width: 700px;
   background-color: #f6f4f4;
   border-radius: 8px;
 }
@@ -16,7 +15,6 @@
   color: white;
   font-size: 24px;
   padding: 10px;
-  max-width: 600px;
   border-radius: 8px;
 }
 
