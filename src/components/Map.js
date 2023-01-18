@@ -3,6 +3,7 @@ import {
   ComposableMap,
   Geographies,
   Geography,
+  ZoomableGroup,
 } from "react-simple-maps";
 import { scaleSequentialSqrt } from "d3-scale";
 import { interpolateYlOrRd } from "d3-scale-chromatic";
@@ -61,32 +62,42 @@ function Map(props) {
       }}
       className="map"
     >
-      <Geographies geography={geoUrl} fill="#D6D6DA" stroke="#FFFFFF">
-        {({ geographies }) =>
-          geographies.map((geo) => (
-            <Geography key={geo.rsmKey} geography={geo} />
-          ))
-        }
-      </Geographies>
-      {props.guesses.map((guess) => (
-        <Marker
-          className="marker"
-          key={guess["name"] + guess["longitude"]}
-          coordinates={[guess["longitude"], guess["latitude"]]}
-        >
-          <g>
-            <circle
-              r={8}
-              strokeWidth={2}
-              stroke="#000000"
-              fill={markerColor(guess)}
-            />
-          </g>
-          <text className="label" textAnchor="middle" y={25}>
-            {guess["name"]}
-          </text>
-        </Marker>
-      ))}
+      <ZoomableGroup center={[0, 0]} zoom={1}>
+        <Geographies geography={geoUrl} fill="#D6D6DA" stroke="#FFFFFF">
+          {({ geographies }) =>
+            geographies.map((geo) => (
+              <Geography
+                style={{
+                  default: { outline: "none" },
+                  hover: { outline: "none" },
+                  pressed: { outline: "none" },
+                }}
+                key={geo.rsmKey}
+                geography={geo}
+              />
+            ))
+          }
+        </Geographies>
+        {props.guesses.map((guess) => (
+          <Marker
+            className="marker"
+            key={guess["name"] + guess["longitude"]}
+            coordinates={[guess["longitude"], guess["latitude"]]}
+          >
+            <g>
+              <circle
+                r={8}
+                strokeWidth={2}
+                stroke="#000000"
+                fill={markerColor(guess)}
+              />
+            </g>
+            <text className="label" textAnchor="middle" y={25}>
+              {guess["name"]}
+            </text>
+          </Marker>
+        ))}
+      </ZoomableGroup>
     </ComposableMap>
   );
 }
