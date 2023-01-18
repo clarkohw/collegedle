@@ -1,300 +1,300 @@
-INSTNM,Nickname,City,"State/Province",Enrollment,Conference
-Academy of Art University,Urban Knights,San Francisco,California,"8,928",Pacific West Conference
-Adams State University,Grizzlies,Alamosa,Colorado,"3,164",Rocky Mountain Athletic Conference
-Adelphi University,Panthers,Garden City,New York,"7,584",Northeast-10 Conference
-University of Alabama in Huntsville,Chargers,Huntsville,Alabama,"9,999",Gulf South Conference
-University of Alaska Anchorage,Seawolves,Anchorage,Alaska,"11,953",Great Northwest Athletic Conference
-University of Alaska Fairbanks,Nanooks,Fairbanks,Alaska,"6,813",Great Northwest Athletic Conference
-Albany State University,Golden Rams,Albany,Georgia,"6,509",Southern Intercollegiate Athletic Conference
-Alderson Broaddus University,Battlers,Philippi,West Virginia,863,Mountain East Conference
-Alliance University (New York City),Warriors,New York City,New York,"2,063",Central Atlantic Collegiate Conference
-American International College,Yellow Jackets,Springfield,Massachusetts,"2,612",Northeast-10 Conference
-Anderson University,Trojans,Anderson,South Carolina,"3,848",South Atlantic Conference
-Angelo State University,Rams & Rambelles,San Angelo,Texas,"10,775",Lone Star Conference
-Arkansas Tech University,Wonder Boys & Golden Suns,Russellville,Arkansas,"10,829",Great American Conference
-University of Arkansas–Fort Smith,Lions,Fort Smith,Arkansas,"5,887",Lone Star Conference
-University of Arkansas at Monticello,Boll Weevils & Cotton Blossoms,Monticello,Arkansas,"2,645",Great American Conference
-Ashland University,Eagles,Ashland,Ohio,"4,447",Great Midwest Athletic Conference
-Assumption University,Greyhounds,Worcester,Massachusetts,"2,448",Northeast-10 Conference
-Auburn University at Montgomery,Warhawks,Montgomery,Alabama,"5,212",Gulf South Conference
-Augusta University,Jaguars,Augusta,Georgia,"8,920",Peach Belt Conference
-Augustana University,Vikings,Sioux Falls,South Dakota,"2,019",Northern Sun Intercollegiate Conference
-Azusa Pacific University,Cougars,Azusa,California,"9,006",Pacific West Conference
-Barry University,Buccaneers,Miami Shores,Florida,"7,515",Sunshine State Conference
-Barton College,Bulldogs,Wilson,North Carolina,"1,177",Conference Carolinas
-Belmont Abbey College,Crusaders,Belmont,North Carolina,"1,467",Conference Carolinas
-Bemidji State University,Beavers,Bemidji,Minnesota,"4,577",Northern Sun Intercollegiate Conference
-Benedict College,Tigers,Columbia,South Carolina,"2,140",Southern Intercollegiate Athletic Conference
-Bentley University,Falcons,Waltham,Massachusetts,"5,177",Northeast-10 Conference
-Biola University,Eagles,La Mirada,California,"5,815",Pacific West Conference
-Black Hills State University,Yellow Jackets,Spearfish,South Dakota,"3,608",Rocky Mountain Athletic Conference
-Bloomfield College,Bears,Bloomfield,New Jersey,"1,533",Central Atlantic Collegiate Conference
-Bloomsburg University of Pennsylvania,Huskies,Bloomsburg,Pennsylvania,"8,427",Pennsylvania State Athletic Conference
-Bluefield State University,Big Blues & Lady Blues,Bluefield,West Virginia,"1,243","Independent
+INSTNM,Common Name,Nickname,City,State/Province,Enrollment,Conference
+Academy of Art University,,Urban Knights,San Francisco,California,"8,928",Pacific West Conference
+Adams State University,,Grizzlies,Alamosa,Colorado,"3,164",Rocky Mountain Athletic Conference
+Adelphi University,,Panthers,Garden City,New York,"7,584",Northeast-10 Conference
+University of Alabama in Huntsville,,Chargers,Huntsville,Alabama,"9,999",Gulf South Conference
+University of Alaska Anchorage,,Seawolves,Anchorage,Alaska,"11,953",Great Northwest Athletic Conference
+University of Alaska Fairbanks,,Nanooks,Fairbanks,Alaska,"6,813",Great Northwest Athletic Conference
+Albany State University,,Golden Rams,Albany,Georgia,"6,509",Southern Intercollegiate Athletic Conference
+Alderson Broaddus University,,Battlers,Philippi,West Virginia,863,Mountain East Conference
+Alliance University (New York City),,Warriors,New York City,New York,"2,063",Central Atlantic Collegiate Conference
+American International College,,Yellow Jackets,Springfield,Massachusetts,"2,612",Northeast-10 Conference
+Anderson University,,Trojans,Anderson,South Carolina,"3,848",South Atlantic Conference
+Angelo State University,,Rams & Rambelles,San Angelo,Texas,"10,775",Lone Star Conference
+Arkansas Tech University,,Wonder Boys & Golden Suns,Russellville,Arkansas,"10,829",Great American Conference
+University of Arkansas–Fort Smith,,Lions,Fort Smith,Arkansas,"5,887",Lone Star Conference
+University of Arkansas at Monticello,,Boll Weevils & Cotton Blossoms,Monticello,Arkansas,"2,645",Great American Conference
+Ashland University,,Eagles,Ashland,Ohio,"4,447",Great Midwest Athletic Conference
+Assumption University,,Greyhounds,Worcester,Massachusetts,"2,448",Northeast-10 Conference
+Auburn University at Montgomery,,Warhawks,Montgomery,Alabama,"5,212",Gulf South Conference
+Augusta University,,Jaguars,Augusta,Georgia,"8,920",Peach Belt Conference
+Augustana University,,Vikings,Sioux Falls,South Dakota,"2,019",Northern Sun Intercollegiate Conference
+Azusa Pacific University,,Cougars,Azusa,California,"9,006",Pacific West Conference
+Barry University,,Buccaneers,Miami Shores,Florida,"7,515",Sunshine State Conference
+Barton College,,Bulldogs,Wilson,North Carolina,"1,177",Conference Carolinas
+Belmont Abbey College,,Crusaders,Belmont,North Carolina,"1,467",Conference Carolinas
+Bemidji State University,,Beavers,Bemidji,Minnesota,"4,577",Northern Sun Intercollegiate Conference
+Benedict College,,Tigers,Columbia,South Carolina,"2,140",Southern Intercollegiate Athletic Conference
+Bentley University,,Falcons,Waltham,Massachusetts,"5,177",Northeast-10 Conference
+Biola University,,Eagles,La Mirada,California,"5,815",Pacific West Conference
+Black Hills State University,,Yellow Jackets,Spearfish,South Dakota,"3,608",Rocky Mountain Athletic Conference
+Bloomfield College,,Bears,Bloomfield,New Jersey,"1,533",Central Atlantic Collegiate Conference
+Bloomsburg University of Pennsylvania,,Huskies,Bloomsburg,Pennsylvania,"8,427",Pennsylvania State Athletic Conference
+Bluefield State University,,Big Blues & Lady Blues,Bluefield,West Virginia,"1,243","Independent
 (Central Intercollegiate Athletic Association in 2023)"
-Bowie State University,Bulldogs,Bowie,Maryland,"6,250",Central Intercollegiate Athletic Association
-University of Bridgeport,Purple Knights,Bridgeport,Connecticut,"4,155",Central Atlantic Collegiate Conference
-Caldwell University,Cougars,Caldwell,New Jersey,"2,274",Central Atlantic Collegiate Conference
-Pennsylvania Western University California (California),Vulcans,California,Pennsylvania,"6,885",Pennsylvania State Athletic Conference
-"California State Polytechnic University, Humboldt",Lumberjacks,Arcata,California,"6,612",California Collegiate Athletic Association
-"California State Polytechnic University-Pomona",Broncos,Pomona,California,"30,014",California Collegiate Athletic Association
-"California State University-Chico",Wildcats,Chico,California,"16,746",California Collegiate Athletic Association
-"California State University-Dominguez Hills",Toros,Carson,California,"18,687",California Collegiate Athletic Association
-"California State University-East Bay",Pioneers,Hayward,California,"16,253",California Collegiate Athletic Association
-"California State University-Los Angeles",Golden Eagles,Los Angeles,California,"26,745",California Collegiate Athletic Association
-"California State University-Monterey Bay",Otters,Seaside,California,"7,409",California Collegiate Athletic Association
-"California State University, San Bernardino",Coyotes,San Bernardino,California,"19,689",California Collegiate Athletic Association
-California State University San Marcos,Cougars,San Marcos,California,"16,367",California Collegiate Athletic Association
-"California State University-Stanislaus",Warriors,Turlock,California,"11,163",California Collegiate Athletic Association
-Cameron University,Aggies,Lawton,Oklahoma,"3,771",Lone Star Conference
-Carson–Newman University,Eagles,Jefferson City,Tennessee,"2,911",South Atlantic Conference
-Catawba College,Catawba Indians,Salisbury,North Carolina,"1,371",South Atlantic Conference
-Cedarville University,Yellow Jackets,Cedarville,Ohio,"4,461",Great Midwest Athletic Conference
-University of Central Missouri,Mules & Jennies,Warrensburg,Missouri,"9,959",Mid-America Intercollegiate Athletics Association
-University of Central Oklahoma,Bronchos,Edmond,Oklahoma,"14,132",Mid-America Intercollegiate Athletics Association
-Central State University,Marauders & Lady Marauders,Wilberforce,Ohio,"4,021",Southern Intercollegiate Athletic Conference
-Central Washington University,Wildcats,Ellensburg,Washington,"11,174",Great Northwest Athletic Conference
-Chadron State College,Eagles,Chadron,Nebraska,"2,330",Rocky Mountain Athletic Conference
-Chaminade University of Honolulu,Silverswords,Honolulu,Hawai'i,"2,208",Pacific West Conference
-University of Charleston,Golden Eagles,Charleston,West Virginia,"2,967",Mountain East Conference
-Chestnut Hill College,Griffins,Philadelphia,Pennsylvania,"1,528",Central Atlantic Collegiate Conference
-Chowan University,Hawks,Murfreesboro,North Carolina,"1,100",Conference Carolinas
-Christian Brothers University,Buccaneers & Lady Buccaneers,Memphis,Tennessee,"1,918",Gulf South Conference
-Claflin University,Panthers,Orangeburg,South Carolina,"2,048",Central Intercollegiate Athletic Association
-Pennsylvania Western University Clarion (Clarion),Golden Eagles,Clarion,Pennsylvania,"4,465",Pennsylvania State Athletic Conference
-Clark Atlanta University,Panthers,Atlanta,Georgia,"3,776",Southern Intercollegiate Athletic Conference
-Clayton State University,Lakers,Morrow,Georgia,"7,052",Peach Belt Conference
-Coker University,Cobras,Hartsville,South Carolina,"1,087",South Atlantic Conference
-Colorado Christian University,Cougars,Lakewood,Colorado,"7,839",Rocky Mountain Athletic Conference
-Colorado Mesa University,Mavericks,Grand Junction,Colorado,"9,110",Rocky Mountain Athletic Conference
-Colorado School of Mines,Orediggers,Golden,Colorado,"6,744",Rocky Mountain Athletic Conference
-Colorado State University–Pueblo,ThunderWolves,Pueblo,Colorado,"5,925",Rocky Mountain Athletic Conference
-University of Colorado Colorado Springs (UCCS),Mountain Lions,Colorado Springs,Colorado,"12,380",Rocky Mountain Athletic Conference
-Columbus State University,Cougars,Columbus,Georgia,"8,372",Peach Belt Conference
-Concord University,Mountain Lions,Athens,West Virginia,"1,807",Mountain East Conference
-Concordia University–Irvine,Eagles,Irvine,California,"4,071",Pacific West Conference
-Concordia University–St. Paul,Golden Bears,St. Paul,Minnesota,"5,585",Northern Sun Intercollegiate Conference
-Converse University,Valkyries,Spartanburg,South Carolina,"1,377",Conference Carolinas
-Daemen University,Wildcats,Amherst,New York,"2,536",East Coast Conference
-Dallas Baptist University,Patriots,Dallas,Texas,"4,247",Lone Star Conference
-Davenport University,Panthers,Grand Rapids,Michigan,"6,127",Great Lakes Intercollegiate Athletic Conference
-Davis & Elkins College,Senators,Elkins,West Virginia,738,Mountain East Conference
-Delta State University,Statesmen & Lady Statesmen,Cleveland,Mississippi,"2,999",Gulf South Conference
-University of the District of Columbia,Firebirds,Washington,District of Columbia,"3,725",East Coast Conference
-Dominican University of California,Penguins,San Rafael,California,"1,837",Pacific West Conference
-Dominican University New York,Chargers,Orangeburg,New York,"1,724",Central Atlantic Collegiate Conference
-Drury University,Panthers,Springfield,Missouri,"1,691",Great Lakes Valley Conference
-East Central University,Tigers,Ada,Oklahoma,"3,608",Great American Conference
-East Stroudsburg University of Pennsylvania,Warriors,East Stroudsburg,Pennsylvania,"5,835",Pennsylvania State Athletic Conference
-Eastern New Mexico University,Greyhounds,Portales,New Mexico,"5,266",Lone Star Conference
-Eckerd College,Tritons,St. Petersburg,Florida,"1,822",Sunshine State Conference
-Pennsylvania Western University Edinboro (Edinboro),Fighting Scots,Edinboro,Pennsylvania,"4,319",Pennsylvania State Athletic Conference
-Elizabeth City State University,Vikings,Elizabeth City,North Carolina,"2,002",Central Intercollegiate Athletic Association
-Embry–Riddle Aeronautical University,Eagles,Daytona Beach,Florida,"8,797",Sunshine State Conference
-Emmanuel College,Lions,Franklin Springs,Georgia,883,Conference Carolinas
-Emporia State University,Hornets,Emporia,Kansas,"5,828",Mid-America Intercollegiate Athletics Association
-Erskine College,Flying Fleet,Due West,South Carolina,943,Conference Carolinas
-Fairmont State University,Fighting Falcons,Fairmont,West Virginia,"3,848",Mountain East Conference
-Fayetteville State University,Broncos & Lady Broncos,Fayetteville,North Carolina,"6,726",Central Intercollegiate Athletic Association
-Felician University,Golden Falcons,Rutherford,New Jersey,"2,556",Central Atlantic Collegiate Conference
-Ferris State University,Bulldogs,Big Rapids,Michigan,"11,165",Great Lakes Intercollegiate Athletic Conference
-University of Findlay,Oilers,Findlay,Ohio,"4,829",Great Midwest Athletic Conference
-Flagler College,Saints,St. Augustine,Florida,"2,687",Peach Belt Conference
-Florida Southern College,Moccasins,Lakeland,Florida,"3,413",Sunshine State Conference
-Florida Institute of Technology (Florida Tech),Panthers,Melbourne,Florida,"6,775",Sunshine State Conference
-Fort Hays State University,Tigers,Hays,Kansas,"15,033",Mid-America Intercollegiate Athletics Association
-Fort Lewis College,Skyhawks,Durango,Colorado,"3,469",Rocky Mountain Athletic Conference
-Fort Valley State University,Wildcats,Fort Valley,Georgia,"3,079",Southern Intercollegiate Athletic Conference
-Francis Marion University,Patriots,Florence,South Carolina,"4,148",Conference Carolinas
-Franklin Pierce University,Ravens,Rindge,New Hampshire,"1,949",Northeast-10 Conference
-Fresno Pacific University,Sunbirds,Fresno,California,"3,995",Pacific West Conference
-Frostburg State University,Bobcats,Frostburg,Maryland,"4,857",Mountain East Conference
-Gannon University,Golden Knights,Erie,Pennsylvania,"4,251",Pennsylvania State Athletic Conference
-Georgia College & State University,Bobcats,Milledgeville,Georgia,"6,873",Peach Belt Conference
-Georgia Southwestern State University,Hurricanes,Americus,Georgia,"3,162",Peach Belt Conference
-Georgian Court University,Lions,Lakewood,New Jersey,"2,231",Central Atlantic Collegiate Conference
-Glenville State University,Pioneers,Glenville,West Virginia,"1,583",Mountain East Conference
-Goldey–Beacom College,Lightning,Pike Creek Valley,Delaware,"1,184",Central Atlantic Collegiate Conference
-Grand Valley State University,Lakers,Allendale,Michigan,"23,350",Great Lakes Intercollegiate Athletic Conference
-Harding University,Bisons & Lady Bisons,Searcy,Arkansas,"4,617",Great American Conference
-Hawai'i Pacific University,Sharks,Honolulu,Hawai'i,"4,243",Pacific West Conference
-University of Hawai'i at Hilo,Vulcans,Hilo,Hawai'i,"3,165",Pacific West Conference
-Henderson State University,Reddies,Arkadelphia,Arkansas,"3,163",Great American Conference
-Hillsdale College,Chargers,Hillsdale,Michigan,"1,543",Great Midwest Athletic Conference
-Holy Family University,Tigers,Philadelphia,Pennsylvania,"3,087",Central Atlantic Collegiate Conference
-Holy Names University,Hawks,Oakland,California,"1,014",Pacific West Conference
-University of Illinois at Springfield,Prairie Stars,Springfield,Illinois,"4,146",Great Lakes Valley Conference
-Indiana University of Pennsylvania,Crimson Hawks,Indiana,Pennsylvania,"10,037",Pennsylvania State Athletic Conference
-University of Indianapolis,Greyhounds,Indianapolis,Indiana,"5,638",Great Lakes Valley Conference
-Thomas Jefferson University,Rams,Philadelphia,Pennsylvania,"8,286",Central Atlantic Collegiate Conference
-Johnson C. Smith University,Golden Bulls,Charlotte,North Carolina,"1,306",Central Intercollegiate Athletic Association
-Kentucky State University,Thorobreds & Thorobrettes,Frankfort,Kentucky,"2,290",Southern Intercollegiate Athletic Conference
-Kentucky Wesleyan College,Panthers,Owensboro,Kentucky,887,Great Midwest Athletic Conference
-King University,Tornados,Bristol,Tennessee,"1,796",Conference Carolinas
-Kutztown University of Pennsylvania,Golden Bears,Kutztown,Pennsylvania,"7,890",Pennsylvania State Athletic Conference
-Lake Erie College,Storm,Painesville,Ohio,949,Great Midwest Athletic Conference
-Lake Superior State University,Lakers,Sault Ste. Marie,Michigan,"1,909",Great Lakes Intercollegiate Athletic Conference
-Lander University,Bearcats,Greenwood,South Carolina,"3,513",Peach Belt Conference
-Lane College,Dragons,Jackson,Tennessee,"1,095",Southern Intercollegiate Athletic Conference
-Le Moyne College,Dolphins,Syracuse,New York,"3,409",Northeast-10 Conference
-Lee University,Flames,Cleveland,Tennessee,"5,204",Gulf South Conference
-Lees–McRae College,Bobcats,Banner Elk,North Carolina,838,Conference Carolinas
-LeMoyne–Owen College,Magicians,Memphis,Tennessee,654,Southern Intercollegiate Athletic Conference
-Lenoir–Rhyne University,Bears,Hickory,North Carolina,"2,686",South Atlantic Conference
-Lewis University,Flyers,Romeoville,Illinois,"6,437",Great Lakes Valley Conference
-Limestone University,Saints,Gaffney,South Carolina,"1,943",South Atlantic Conference
-Lincoln University (MO),Blue Tigers,Jefferson City,Missouri,"2,012",Mid-America Intercollegiate Athletics Association
-Lincoln University (PA),Lions,Chester County,Pennsylvania,"2,077",Central Intercollegiate Athletic Association
-Lincoln Memorial University,Railsplitters,Harrogate,Tennessee,"4,885",South Atlantic Conference
-Livingstone College,Blue Bears,Salisbury,North Carolina,845,Central Intercollegiate Athletic Association
-Lock Haven University of Pennsylvania,Bald Eagles,Lock Haven,Pennsylvania,"3,163",Pennsylvania State Athletic Conference
-Lubbock Christian University,Chaparrals & Lady Chaps,Lubbock,Texas,"1,664",Lone Star Conference
-Lynn University,Fighting Knights,Boca Raton,Florida,"3,232",Sunshine State Conference
-Malone University,Pioneers,Canton,Ohio,"1,463",Great Midwest Athletic Conference
-Mansfield University of Pennsylvania,Mountaineers,Mansfield,Pennsylvania,"1,784",Pennsylvania State Athletic Conference
-Mars Hill University,Lions,Mars Hill,North Carolina,"1,049",South Atlantic Conference
-University of Mary,Marauders,Bismarck,North Dakota,"3,799",Northern Sun Intercollegiate Conference
-Maryville University,Saints,Town and Country,Missouri,"10,979",Great Lakes Valley Conference
-McKendree University,Bearcats,Lebanon,Illinois,"2,200",Great Lakes Valley Conference
-Mercy College,Mavericks,Dobbs Ferry,New York,"9,547",East Coast Conference
-Mercyhurst University,Lakers,Erie,Pennsylvania,"2,790",Pennsylvania State Athletic Conference
-Metropolitan State University of Denver,Roadrunners,Denver,Colorado,"19,086",Rocky Mountain Athletic Conference
-Michigan Technological University (Michigan Tech),Huskies,Houghton,Michigan,"6,873",Great Lakes Intercollegiate Athletic Conference
-Midwestern State University,Mustangs,Wichita Falls,Texas,"5,860",Lone Star Conference
-Miles College,Golden Bears,Fairfield,Alabama,"1,440",Southern Intercollegiate Athletic Conference
-Millersville University of Pennsylvania,Marauders,Millersville,Pennsylvania,"7,456",Pennsylvania State Athletic Conference
-"Minnesota State University, Mankato",Mavericks,Mankato,Minnesota,"14,761",Northern Sun Intercollegiate Conference
-Minnesota State University Moorhead,Dragons,Moorhead,Minnesota,"5,547",Northern Sun Intercollegiate Conference
-University of Minnesota Crookston,Golden Eagles,Crookston,Minnesota,"2,530",Northern Sun Intercollegiate Conference
-University of Minnesota Duluth,Bulldogs,Duluth,Minnesota,"10,275",Northern Sun Intercollegiate Conference
-Minot State University,Beavers,Minot,North Dakota,"2,920",Northern Sun Intercollegiate Conference
-Mississippi College,Choctaws,Clinton,Mississippi,"4,667",Gulf South Conference
-"Missouri University of Science and Technology",Miners,Rolla,Missouri,"7,642",Great Lakes Valley Conference
-Missouri Southern State University,Lions,Joplin,Missouri,"5,045",Mid-America Intercollegiate Athletics Association
-Missouri Western State University,Griffons,St. Joseph,Missouri,"4,911",Mid-America Intercollegiate Athletics Association
-University of Missouri–St. Louis,Tritons,St. Louis,Missouri,"13,874",Great Lakes Valley Conference
-Molloy College,Lions,Rockville Centre,New York,"5,115",East Coast Conference
-Montana State University Billings,Yellowjackets,Billings,Montana,"4,000",Great Northwest Athletic Conference
-University of Montevallo,Falcons,Montevallo,Alabama,"2,600",Gulf South Conference
-Morehouse College,Maroon Tigers,Atlanta,Georgia,"2,152",Southern Intercollegiate Athletic Conference
-University of Mount Olive,Trojans,Mount Olive,North Carolina,"2,536",Conference Carolinas
-University of Nebraska at Kearney,Lopers,Kearney,Nebraska,"6,225",Mid-America Intercollegiate Athletics Association
-University of New Haven,Chargers,West Haven,Connecticut,"6,961",Northeast-10 Conference
-New Mexico Highlands University,Cowboys & Cowgirls,Las Vegas,New Mexico,"2,777",Rocky Mountain Athletic Conference
-Newberry College,Wolves,Newberry,South Carolina,"1,256",South Atlantic Conference
-Newman University,Jets,Wichita,Kansas,"2,053",Mid-America Intercollegiate Athletics Association
-University of North Georgia,Nighthawks,Dahlonega,Georgia,"19,793",Peach Belt Conference
-North Greenville University,Crusaders,Tigerville,South Carolina,"2,280",Conference Carolinas
-Northeastern State University,RiverHawks,Tahlequah,Oklahoma,"7,349",Mid-America Intercollegiate Athletics Association
-Northern Michigan University,Wildcats,Marquette,Michigan,"7,368",Great Lakes Intercollegiate Athletic Conference
-Northern State University,Wolves,Aberdeen,South Dakota,"3,431",Northern Sun Intercollegiate Conference
-Northwest Missouri State University,Bearcats,Maryville,Missouri,"7,267",Mid-America Intercollegiate Athletics Association
-Northwest Nazarene University,Nighthawks,Nampa,Idaho,"2,109",Great Northwest Athletic Conference
-Northwestern Oklahoma State University,Rangers,Alva,Oklahoma,"1,833",Great American Conference
-Northwood University,Timberwolves,Midland,Michigan,"2,541",Great Midwest Athletic Conference
-Notre Dame College,Falcons,South Euclid,Ohio,"1,585",Mountain East Conference
-Nova Southeastern University,Sharks,Davie,Florida,"20,888",Sunshine State Conference
-Ohio Dominican University,Panthers,Columbus,Ohio,"1,415",Great Midwest Athletic Conference
-Oklahoma Baptist University,Bison,Shawnee,Oklahoma,"1,763",Great American Conference
-Oklahoma Christian University,Eagles & Lady Eagles,Oklahoma City,Oklahoma,"2,055",Lone Star Conference
-Ouachita Baptist University,Tigers,Arkadelphia,Arkansas,"1,704",Great American Conference
-Pace University,Setters,Pleasantville,New York,"12,835",Northeast-10 Conference
-Palm Beach Atlantic University,Sailfish,West Palm Beach,Florida,"3,704",Sunshine State Conference
-University of Wisconsin–Parkside (Parkside),Rangers,Kenosha,Wisconsin,"4,452",Great Lakes Intercollegiate Athletic Conference
-Pittsburg State University,Gorillas,Pittsburg,Kansas,"6,398",Mid-America Intercollegiate Athletics Association
-University of Pittsburgh at Johnstown,Mountain Cats,Johnstown,Pennsylvania,"2,356",Pennsylvania State Athletic Conference
-Point Loma Nazarene University,Sea Lions,San Diego,California,"4,616",Pacific West Conference
-Post University,Eagles,Waterbury,Connecticut,"13,844",Central Atlantic Collegiate Conference
-University of Puerto Rico at Bayamón,Cowboys,Bayamón,Puerto Rico,"4,123",Independent
-University of Puerto Rico at Mayagüez,Bulldogs,Mayagüez,Puerto Rico,"12,825",Independent
-University of Puerto Rico at Río Piedras,Gallitos,San Juan,Puerto Rico,"13,892",Independent
-Purdue University Northwest,Pride,Hammond,Indiana,"9,363",Great Lakes Intercollegiate Athletic Conference
-Queens College,Knights,Flushing,New York,"19,700",East Coast Conference
-Quincy University,Hawks,Quincy,Illinois,"1,273",Great Lakes Valley Conference
-Regis University,Rangers,Denver,Colorado,"6,310",Rocky Mountain Athletic Conference
-Roberts Wesleyan College,Redhawks,North Chili,New York,"1,706",East Coast Conference
-Rockhurst University,Hawks,Kansas City,Missouri,"3,688",Great Lakes Valley Conference
-Rogers State University,Hillcats,Claremore,Oklahoma,"3,400",Mid-America Intercollegiate Athletics Association
-Rollins College,Tars,Winter Park,Florida,"3,104",Sunshine State Conference
-Saginaw Valley State University,Cardinals,University Center,Michigan,"8,028",Great Lakes Intercollegiate Athletic Conference
-Saint Anselm College,Hawks,Goffstown,New Hampshire,"2,019",Northeast-10 Conference
-Saint Augustine's University,Falcons,Raleigh,North Carolina,"1,110",Central Intercollegiate Athletic Association
-St. Cloud State University,Huskies,St. Cloud,Minnesota,"11,841",Northern Sun Intercollegiate Conference
-St. Edward's University,Hilltoppers,Austin,Texas,"3,591",Lone Star Conference
-Saint Leo University,Lions,St. Leo,Florida,"9,832",Sunshine State Conference
-Saint Martin's University,Saints,Lacey,Washington,"1,638",Great Northwest Athletic Conference
-St. Mary's University,Rattlers,San Antonio,Texas,"3,458",Lone Star Conference
-Saint Michael's College,Purple Knights,Colchester,Vermont,"1,724",Northeast-10 Conference
-College of Saint Rose,Golden Knights,Albany,New York,"3,863",Northeast-10 Conference
-St. Thomas Aquinas College,Spartans,Sparkill,New York,"1,779",East Coast Conference
-Salem University,Tigers,Salem,West Virginia,"1,008",Independent
-San Francisco State University,Gators,San Francisco,California,"27,349",California Collegiate Athletic Association
-Savannah State University,Tigers,Savannah,Georgia,"3,488",Southern Intercollegiate Athletic Conference
-Seattle Pacific University,Falcons,Seattle,Washington,"3,601",Great Northwest Athletic Conference
-Seton Hill University,Griffins,Greensburg,Pennsylvania,"1,935",Pennsylvania State Athletic Conference
-Shaw University,Bears,Raleigh,North Carolina,"1,283",Central Intercollegiate Athletic Association
-Shepherd University,Rams,Shepherdstown,West Virginia,"3,159",Pennsylvania State Athletic Conference
-Shippensburg University of Pennsylvania,Raiders,Shippensburg,Pennsylvania,"6,130",Pennsylvania State Athletic Conference
-Shorter University,Hawks,Rome,Georgia,"1,410",Gulf South Conference
-Simon Fraser University,Red Leafs,Burnaby,British Columbia,"30,296",Great Northwest Athletic Conference
-University of Sioux Falls,Cougars,Sioux Falls,South Dakota,"1,628",Northern Sun Intercollegiate Conference
-Slippery Rock University of Pennsylvania,The Rock,Slippery Rock,Pennsylvania,"8,860",Pennsylvania State Athletic Conference
-Sonoma State University,Seawolves,Rohnert Park,California,"8,018",California Collegiate Athletic Association
-University of South Carolina Aiken,Pacers,Aiken,South Carolina,"3,944",Peach Belt Conference
-South Dakota School of Mines and Technology,Hardrockers,Rapid City,South Dakota,"2,475",Rocky Mountain Athletic Conference
-Southeastern Oklahoma State University,Savage Storm,Durant,Oklahoma,"5,607",Great American Conference
-Southern Arkansas University,Muleriders,Magnolia,Arkansas,"4,432",Great American Conference
-Southern Connecticut State University,Owls,New Haven,Connecticut,"9,331",Northeast-10 Conference
-Southern Nazarene University,Crimson Storm,Bethany,Oklahoma,"2,208",Great American Conference
-Southern New Hampshire University,Penmen,Manchester and Hooksett,New Hampshire,"134,345",Northeast-10 Conference
-Southern Wesleyan University,Warriors,Central,South Carolina,"1,345",Conference Carolinas
-Southwest Baptist University,Bearcats,Bolivar,Missouri,"3,039",Great Lakes Valley Conference
-Southwest Minnesota State University,Mustangs,Marshall,Minnesota,"7,259",Northern Sun Intercollegiate Conference
-Southwestern Oklahoma State University,Bulldogs,Weatherford,Oklahoma,"4,898",Great American Conference
-Spring Hill College,Badgers,Mobile,Alabama,"1,191",Southern Intercollegiate Athletic Conference
-College of Staten Island,Dolphins,Staten Island,New York,"12,797",East Coast Conference
-University of Tampa,Spartans,Tampa,Florida,"9,605",Sunshine State Conference
-Texas A&M University–Kingsville,Javelinas,Kingsville,Texas,"6,932",Lone Star Conference
-Texas A&M International University,Dustdevils,Laredo,Texas,"8,525",Lone Star Conference
-Texas Woman's University,Pioneers,Denton,Texas,"16,433",Lone Star Conference
-University of Texas Permian Basin,Falcons,Odessa,Texas,"5,530",Lone Star Conference
-University of Texas at Tyler,Patriots,Tyler,Texas,"9,781",Lone Star Conference
-Tiffin University,Dragons,Tiffin,Ohio,"2,933",Great Midwest Athletic Conference
-Trevecca Nazarene University,Trojans,Nashville,Tennessee,"3,968",Great Midwest Athletic Conference
-Truman State University,Bulldogs,Kirksville,Missouri,"4,655",Great Lakes Valley Conference
-Tusculum University,Pioneers,Greeneville,Tennessee,"1,664",South Atlantic Conference
-Tuskegee University,Golden Tigers,Tuskegee,Alabama,"2,747",Southern Intercollegiate Athletic Conference
-University of North Carolina at Pembroke (UNC Pembroke),Braves,Pembroke,North Carolina,"8,262",Conference Carolinas
-Union University,Bulldogs,Jackson,Tennessee,"3,071",Gulf South Conference
-Upper Iowa University,Peacocks,Fayette,Iowa,"3,610","Northern Sun Intercollegiate Conference
+Bowie State University,,Bulldogs,Bowie,Maryland,"6,250",Central Intercollegiate Athletic Association
+University of Bridgeport,,Purple Knights,Bridgeport,Connecticut,"4,155",Central Atlantic Collegiate Conference
+Caldwell University,,Cougars,Caldwell,New Jersey,"2,274",Central Atlantic Collegiate Conference
+Pennsylvania Western University California (California),,Vulcans,California,Pennsylvania,"6,885",Pennsylvania State Athletic Conference
+"California State Polytechnic University, Humboldt",,Lumberjacks,Arcata,California,"6,612",California Collegiate Athletic Association
+California State Polytechnic University-Pomona,,Broncos,Pomona,California,"30,014",California Collegiate Athletic Association
+California State University-Chico,,Wildcats,Chico,California,"16,746",California Collegiate Athletic Association
+California State University-Dominguez Hills,,Toros,Carson,California,"18,687",California Collegiate Athletic Association
+California State University-East Bay,,Pioneers,Hayward,California,"16,253",California Collegiate Athletic Association
+California State University-Los Angeles,,Golden Eagles,Los Angeles,California,"26,745",California Collegiate Athletic Association
+California State University-Monterey Bay,,Otters,Seaside,California,"7,409",California Collegiate Athletic Association
+"California State University, San Bernardino",,Coyotes,San Bernardino,California,"19,689",California Collegiate Athletic Association
+California State University San Marcos,,Cougars,San Marcos,California,"16,367",California Collegiate Athletic Association
+California State University-Stanislaus,,Warriors,Turlock,California,"11,163",California Collegiate Athletic Association
+Cameron University,,Aggies,Lawton,Oklahoma,"3,771",Lone Star Conference
+Carson–Newman University,,Eagles,Jefferson City,Tennessee,"2,911",South Atlantic Conference
+Catawba College,,Catawba Indians,Salisbury,North Carolina,"1,371",South Atlantic Conference
+Cedarville University,,Yellow Jackets,Cedarville,Ohio,"4,461",Great Midwest Athletic Conference
+University of Central Missouri,,Mules & Jennies,Warrensburg,Missouri,"9,959",Mid-America Intercollegiate Athletics Association
+University of Central Oklahoma,,Bronchos,Edmond,Oklahoma,"14,132",Mid-America Intercollegiate Athletics Association
+Central State University,,Marauders & Lady Marauders,Wilberforce,Ohio,"4,021",Southern Intercollegiate Athletic Conference
+Central Washington University,,Wildcats,Ellensburg,Washington,"11,174",Great Northwest Athletic Conference
+Chadron State College,,Eagles,Chadron,Nebraska,"2,330",Rocky Mountain Athletic Conference
+Chaminade University of Honolulu,,Silverswords,Honolulu,Hawai'i,"2,208",Pacific West Conference
+University of Charleston,,Golden Eagles,Charleston,West Virginia,"2,967",Mountain East Conference
+Chestnut Hill College,,Griffins,Philadelphia,Pennsylvania,"1,528",Central Atlantic Collegiate Conference
+Chowan University,,Hawks,Murfreesboro,North Carolina,"1,100",Conference Carolinas
+Christian Brothers University,,Buccaneers & Lady Buccaneers,Memphis,Tennessee,"1,918",Gulf South Conference
+Claflin University,,Panthers,Orangeburg,South Carolina,"2,048",Central Intercollegiate Athletic Association
+Pennsylvania Western University Clarion (Clarion),,Golden Eagles,Clarion,Pennsylvania,"4,465",Pennsylvania State Athletic Conference
+Clark Atlanta University,,Panthers,Atlanta,Georgia,"3,776",Southern Intercollegiate Athletic Conference
+Clayton State University,,Lakers,Morrow,Georgia,"7,052",Peach Belt Conference
+Coker University,,Cobras,Hartsville,South Carolina,"1,087",South Atlantic Conference
+Colorado Christian University,,Cougars,Lakewood,Colorado,"7,839",Rocky Mountain Athletic Conference
+Colorado Mesa University,,Mavericks,Grand Junction,Colorado,"9,110",Rocky Mountain Athletic Conference
+Colorado School of Mines,,Orediggers,Golden,Colorado,"6,744",Rocky Mountain Athletic Conference
+Colorado State University–Pueblo,,ThunderWolves,Pueblo,Colorado,"5,925",Rocky Mountain Athletic Conference
+University of Colorado Colorado Springs (UCCS),,Mountain Lions,Colorado Springs,Colorado,"12,380",Rocky Mountain Athletic Conference
+Columbus State University,,Cougars,Columbus,Georgia,"8,372",Peach Belt Conference
+Concord University,,Mountain Lions,Athens,West Virginia,"1,807",Mountain East Conference
+Concordia University–Irvine,,Eagles,Irvine,California,"4,071",Pacific West Conference
+Concordia University–St. Paul,,Golden Bears,St. Paul,Minnesota,"5,585",Northern Sun Intercollegiate Conference
+Converse University,,Valkyries,Spartanburg,South Carolina,"1,377",Conference Carolinas
+Daemen University,,Wildcats,Amherst,New York,"2,536",East Coast Conference
+Dallas Baptist University,,Patriots,Dallas,Texas,"4,247",Lone Star Conference
+Davenport University,,Panthers,Grand Rapids,Michigan,"6,127",Great Lakes Intercollegiate Athletic Conference
+Davis & Elkins College,,Senators,Elkins,West Virginia,738,Mountain East Conference
+Delta State University,,Statesmen & Lady Statesmen,Cleveland,Mississippi,"2,999",Gulf South Conference
+University of the District of Columbia,,Firebirds,Washington,District of Columbia,"3,725",East Coast Conference
+Dominican University of California,,Penguins,San Rafael,California,"1,837",Pacific West Conference
+Dominican University New York,,Chargers,Orangeburg,New York,"1,724",Central Atlantic Collegiate Conference
+Drury University,,Panthers,Springfield,Missouri,"1,691",Great Lakes Valley Conference
+East Central University,,Tigers,Ada,Oklahoma,"3,608",Great American Conference
+East Stroudsburg University of Pennsylvania,,Warriors,East Stroudsburg,Pennsylvania,"5,835",Pennsylvania State Athletic Conference
+Eastern New Mexico University,,Greyhounds,Portales,New Mexico,"5,266",Lone Star Conference
+Eckerd College,,Tritons,St. Petersburg,Florida,"1,822",Sunshine State Conference
+Pennsylvania Western University Edinboro (Edinboro),,Fighting Scots,Edinboro,Pennsylvania,"4,319",Pennsylvania State Athletic Conference
+Elizabeth City State University,,Vikings,Elizabeth City,North Carolina,"2,002",Central Intercollegiate Athletic Association
+Embry–Riddle Aeronautical University,,Eagles,Daytona Beach,Florida,"8,797",Sunshine State Conference
+Emmanuel College,,Lions,Franklin Springs,Georgia,883,Conference Carolinas
+Emporia State University,,Hornets,Emporia,Kansas,"5,828",Mid-America Intercollegiate Athletics Association
+Erskine College,,Flying Fleet,Due West,South Carolina,943,Conference Carolinas
+Fairmont State University,,Fighting Falcons,Fairmont,West Virginia,"3,848",Mountain East Conference
+Fayetteville State University,,Broncos & Lady Broncos,Fayetteville,North Carolina,"6,726",Central Intercollegiate Athletic Association
+Felician University,,Golden Falcons,Rutherford,New Jersey,"2,556",Central Atlantic Collegiate Conference
+Ferris State University,,Bulldogs,Big Rapids,Michigan,"11,165",Great Lakes Intercollegiate Athletic Conference
+University of Findlay,,Oilers,Findlay,Ohio,"4,829",Great Midwest Athletic Conference
+Flagler College,,Saints,St. Augustine,Florida,"2,687",Peach Belt Conference
+Florida Southern College,,Moccasins,Lakeland,Florida,"3,413",Sunshine State Conference
+Florida Institute of Technology (Florida Tech),,Panthers,Melbourne,Florida,"6,775",Sunshine State Conference
+Fort Hays State University,,Tigers,Hays,Kansas,"15,033",Mid-America Intercollegiate Athletics Association
+Fort Lewis College,,Skyhawks,Durango,Colorado,"3,469",Rocky Mountain Athletic Conference
+Fort Valley State University,,Wildcats,Fort Valley,Georgia,"3,079",Southern Intercollegiate Athletic Conference
+Francis Marion University,,Patriots,Florence,South Carolina,"4,148",Conference Carolinas
+Franklin Pierce University,,Ravens,Rindge,New Hampshire,"1,949",Northeast-10 Conference
+Fresno Pacific University,,Sunbirds,Fresno,California,"3,995",Pacific West Conference
+Frostburg State University,,Bobcats,Frostburg,Maryland,"4,857",Mountain East Conference
+Gannon University,,Golden Knights,Erie,Pennsylvania,"4,251",Pennsylvania State Athletic Conference
+Georgia College & State University,,Bobcats,Milledgeville,Georgia,"6,873",Peach Belt Conference
+Georgia Southwestern State University,,Hurricanes,Americus,Georgia,"3,162",Peach Belt Conference
+Georgian Court University,,Lions,Lakewood,New Jersey,"2,231",Central Atlantic Collegiate Conference
+Glenville State University,,Pioneers,Glenville,West Virginia,"1,583",Mountain East Conference
+Goldey–Beacom College,,Lightning,Pike Creek Valley,Delaware,"1,184",Central Atlantic Collegiate Conference
+Grand Valley State University,,Lakers,Allendale,Michigan,"23,350",Great Lakes Intercollegiate Athletic Conference
+Harding University,,Bisons & Lady Bisons,Searcy,Arkansas,"4,617",Great American Conference
+Hawai'i Pacific University,,Sharks,Honolulu,Hawai'i,"4,243",Pacific West Conference
+University of Hawai'i at Hilo,,Vulcans,Hilo,Hawai'i,"3,165",Pacific West Conference
+Henderson State University,,Reddies,Arkadelphia,Arkansas,"3,163",Great American Conference
+Hillsdale College,,Chargers,Hillsdale,Michigan,"1,543",Great Midwest Athletic Conference
+Holy Family University,,Tigers,Philadelphia,Pennsylvania,"3,087",Central Atlantic Collegiate Conference
+Holy Names University,,Hawks,Oakland,California,"1,014",Pacific West Conference
+University of Illinois at Springfield,,Prairie Stars,Springfield,Illinois,"4,146",Great Lakes Valley Conference
+Indiana University of Pennsylvania,,Crimson Hawks,Indiana,Pennsylvania,"10,037",Pennsylvania State Athletic Conference
+University of Indianapolis,,Greyhounds,Indianapolis,Indiana,"5,638",Great Lakes Valley Conference
+Thomas Jefferson University,,Rams,Philadelphia,Pennsylvania,"8,286",Central Atlantic Collegiate Conference
+Johnson C. Smith University,,Golden Bulls,Charlotte,North Carolina,"1,306",Central Intercollegiate Athletic Association
+Kentucky State University,,Thorobreds & Thorobrettes,Frankfort,Kentucky,"2,290",Southern Intercollegiate Athletic Conference
+Kentucky Wesleyan College,,Panthers,Owensboro,Kentucky,887,Great Midwest Athletic Conference
+King University,,Tornados,Bristol,Tennessee,"1,796",Conference Carolinas
+Kutztown University of Pennsylvania,,Golden Bears,Kutztown,Pennsylvania,"7,890",Pennsylvania State Athletic Conference
+Lake Erie College,,Storm,Painesville,Ohio,949,Great Midwest Athletic Conference
+Lake Superior State University,,Lakers,Sault Ste. Marie,Michigan,"1,909",Great Lakes Intercollegiate Athletic Conference
+Lander University,,Bearcats,Greenwood,South Carolina,"3,513",Peach Belt Conference
+Lane College,,Dragons,Jackson,Tennessee,"1,095",Southern Intercollegiate Athletic Conference
+Le Moyne College,,Dolphins,Syracuse,New York,"3,409",Northeast-10 Conference
+Lee University,,Flames,Cleveland,Tennessee,"5,204",Gulf South Conference
+Lees–McRae College,,Bobcats,Banner Elk,North Carolina,838,Conference Carolinas
+LeMoyne–Owen College,,Magicians,Memphis,Tennessee,654,Southern Intercollegiate Athletic Conference
+Lenoir–Rhyne University,,Bears,Hickory,North Carolina,"2,686",South Atlantic Conference
+Lewis University,,Flyers,Romeoville,Illinois,"6,437",Great Lakes Valley Conference
+Limestone University,,Saints,Gaffney,South Carolina,"1,943",South Atlantic Conference
+Lincoln University (MO),,Blue Tigers,Jefferson City,Missouri,"2,012",Mid-America Intercollegiate Athletics Association
+Lincoln University (PA),,Lions,Chester County,Pennsylvania,"2,077",Central Intercollegiate Athletic Association
+Lincoln Memorial University,,Railsplitters,Harrogate,Tennessee,"4,885",South Atlantic Conference
+Livingstone College,,Blue Bears,Salisbury,North Carolina,845,Central Intercollegiate Athletic Association
+Lock Haven University of Pennsylvania,,Bald Eagles,Lock Haven,Pennsylvania,"3,163",Pennsylvania State Athletic Conference
+Lubbock Christian University,,Chaparrals & Lady Chaps,Lubbock,Texas,"1,664",Lone Star Conference
+Lynn University,,Fighting Knights,Boca Raton,Florida,"3,232",Sunshine State Conference
+Malone University,,Pioneers,Canton,Ohio,"1,463",Great Midwest Athletic Conference
+Mansfield University of Pennsylvania,,Mountaineers,Mansfield,Pennsylvania,"1,784",Pennsylvania State Athletic Conference
+Mars Hill University,,Lions,Mars Hill,North Carolina,"1,049",South Atlantic Conference
+University of Mary,,Marauders,Bismarck,North Dakota,"3,799",Northern Sun Intercollegiate Conference
+Maryville University,,Saints,Town and Country,Missouri,"10,979",Great Lakes Valley Conference
+McKendree University,,Bearcats,Lebanon,Illinois,"2,200",Great Lakes Valley Conference
+Mercy College,,Mavericks,Dobbs Ferry,New York,"9,547",East Coast Conference
+Mercyhurst University,,Lakers,Erie,Pennsylvania,"2,790",Pennsylvania State Athletic Conference
+Metropolitan State University of Denver,,Roadrunners,Denver,Colorado,"19,086",Rocky Mountain Athletic Conference
+Michigan Technological University (Michigan Tech),,Huskies,Houghton,Michigan,"6,873",Great Lakes Intercollegiate Athletic Conference
+Midwestern State University,,Mustangs,Wichita Falls,Texas,"5,860",Lone Star Conference
+Miles College,,Golden Bears,Fairfield,Alabama,"1,440",Southern Intercollegiate Athletic Conference
+Millersville University of Pennsylvania,,Marauders,Millersville,Pennsylvania,"7,456",Pennsylvania State Athletic Conference
+"Minnesota State University, Mankato",,Mavericks,Mankato,Minnesota,"14,761",Northern Sun Intercollegiate Conference
+Minnesota State University Moorhead,,Dragons,Moorhead,Minnesota,"5,547",Northern Sun Intercollegiate Conference
+University of Minnesota Crookston,,Golden Eagles,Crookston,Minnesota,"2,530",Northern Sun Intercollegiate Conference
+University of Minnesota Duluth,,Bulldogs,Duluth,Minnesota,"10,275",Northern Sun Intercollegiate Conference
+Minot State University,,Beavers,Minot,North Dakota,"2,920",Northern Sun Intercollegiate Conference
+Mississippi College,,Choctaws,Clinton,Mississippi,"4,667",Gulf South Conference
+Missouri University of Science and Technology,,Miners,Rolla,Missouri,"7,642",Great Lakes Valley Conference
+Missouri Southern State University,,Lions,Joplin,Missouri,"5,045",Mid-America Intercollegiate Athletics Association
+Missouri Western State University,,Griffons,St. Joseph,Missouri,"4,911",Mid-America Intercollegiate Athletics Association
+University of Missouri–St. Louis,,Tritons,St. Louis,Missouri,"13,874",Great Lakes Valley Conference
+Molloy College,,Lions,Rockville Centre,New York,"5,115",East Coast Conference
+Montana State University Billings,,Yellowjackets,Billings,Montana,"4,000",Great Northwest Athletic Conference
+University of Montevallo,,Falcons,Montevallo,Alabama,"2,600",Gulf South Conference
+Morehouse College,,Maroon Tigers,Atlanta,Georgia,"2,152",Southern Intercollegiate Athletic Conference
+University of Mount Olive,,Trojans,Mount Olive,North Carolina,"2,536",Conference Carolinas
+University of Nebraska at Kearney,,Lopers,Kearney,Nebraska,"6,225",Mid-America Intercollegiate Athletics Association
+University of New Haven,,Chargers,West Haven,Connecticut,"6,961",Northeast-10 Conference
+New Mexico Highlands University,,Cowboys & Cowgirls,Las Vegas,New Mexico,"2,777",Rocky Mountain Athletic Conference
+Newberry College,,Wolves,Newberry,South Carolina,"1,256",South Atlantic Conference
+Newman University,,Jets,Wichita,Kansas,"2,053",Mid-America Intercollegiate Athletics Association
+University of North Georgia,,Nighthawks,Dahlonega,Georgia,"19,793",Peach Belt Conference
+North Greenville University,,Crusaders,Tigerville,South Carolina,"2,280",Conference Carolinas
+Northeastern State University,,RiverHawks,Tahlequah,Oklahoma,"7,349",Mid-America Intercollegiate Athletics Association
+Northern Michigan University,,Wildcats,Marquette,Michigan,"7,368",Great Lakes Intercollegiate Athletic Conference
+Northern State University,,Wolves,Aberdeen,South Dakota,"3,431",Northern Sun Intercollegiate Conference
+Northwest Missouri State University,,Bearcats,Maryville,Missouri,"7,267",Mid-America Intercollegiate Athletics Association
+Northwest Nazarene University,,Nighthawks,Nampa,Idaho,"2,109",Great Northwest Athletic Conference
+Northwestern Oklahoma State University,,Rangers,Alva,Oklahoma,"1,833",Great American Conference
+Northwood University,,Timberwolves,Midland,Michigan,"2,541",Great Midwest Athletic Conference
+Notre Dame College,,Falcons,South Euclid,Ohio,"1,585",Mountain East Conference
+Nova Southeastern University,,Sharks,Davie,Florida,"20,888",Sunshine State Conference
+Ohio Dominican University,,Panthers,Columbus,Ohio,"1,415",Great Midwest Athletic Conference
+Oklahoma Baptist University,,Bison,Shawnee,Oklahoma,"1,763",Great American Conference
+Oklahoma Christian University,,Eagles & Lady Eagles,Oklahoma City,Oklahoma,"2,055",Lone Star Conference
+Ouachita Baptist University,,Tigers,Arkadelphia,Arkansas,"1,704",Great American Conference
+Pace University,,Setters,Pleasantville,New York,"12,835",Northeast-10 Conference
+Palm Beach Atlantic University,,Sailfish,West Palm Beach,Florida,"3,704",Sunshine State Conference
+University of Wisconsin–Parkside (Parkside),,Rangers,Kenosha,Wisconsin,"4,452",Great Lakes Intercollegiate Athletic Conference
+Pittsburg State University,,Gorillas,Pittsburg,Kansas,"6,398",Mid-America Intercollegiate Athletics Association
+University of Pittsburgh at Johnstown,,Mountain Cats,Johnstown,Pennsylvania,"2,356",Pennsylvania State Athletic Conference
+Point Loma Nazarene University,,Sea Lions,San Diego,California,"4,616",Pacific West Conference
+Post University,,Eagles,Waterbury,Connecticut,"13,844",Central Atlantic Collegiate Conference
+University of Puerto Rico at Bayamón,,Cowboys,Bayamón,Puerto Rico,"4,123",Independent
+University of Puerto Rico at Mayagüez,,Bulldogs,Mayagüez,Puerto Rico,"12,825",Independent
+University of Puerto Rico at Río Piedras,,Gallitos,San Juan,Puerto Rico,"13,892",Independent
+Purdue University Northwest,,Pride,Hammond,Indiana,"9,363",Great Lakes Intercollegiate Athletic Conference
+Queens College,,Knights,Flushing,New York,"19,700",East Coast Conference
+Quincy University,,Hawks,Quincy,Illinois,"1,273",Great Lakes Valley Conference
+Regis University,,Rangers,Denver,Colorado,"6,310",Rocky Mountain Athletic Conference
+Roberts Wesleyan College,,Redhawks,North Chili,New York,"1,706",East Coast Conference
+Rockhurst University,,Hawks,Kansas City,Missouri,"3,688",Great Lakes Valley Conference
+Rogers State University,,Hillcats,Claremore,Oklahoma,"3,400",Mid-America Intercollegiate Athletics Association
+Rollins College,,Tars,Winter Park,Florida,"3,104",Sunshine State Conference
+Saginaw Valley State University,,Cardinals,University Center,Michigan,"8,028",Great Lakes Intercollegiate Athletic Conference
+Saint Anselm College,,Hawks,Goffstown,New Hampshire,"2,019",Northeast-10 Conference
+Saint Augustine's University,,Falcons,Raleigh,North Carolina,"1,110",Central Intercollegiate Athletic Association
+St. Cloud State University,,Huskies,St. Cloud,Minnesota,"11,841",Northern Sun Intercollegiate Conference
+St. Edward's University,,Hilltoppers,Austin,Texas,"3,591",Lone Star Conference
+Saint Leo University,,Lions,St. Leo,Florida,"9,832",Sunshine State Conference
+Saint Martin's University,,Saints,Lacey,Washington,"1,638",Great Northwest Athletic Conference
+St. Mary's University,,Rattlers,San Antonio,Texas,"3,458",Lone Star Conference
+Saint Michael's College,,Purple Knights,Colchester,Vermont,"1,724",Northeast-10 Conference
+College of Saint Rose,,Golden Knights,Albany,New York,"3,863",Northeast-10 Conference
+St. Thomas Aquinas College,,Spartans,Sparkill,New York,"1,779",East Coast Conference
+Salem University,,Tigers,Salem,West Virginia,"1,008",Independent
+San Francisco State University,,Gators,San Francisco,California,"27,349",California Collegiate Athletic Association
+Savannah State University,,Tigers,Savannah,Georgia,"3,488",Southern Intercollegiate Athletic Conference
+Seattle Pacific University,,Falcons,Seattle,Washington,"3,601",Great Northwest Athletic Conference
+Seton Hill University,,Griffins,Greensburg,Pennsylvania,"1,935",Pennsylvania State Athletic Conference
+Shaw University,,Bears,Raleigh,North Carolina,"1,283",Central Intercollegiate Athletic Association
+Shepherd University,,Rams,Shepherdstown,West Virginia,"3,159",Pennsylvania State Athletic Conference
+Shippensburg University of Pennsylvania,,Raiders,Shippensburg,Pennsylvania,"6,130",Pennsylvania State Athletic Conference
+Shorter University,,Hawks,Rome,Georgia,"1,410",Gulf South Conference
+Simon Fraser University,,Red Leafs,Burnaby,British Columbia,"30,296",Great Northwest Athletic Conference
+University of Sioux Falls,,Cougars,Sioux Falls,South Dakota,"1,628",Northern Sun Intercollegiate Conference
+Slippery Rock University of Pennsylvania,,The Rock,Slippery Rock,Pennsylvania,"8,860",Pennsylvania State Athletic Conference
+Sonoma State University,,Seawolves,Rohnert Park,California,"8,018",California Collegiate Athletic Association
+University of South Carolina Aiken,,Pacers,Aiken,South Carolina,"3,944",Peach Belt Conference
+South Dakota School of Mines and Technology,,Hardrockers,Rapid City,South Dakota,"2,475",Rocky Mountain Athletic Conference
+Southeastern Oklahoma State University,,Savage Storm,Durant,Oklahoma,"5,607",Great American Conference
+Southern Arkansas University,,Muleriders,Magnolia,Arkansas,"4,432",Great American Conference
+Southern Connecticut State University,,Owls,New Haven,Connecticut,"9,331",Northeast-10 Conference
+Southern Nazarene University,,Crimson Storm,Bethany,Oklahoma,"2,208",Great American Conference
+Southern New Hampshire University,,Penmen,Manchester and Hooksett,New Hampshire,"134,345",Northeast-10 Conference
+Southern Wesleyan University,,Warriors,Central,South Carolina,"1,345",Conference Carolinas
+Southwest Baptist University,,Bearcats,Bolivar,Missouri,"3,039",Great Lakes Valley Conference
+Southwest Minnesota State University,,Mustangs,Marshall,Minnesota,"7,259",Northern Sun Intercollegiate Conference
+Southwestern Oklahoma State University,,Bulldogs,Weatherford,Oklahoma,"4,898",Great American Conference
+Spring Hill College,,Badgers,Mobile,Alabama,"1,191",Southern Intercollegiate Athletic Conference
+College of Staten Island,,Dolphins,Staten Island,New York,"12,797",East Coast Conference
+University of Tampa,,Spartans,Tampa,Florida,"9,605",Sunshine State Conference
+Texas A&M University–Kingsville,,Javelinas,Kingsville,Texas,"6,932",Lone Star Conference
+Texas A&M International University,,Dustdevils,Laredo,Texas,"8,525",Lone Star Conference
+Texas Woman's University,,Pioneers,Denton,Texas,"16,433",Lone Star Conference
+University of Texas Permian Basin,,Falcons,Odessa,Texas,"5,530",Lone Star Conference
+University of Texas at Tyler,,Patriots,Tyler,Texas,"9,781",Lone Star Conference
+Tiffin University,,Dragons,Tiffin,Ohio,"2,933",Great Midwest Athletic Conference
+Trevecca Nazarene University,,Trojans,Nashville,Tennessee,"3,968",Great Midwest Athletic Conference
+Truman State University,,Bulldogs,Kirksville,Missouri,"4,655",Great Lakes Valley Conference
+Tusculum University,,Pioneers,Greeneville,Tennessee,"1,664",South Atlantic Conference
+Tuskegee University,,Golden Tigers,Tuskegee,Alabama,"2,747",Southern Intercollegiate Athletic Conference
+University of North Carolina at Pembroke (UNC Pembroke),,Braves,Pembroke,North Carolina,"8,262",Conference Carolinas
+Union University,,Bulldogs,Jackson,Tennessee,"3,071",Gulf South Conference
+Upper Iowa University,,Peacocks,Fayette,Iowa,"3,610","Northern Sun Intercollegiate Conference
 (Great Lakes Valley Conference in 2023)"
-Ursuline College,Arrows,Pepper Pike,Ohio,"1,100",Great Midwest Athletic Conference
-Valdosta State University,Blazers,Valdosta,Georgia,"12,304",Gulf South Conference
-Virginia State University,Trojans,Ettrick,Virginia,"4,020",Central Intercollegiate Athletic Association
-Virginia Union University,Panthers,Richmond,Virginia,"1,516",Central Intercollegiate Athletic Association
-University of Virginia's College at Wise (UVA Wise),Cavaliers,Wise,Virginia,"1,905",South Atlantic Conference
-Walsh University,Cavaliers,North Canton,Ohio,"2,651",Great Midwest Athletic Conference
-Washburn University,Ichabods,Topeka,Kansas,"5,880",Mid-America Intercollegiate Athletics Association
-Wayne State University,Warriors,Detroit,Michigan,"26,241",Great Lakes Intercollegiate Athletic Conference
-Wayne State College,Wildcats,Wayne,Nebraska,"4,202",Northern Sun Intercollegiate Conference
-University of West Alabama,Tigers,Livingston,Alabama,"5,734",Gulf South Conference
-West Chester University,Golden Rams,West Chester,Pennsylvania,"17,719",Pennsylvania State Athletic Conference
-University of West Florida,Argonauts,Pensacola,Florida,"13,061",Gulf South Conference
-University of West Georgia,Wolves,Carrollton,Georgia,"13,419",Gulf South Conference
-West Liberty University,Hilltoppers,West Liberty,West Virginia,"2,481",Mountain East Conference
-West Texas A&M University,Buffaloes,Canyon,Texas,"10,036",Lone Star Conference
-West Virginia State University,Yellow Jackets,Institute,West Virginia,"3,638",Mountain East Conference
-West Virginia Wesleyan College,Bobcats,Buckhannon,West Virginia,"1,066",Mountain East Conference
-Western Colorado University,Mountaineers,Gunnison,Colorado,"3,203",Rocky Mountain Athletic Conference
-Western New Mexico University,Mustangs,Silver City,New Mexico,"2,896",Lone Star Conference
-Western Oregon University,Wolves,Monmouth,Oregon,"4,554",Great Northwest Athletic Conference
-Western Washington University,Vikings,Bellingham,Washington,"15,197",Great Northwest Athletic Conference
-Westminster College,Griffins,Salt Lake City,Utah,"1,849",Rocky Mountain Athletic Conference
-Wheeling University,Cardinals,Wheeling,West Virginia,857,Mountain East Conference
-William Jewell College,Cardinals,Liberty,Missouri,751,Great Lakes Valley Conference
-Wilmington University,Wildcats,New Castle,Delaware,"14,769",Central Atlantic Collegiate Conference
-Wingate University,Bulldogs,Wingate,North Carolina,"3,653",South Atlantic Conference
-Winona State University,Warriors,Winona,Minnesota,"7,106",Northern Sun Intercollegiate Conference
-Winston–Salem State University,Rams,Winston–Salem,North Carolina,"5,169",Central Intercollegiate Athletic Association
-Young Harris College,Mountain Lions,Young Harris,Georgia,"1,417","Peach Belt Conference
+Ursuline College,,Arrows,Pepper Pike,Ohio,"1,100",Great Midwest Athletic Conference
+Valdosta State University,,Blazers,Valdosta,Georgia,"12,304",Gulf South Conference
+Virginia State University,,Trojans,Ettrick,Virginia,"4,020",Central Intercollegiate Athletic Association
+Virginia Union University,,Panthers,Richmond,Virginia,"1,516",Central Intercollegiate Athletic Association
+University of Virginia's College at Wise (UVA Wise),,Cavaliers,Wise,Virginia,"1,905",South Atlantic Conference
+Walsh University,,Cavaliers,North Canton,Ohio,"2,651",Great Midwest Athletic Conference
+Washburn University,,Ichabods,Topeka,Kansas,"5,880",Mid-America Intercollegiate Athletics Association
+Wayne State University,,Warriors,Detroit,Michigan,"26,241",Great Lakes Intercollegiate Athletic Conference
+Wayne State College,,Wildcats,Wayne,Nebraska,"4,202",Northern Sun Intercollegiate Conference
+University of West Alabama,,Tigers,Livingston,Alabama,"5,734",Gulf South Conference
+West Chester University,,Golden Rams,West Chester,Pennsylvania,"17,719",Pennsylvania State Athletic Conference
+University of West Florida,,Argonauts,Pensacola,Florida,"13,061",Gulf South Conference
+University of West Georgia,,Wolves,Carrollton,Georgia,"13,419",Gulf South Conference
+West Liberty University,,Hilltoppers,West Liberty,West Virginia,"2,481",Mountain East Conference
+West Texas A&M University,,Buffaloes,Canyon,Texas,"10,036",Lone Star Conference
+West Virginia State University,,Yellow Jackets,Institute,West Virginia,"3,638",Mountain East Conference
+West Virginia Wesleyan College,,Bobcats,Buckhannon,West Virginia,"1,066",Mountain East Conference
+Western Colorado University,,Mountaineers,Gunnison,Colorado,"3,203",Rocky Mountain Athletic Conference
+Western New Mexico University,,Mustangs,Silver City,New Mexico,"2,896",Lone Star Conference
+Western Oregon University,,Wolves,Monmouth,Oregon,"4,554",Great Northwest Athletic Conference
+Western Washington University,,Vikings,Bellingham,Washington,"15,197",Great Northwest Athletic Conference
+Westminster College,,Griffins,Salt Lake City,Utah,"1,849",Rocky Mountain Athletic Conference
+Wheeling University,,Cardinals,Wheeling,West Virginia,857,Mountain East Conference
+William Jewell College,,Cardinals,Liberty,Missouri,751,Great Lakes Valley Conference
+Wilmington University,,Wildcats,New Castle,Delaware,"14,769",Central Atlantic Collegiate Conference
+Wingate University,,Bulldogs,Wingate,North Carolina,"3,653",South Atlantic Conference
+Winona State University,,Warriors,Winona,Minnesota,"7,106",Northern Sun Intercollegiate Conference
+Winston–Salem State University,,Rams,Winston–Salem,North Carolina,"5,169",Central Intercollegiate Athletic Association
+Young Harris College,,Mountain Lions,Young Harris,Georgia,"1,417","Peach Belt Conference
 (Conference Carolinas in 2023)"
