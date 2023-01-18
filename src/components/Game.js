@@ -4,6 +4,8 @@ import Map from "./Map";
 import GuessList from "./GuessList";
 import collegeData from "../data/colleges.json";
 import { useState } from "react";
+import { Grid } from "@mui/material";
+import { Container } from "@mui/system";
 
 function Game() {
   const [guessOptions, setGuessOptions] = useState(collegeData);
@@ -22,20 +24,29 @@ function Game() {
 
   return (
     <div>
-      <SearchBar
-        collegedle={collegedle}
-        setCollegedle={setCollegedle}
-        gameState={gameState}
-        setGameState={setGameState}
-        guessCount={guessCount}
-        setGuessCount={setGuessCount}
-        guessOptions={guessOptions}
-        setGuessOptions={setGuessOptions}
-        guesses={guesses}
-        setGuesses={setGuesses}
-      />
-      <Map collegedle={collegedle} guesses={guesses} />
-      <GuessList collegedle={collegedle} guesses={guesses} />
+      <Container maxWidth="xs">
+        <SearchBar
+          collegedle={collegedle}
+          setCollegedle={setCollegedle}
+          gameState={gameState}
+          setGameState={setGameState}
+          guessCount={guessCount}
+          setGuessCount={setGuessCount}
+          guessOptions={guessOptions}
+          setGuessOptions={setGuessOptions}
+          guesses={guesses}
+          setGuesses={setGuesses}
+        />
+      </Container>
+
+      <Grid container direction={"row"} spacing={2}>
+        <Grid item lg={6} md={6} sm={6} xs={12}>
+          <Map collegedle={collegedle} guesses={guesses} />
+        </Grid>
+        <Grid item lg={6} md={6} sm={6} xs={12}>
+          <GuessList collegedle={collegedle} guesses={guesses} />
+        </Grid>
+      </Grid>
     </div>
   );
 }
