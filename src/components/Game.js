@@ -40,10 +40,10 @@ function Game() {
       </Container>
 
       <Grid container direction={"row"} spacing={2}>
-        <Grid item lg={6} md={6} sm={6} xs={12}>
+        <Grid item lg={6} md={6} sm={12} xs={12}>
           <Map collegedle={collegedle} guesses={guesses} />
         </Grid>
-        <Grid item lg={6} md={6} sm={6} xs={12}>
+        <Grid item lg={6} md={6} sm={12} xs={12}>
           <GuessList collegedle={collegedle} guesses={guesses} />
         </Grid>
       </Grid>
