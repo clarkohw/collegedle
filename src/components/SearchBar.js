@@ -2,6 +2,7 @@ import { Autocomplete } from "@mui/material";
 import { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import "./SearchBar.css";
 
 function SearchBar(props) {
   const initialSeachValue = {
@@ -81,7 +82,7 @@ function SearchBar(props) {
               }}
               label="Enter college name"
               variant="filled"
-              InputProps={{ disableUnderline: true }}
+              // InputProps={{ disableUnderline: true }}
               style={{ borderRadius: "8px" }}
             />
           )}
