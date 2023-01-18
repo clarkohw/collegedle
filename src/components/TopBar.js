@@ -3,6 +3,7 @@ import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
+import colorScale from "../images/color_scale.png";
 
 const style = {
   position: "absolute",
@@ -59,10 +60,16 @@ function TopBar() {
             which school it is in the fewest number of guesses. Each incorrect
             guess will appear on the map with a color indicating how close it is
             geographically to the target school. The hotter the color the closer
-            you are to the answer.{" "}
+            you are to the answer.
           </Typography>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            {" "}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+            }}
+          >
+            <img src={colorScale}></img>
             <Button onClick={handleClose}>play</Button>
           </div>
         </Box>

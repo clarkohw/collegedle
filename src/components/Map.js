@@ -4,6 +4,12 @@ import {
   Geographies,
   Geography,
 } from "react-simple-maps";
+import { scaleSequentialSqrt } from "d3-scale";
+import {
+  interpolateRdBu,
+  interpolateYlOrRd,
+  interpolateOrRd,
+} from "d3-scale-chromatic";
 
 function Map(props) {
   const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
@@ -43,26 +49,11 @@ function Map(props) {
       props.collegedle["longitude"]
     );
     console.log("devlog", props.collegedle["name"], dist);
-    // const color = (1 - dist / 2000) * 255;
-    // if (dist > 500) {
-    //   return "rgb(255, 255, " + color + ")";
-    // } else {
-    //   return "rgb(255, " + color + ", " + 0 + ")";
-    // }
-    const colors = ["#6CF", "#FC0", "#F90", "#F60", "#F00", "#390"];
+    const colorScale = scaleSequentialSqrt(interpolateYlOrRd).domain([1000, 0]);
     if (dist === 0) {
-      return colors[5];
-    } else if (dist > 1000) {
-      return colors[0];
-    } else if (dist > 500) {
-      return colors[1];
-    } else if (dist > 250) {
-      return colors[2];
-    } else if (dist > 50) {
-      return colors[3];
-    } else if (dist <= 50 && dist > 0) {
-      return colors[4];
+      return "#390";
     }
+    return colorScale(dist);
   };
 
   return (
