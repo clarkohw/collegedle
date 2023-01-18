@@ -7,6 +7,8 @@ import {
 } from "react-simple-maps";
 import "./Map.css";
 import { getColor } from "../util/color";
+import { useState } from "react";
+import { Button } from "@mui/material";
 
 function Map(props) {
   const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
@@ -19,7 +21,12 @@ function Map(props) {
       }}
       className="map"
     >
-      <ZoomableGroup minZoom={0.2} center={[0, 0]} zoom={1}>
+      <ZoomableGroup
+        filterZoomEvent={(e) => false}
+        minZoom={0.5}
+        center={[0, 0]}
+        zoom={1}
+      >
         <Geographies geography={geoUrl} fill="#D6D6DA" stroke="#FFFFFF">
           {({ geographies }) =>
             geographies.map((geo) => (
