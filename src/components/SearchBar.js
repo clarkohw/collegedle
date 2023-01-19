@@ -73,12 +73,14 @@ function SearchBar(props) {
           isOptionEqualToValue={(option1, option2) =>
             option1["label"] === option2["label"]
           }
-          options={props.guessOptions.map((college, index) => ({
-            label: college["name"],
-            id: index,
-            commonName:
-              college["commonName"] === "NA" ? "" : college["commonName"],
-          }))}
+          options={props.guessOptions
+            .map((college, index) => ({
+              label: college["name"],
+              id: index,
+              commonName:
+                college["commonName"] === "NA" ? "" : college["commonName"],
+            }))
+            .concat([initialSeachValue])}
           renderInput={(params) => (
             <TextField
               {...params}
