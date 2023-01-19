@@ -48,13 +48,17 @@ function TopBar() {
       >
         <Box sx={style}>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <Typography id="modal-modal-title" variant="h6" component="h2">
+            <Typography id="modal-modal-title" variant="h4">
               How to play
             </Typography>
             <Button onClick={handleClose}>X</Button>
           </div>
 
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+          <Typography
+            variant="body2"
+            id="modal-modal-description"
+            sx={{ mt: 2 }}
+          >
             Everyday there is a new mystery US college. Your goal is to guess
             which school it is in the fewest number of guesses. Each incorrect
             guess will appear on the map with a color indicating how close it is
