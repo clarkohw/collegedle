@@ -32,8 +32,8 @@ function GuessList(props) {
     if (index === 0) {
       const difference =
         Math.round(
-          (props.collegedle["studentBody"] - guess["studentBody"]) / 100
-        ) * 100;
+          (props.collegedle["studentBody"] - guess["studentBody"]) / 10
+        ) * 10;
       return (
         "Hint: Student population is " +
         selectEmoji(difference) +
@@ -48,7 +48,9 @@ function GuessList(props) {
     } else if (index === 2) {
       //acceptance rate
       const difference =
-        props.collegedle["admissionRate"] - guess["admissionRate"];
+        Math.round(
+          (props.collegedle["admissionRate"] - guess["admissionRate"]) * 10
+        ) / 10;
       return (
         "Hint: Acceptance rate is " +
         selectEmoji(difference) +
