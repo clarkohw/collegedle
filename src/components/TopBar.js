@@ -6,14 +6,11 @@ import Modal from "@mui/material/Modal";
 import colorScale from "../images/color_scale.png";
 
 const style = {
-  paddingLeft: "20vw",
-  paddingRight: "20vw",
   bgcolor: "background.paper",
-  border: "2px solid #000",
   boxShadow: 24,
   p: 4,
-  m: 10,
   zIndex: 100,
+  maxHeight: "100vh",
 };
 
 function TopBar() {
@@ -51,7 +48,7 @@ function TopBar() {
             <Typography id="modal-modal-title" variant="h4">
               How to play
             </Typography>
-            <Button onClick={handleClose}>X</Button>
+            <Button onClick={handleClose}>❌</Button>
           </div>
 
           <Typography
@@ -72,8 +69,14 @@ function TopBar() {
               justifyContent: "center",
             }}
           >
-            <img src={colorScale} alt="Color scale"></img>
-            <Button onClick={handleClose}>play</Button>
+            <img
+              stye={{ objectFit: "contain" }}
+              src={colorScale}
+              alt="Color scale"
+            ></img>
+            <Button variant="contained" onClick={handleClose}>
+              <Typography variant="h6">Play</Typography>
+            </Button>
           </div>
         </Box>
       </Modal>
