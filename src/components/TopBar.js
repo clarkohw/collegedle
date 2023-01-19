@@ -14,7 +14,7 @@ const style = {
 };
 
 function TopBar() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
