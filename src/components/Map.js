@@ -7,10 +7,13 @@ import {
 } from "react-simple-maps";
 import "./Map.css";
 import { getColor } from "../util/color";
+import { useState } from "react";
 
 function Map(props) {
   const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
+  const defaultZoomState = { zoom: 1, center: [-97, 37] };
+  const [zoom, setZoom] = useState(defaultZoomState);
   return (
     <ComposableMap
       projection="geoAlbersUsa"
@@ -18,12 +21,13 @@ function Map(props) {
         scale: 1000,
       }}
       className="map"
+      setZoomREMOVE={setZoom}
     >
       <ZoomableGroup
         filterZoomEvent={(e) => false}
         minZoom={0.5}
-        center={[-97, 37]}
-        zoom={1}
+        center={zoom.center}
+        zoom={zoom.zoom}
       >
         <Geographies geography={geoUrl} fill="#D6D6DA" stroke="#FFFFFF">
           {({ geographies }) =>
