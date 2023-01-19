@@ -22,7 +22,7 @@ function Map(props) {
       <ZoomableGroup
         filterZoomEvent={(e) => false}
         minZoom={0.5}
-        center={[0, 0]}
+        center={[-97, 37]}
         zoom={1}
       >
         <Geographies geography={geoUrl} fill="#D6D6DA" stroke="#FFFFFF">
