@@ -44,6 +44,7 @@ function TopBar() {
             style={{
               maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
             }}
+            alt="invisible"
           />
         </Typography>
         <Typography variant="h4">
@@ -56,6 +57,7 @@ function TopBar() {
             style={{
               maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
             }}
+            alt="question mark"
           />
         </Typography>
 
