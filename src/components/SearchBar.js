@@ -93,6 +93,7 @@ function SearchBar(props) {
               variant="filled"
               // InputProps={{ disableUnderline: true }}
               style={{ borderRadius: "8px" }}
+              InputProps={{ ...params.InputProps, disableUnderline: true }}
             />
           )}
         />

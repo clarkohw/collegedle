@@ -24,11 +24,24 @@ function GuessList(props) {
   const guessComponent = (guess, index) => {
     if (guess["name"] === props.collegedle["name"]) {
       return (
-        <div className="correct-guess">
-          <Typography variant="body1">
-            <b>{guess["name"]}</b>
-          </Typography>
-        </div>
+        <Grid
+          justifyContent="space-between"
+          className="correct-guess"
+          wrap="nowrap"
+          container
+          direction="row"
+        >
+          <Grid item>
+            <Typography variant="body1">
+              <b>{guess["name"]}</b>
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant="body1">
+              <b>100%</b>
+            </Typography>
+          </Grid>
+        </Grid>
       );
     } else {
       return (
