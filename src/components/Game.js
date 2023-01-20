@@ -6,6 +6,7 @@ import collegeData from "../data/colleges.json";
 import { useState } from "react";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
+import ConfettiShower from "./ConfettiShower";
 
 function Game() {
   const [guessOptions, setGuessOptions] = useState(collegeData);
@@ -25,6 +26,7 @@ function Game() {
   return (
     <div>
       <Container maxWidth="xs">
+        <ConfettiShower run={gameState === "Won"} />
         <SearchBar
           collegedle={collegedle}
           setCollegedle={setCollegedle}
