@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import { generateTheme } from "../util/createTheme";
 import "./GuessList.css";
+import { addRem } from "../util/addrem";
 
 function GuessList(props) {
   const guessComponent = (guess, index) => {
@@ -69,12 +70,15 @@ function GuessList(props) {
 
   const renderGuessBlocks = () => {
     const blocks = [];
-    const padding = generateTheme().typography.body1.fontSize;
+    let bodyPadding = generateTheme().typography.body1.fontSize;
     for (let i = 0; i < 6 - props.guesses.length; i++) {
       blocks.push(
         <div
           key={i}
-          style={{ paddingTop: padding }}
+          style={{
+            marginBottom: addRem(bodyPadding, 0.7),
+            paddingTop: addRem(bodyPadding, 1.25),
+          }}
           className="empty-guess"
         ></div>
       );

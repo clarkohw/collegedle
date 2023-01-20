@@ -44,6 +44,7 @@ function Game() {
         style={{ marginTop: ".8em" }}
         direction={"row"}
         spacing={2}
+        alignItems="center"
       >
         <Grid item lg={6} md={6} sm={12} xs={12}>
           <Map collegedle={collegedle} guesses={guesses} />
