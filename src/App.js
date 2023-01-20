@@ -7,7 +7,7 @@ import { ThemeProvider } from "@mui/material";
 
 function App() {
   return (
-    <Container sx={{ mt: 3, mb: 3 }} maxWidth="lg">
+    <Container sx={{ mb: 3 }} maxWidth="lg">
       <ThemeProvider theme={generateTheme()}>
         <TopBar></TopBar>
         <Game />

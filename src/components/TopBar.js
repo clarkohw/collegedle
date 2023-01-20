@@ -1,10 +1,13 @@
 import { useState } from "react";
+import { addRem } from "../util/addrem";
+import { generateTheme } from "../util/createTheme";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import colorScale from "../images/color_scale.png";
 import { Grid } from "@mui/material";
+import questionMark from "../images/icons/question-mark.png";
 import { Container } from "@mui/system";
 const style = {
   bgcolor: "background.paper",
@@ -20,26 +23,42 @@ function TopBar() {
   const handleClose = () => setOpen(false);
 
   return (
-    <Container maxWidth="lg">
+    <Container
+      style={{
+        paddingLeft: 0,
+        paddingRight: 0,
+        borderBottom: "2px solid #f6f4f4",
+      }}
+      sx={{ mb: 4, mt: 1, pb: 1 }}
+    >
       <Grid
         container
         justifyContent="space-between"
         direction="row"
-        alignItems="center"
-        sx={{ mb: 2 }}
+        alignItems="end"
       >
-        <Button
-          onClick={handleOpen}
-          style={{ fontSize: "24px", visibility: "hidden" }}
-        >
-          ❓
-        </Button>
+        <Typography style={{ visibility: "hidden" }} variant="h4">
+          <img
+            onClick={handleOpen}
+            src={questionMark}
+            style={{
+              maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
+            }}
+          />
+        </Typography>
         <Typography variant="h4">
           <b>Collegedle</b>
         </Typography>
-        <Button onClick={handleOpen} style={{ fontSize: "14px" }}>
-          ❓
-        </Button>
+        <Typography variant="h4">
+          <img
+            onClick={handleOpen}
+            src={questionMark}
+            style={{
+              maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
+            }}
+          />
+        </Typography>
+
         <Modal
           open={open}
           onClose={handleClose}
