@@ -2,6 +2,7 @@ import { Typography } from "@mui/material";
 import { generateTheme } from "../util/createTheme";
 import "./GuessList.css";
 import { addRem } from "../util/addrem";
+import { Grid } from "@mui/material";
 
 function GuessList(props) {
   const guessComponent = (guess, index) => {
@@ -16,11 +17,23 @@ function GuessList(props) {
     } else {
       return (
         <div className="guess-hint">
-          <div className="guess">
-            <Typography variant="body1">
-              <b>{guess["name"]}</b>
-            </Typography>
-          </div>
+          <Grid
+            justifyContent="space-between"
+            className="guess"
+            container
+            direction="row"
+          >
+            <Grid item>
+              <Typography variant="body1">
+                <b>{guess["name"]}</b>
+              </Typography>
+            </Grid>
+            <Grid item>
+              <Typography variant="body1">
+                <b>36%</b>
+              </Typography>
+            </Grid>
+          </Grid>
           <Typography variant="body1" className="hint">
             {getHint(guess, index)}
           </Typography>
