@@ -89,11 +89,12 @@ function SearchBar(props) {
                   submitGuess();
                 }
               }}
-              label="Enter college name"
-              variant="filled"
-              // InputProps={{ disableUnderline: true }}
+              placeholder="Enter college name"
               style={{ borderRadius: "8px" }}
               InputProps={{ ...params.InputProps, disableUnderline: true }}
+              sx={{
+                "& fieldset": { border: "none" },
+              }}
             />
           )}
         />
