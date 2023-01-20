@@ -3,8 +3,24 @@ import { generateTheme } from "../util/createTheme";
 import "./GuessList.css";
 import { addRem } from "../util/addrem";
 import { Grid } from "@mui/material";
+import { getDistance } from "../util/distance";
+import { maxDistance } from "../util/constants";
 
 function GuessList(props) {
+  const getPercentage = (guess, collegedle, maxDistance) => {
+    const percent = Math.round(
+      (1 -
+        getDistance(
+          guess.latitude,
+          guess.longitude,
+          collegedle.latitude,
+          collegedle.longitude
+        ) /
+          maxDistance) *
+        100
+    );
+    return percent < 0 ? 0 : percent;
+  };
   const guessComponent = (guess, index) => {
     if (guess["name"] === props.collegedle["name"]) {
       return (
@@ -20,6 +36,7 @@ function GuessList(props) {
           <Grid
             justifyContent="space-between"
             className="guess"
+            wrap="nowrap"
             container
             direction="row"
           >
@@ -30,7 +47,7 @@ function GuessList(props) {
             </Grid>
             <Grid item>
               <Typography variant="body1">
-                <b>36%</b>
+                <b>{getPercentage(guess, props.collegedle, maxDistance)}%</b>
               </Typography>
             </Grid>
           </Grid>
@@ -41,6 +58,7 @@ function GuessList(props) {
       );
     }
   };
+
   const getHint = (guess, index) => {
     const selectEmoji = (difference) => (difference > 0 ? " ⬆️ " : " ⬇️ ");
     if (index === 0) {

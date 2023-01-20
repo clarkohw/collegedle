@@ -1,6 +1,7 @@
 import { getDistance } from "./distance";
 import { scaleSequentialSqrt } from "d3-scale";
 import { interpolateYlOrRd } from "d3-scale-chromatic";
+import { maxDistance } from "./constants";
 
 export const getColor = (guess, collegedle) => {
   const dist = getDistance(
@@ -9,7 +10,10 @@ export const getColor = (guess, collegedle) => {
     collegedle["latitude"],
     collegedle["longitude"]
   );
-  const colorScale = scaleSequentialSqrt(interpolateYlOrRd).domain([1000, 0]);
+  const colorScale = scaleSequentialSqrt(interpolateYlOrRd).domain([
+    maxDistance,
+    0,
+  ]);
   if (dist === 0) {
     return "#390";
   }
