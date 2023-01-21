@@ -64,6 +64,7 @@ function SearchBar(props) {
     >
       <div style={{ width: "100%", display: "flex" }}>
         <Autocomplete
+          filterSelectedOptions
           disabled={props.gameState !== IN_PROGRESS}
           filterOptions={filterOptions}
           fullWidth
