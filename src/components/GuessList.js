@@ -7,19 +7,15 @@ import { getDistance } from "../util/distance";
 import { maxDistance } from "../util/constants";
 
 function GuessList(props) {
-  const getPercentage = (guess, collegedle, maxDistance) => {
-    const percent = Math.round(
-      (1 -
-        getDistance(
-          guess.latitude,
-          guess.longitude,
-          collegedle.latitude,
-          collegedle.longitude
-        ) /
-          maxDistance) *
-        100
+  const getGuessDistance = (guess, collegedle, maxDistance) => {
+    return Math.round(
+      getDistance(
+        guess.latitude,
+        guess.longitude,
+        collegedle.latitude,
+        collegedle.longitude
+      )
     );
-    return percent < 0 ? 0 : percent;
   };
   const guessComponent = (guess, index) => {
     if (guess["name"] === props.collegedle["name"]) {
@@ -38,7 +34,7 @@ function GuessList(props) {
           </Grid>
           <Grid item>
             <Typography variant="body1">
-              <b>100%</b>
+              <b>0 mi</b>
             </Typography>
           </Grid>
         </Grid>
@@ -60,7 +56,9 @@ function GuessList(props) {
             </Grid>
             <Grid item>
               <Typography variant="body1">
-                <b>{getPercentage(guess, props.collegedle, maxDistance)}%</b>
+                <b>
+                  {getGuessDistance(guess, props.collegedle, maxDistance)} mi
+                </b>
               </Typography>
             </Grid>
           </Grid>
