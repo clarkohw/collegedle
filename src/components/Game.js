@@ -3,7 +3,7 @@ import namesList from "../data/college_names.json";
 import Map from "./Map";
 import GuessList from "./GuessList";
 import collegeData from "../data/colleges.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 import ConfettiShower from "./ConfettiShower";
@@ -19,10 +19,14 @@ function Game() {
     return guessOptions.find((item) => item.name === namesList[index]);
   };
   const [collegedle, setCollegedle] = useState(generateCollegedle());
-  const [guesses, setGuesses] = useState([]);
+  const [guesses, setGuesses] = useState(
+    JSON.parse(localStorage.getItem("guesses")) || []
+  );
   const [gameState, setGameState] = useState("In progress");
   const [guessCount, setGuessCount] = useState(0);
-
+  useEffect(() => {
+    localStorage.setItem("guesses", JSON.stringify(guesses));
+  });
   return (
     <div>
       <Container maxWidth="xs">
