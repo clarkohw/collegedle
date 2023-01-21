@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 import ConfettiShower from "./ConfettiShower";
+import { IN_PROGRESS, WIN } from "../util/constants";
 
 function Game() {
   const [guessOptions, setGuessOptions] = useState(collegeData);
@@ -22,22 +23,25 @@ function Game() {
   const [guesses, setGuesses] = useState(
     JSON.parse(localStorage.getItem("guesses")) || []
   );
-  const [gameState, setGameState] = useState("In progress");
-  const [guessCount, setGuessCount] = useState(0);
+  const [gameState, setGameState] = useState(
+    JSON.parse(localStorage.getItem("gameState")) || IN_PROGRESS
+  );
+  console.log(gameState);
   useEffect(() => {
     localStorage.setItem("guesses", JSON.stringify(guesses));
-  });
+  }, [guesses]);
+  useEffect(() => {
+    localStorage.setItem("gameState", JSON.stringify(gameState));
+  }, [gameState]);
   return (
     <div>
       <Container maxWidth="xs">
-        <ConfettiShower run={gameState === "Won"} />
+        <ConfettiShower run={gameState === WIN} />
         <SearchBar
           collegedle={collegedle}
           setCollegedle={setCollegedle}
           gameState={gameState}
           setGameState={setGameState}
-          guessCount={guessCount}
-          setGuessCount={setGuessCount}
           guessOptions={guessOptions}
           setGuessOptions={setGuessOptions}
           guesses={guesses}

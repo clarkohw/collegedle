@@ -4,7 +4,7 @@ import "./GuessList.css";
 import { addRem } from "../util/addrem";
 import { Grid } from "@mui/material";
 import { getDistance } from "../util/distance";
-import { maxDistance } from "../util/constants";
+import { maxDistance, MAX_GUESSES } from "../util/constants";
 
 function GuessList(props) {
   const getGuessDistance = (guess, collegedle, maxDistance) => {
@@ -113,7 +113,7 @@ function GuessList(props) {
   const renderGuessBlocks = () => {
     const blocks = [];
     let bodyPadding = generateTheme().typography.body1.fontSize;
-    for (let i = 0; i < 6 - props.guesses.length; i++) {
+    for (let i = 0; i < MAX_GUESSES - props.guesses.length; i++) {
       blocks.push(
         <div
           key={i}

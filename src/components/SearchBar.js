@@ -3,6 +3,7 @@ import { matchSorter } from "match-sorter";
 import { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import { IN_PROGRESS, LOSS, MAX_GUESSES, WIN } from "../util/constants";
 
 function SearchBar(props) {
   const initialSeachValue = {
@@ -12,7 +13,6 @@ function SearchBar(props) {
   const [searchValue, setSearchValue] = useState(initialSeachValue);
   const submitGuess = () => {
     if (searchValue["label"] !== "") {
-      props.setGuessCount(props.guessCount + 1);
       props.setGuesses([
         ...props.guesses,
         props.guessOptions[searchValue["id"]],
@@ -24,23 +24,23 @@ function SearchBar(props) {
       );
       setSearchValue(initialSeachValue);
       if (searchValue["label"] === props.collegedle["name"]) {
-        props.setGameState("Won");
+        props.setGameState(WIN);
       } else {
-        if (props.guesses.length + 1 >= 6) {
-          props.setGameState("Lost");
+        if (props.guesses.length + 1 >= MAX_GUESSES) {
+          props.setGameState(LOSS);
         }
       }
     }
   };
   const displayWinLossMessage = () => {
     let text = "";
-    if (props.gameState === "Won") {
+    if (props.gameState === WIN) {
       text = (
         <b style={{ color: "#3E9614" }}>
           You guessed today's Collegedle: {props.collegedle["name"]}
         </b>
       );
-    } else if (props.gameState === "Lost") {
+    } else if (props.gameState === LOSS) {
       text = (
         <b>
           {" "}
@@ -64,7 +64,7 @@ function SearchBar(props) {
     >
       <div style={{ width: "100%", display: "flex" }}>
         <Autocomplete
-          disabled={props.gameState !== "In progress"}
+          disabled={props.gameState !== IN_PROGRESS}
           filterOptions={filterOptions}
           fullWidth
           value={searchValue}
