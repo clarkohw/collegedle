@@ -91,7 +91,6 @@ function SearchBar(props) {
               }}
               placeholder="Enter college name"
               style={{ borderRadius: "8px" }}
-              InputProps={{ ...params.InputProps, disableUnderline: true }}
               sx={{
                 "& fieldset": { border: "none" },
               }}

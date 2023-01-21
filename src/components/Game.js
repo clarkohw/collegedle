@@ -26,7 +26,6 @@ function Game() {
   const [gameState, setGameState] = useState(
     JSON.parse(localStorage.getItem("gameState")) || IN_PROGRESS
   );
-  console.log(gameState);
   useEffect(() => {
     localStorage.setItem("guesses", JSON.stringify(guesses));
   }, [guesses]);
