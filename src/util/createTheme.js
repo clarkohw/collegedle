@@ -3,6 +3,13 @@ import { createTheme, responsiveFontSizes } from "@mui/material/styles";
 export const generateTheme = () => {
   let theme = createTheme({
     components: {
+      MuiBackdrop: {
+        styleOverrides: {
+          root: {
+            backgroundColor: "transparent",
+          },
+        },
+      },
       MuiButton: {
         styleOverrides: {
           contained: {

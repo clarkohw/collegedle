@@ -56,7 +56,6 @@ function TopBar() {
           open={open}
           onClose={handleClose}
           aria-labelledby="modal-modal-title"
-          hideBackdrop
           aria-describedby="modal-modal-description"
         >
           <Help handleClose={handleClose}></Help>
