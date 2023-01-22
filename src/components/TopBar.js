@@ -7,13 +7,6 @@ import { Grid } from "@mui/material";
 import questionMark from "../images/icons/question-mark.png";
 import { Container } from "@mui/system";
 import Help from "./Help";
-const style = {
-  bgcolor: "background.paper",
-  boxShadow: 24,
-  p: 4,
-  zIndex: 100,
-  maxHeight: "100vh",
-};
 
 function TopBar() {
   const [open, setOpen] = useState(false);
