@@ -21,10 +21,12 @@ function Game() {
   };
   const [collegedle, setCollegedle] = useState(generateCollegedle());
   const [guesses, setGuesses] = useState(
-    JSON.parse(localStorage.getItem("guesses")) || []
+    // JSON.parse(localStorage.getItem("guesses")) || []
+    []
   );
   const [gameState, setGameState] = useState(
-    JSON.parse(localStorage.getItem("gameState")) || IN_PROGRESS
+    // JSON.parse(localStorage.getItem("gameState")) || IN_PROGRESS
+    IN_PROGRESS
   );
   useEffect(() => {
     localStorage.setItem("guesses", JSON.stringify(guesses));
