@@ -11,6 +11,7 @@ function Help(props) {
       <img
         src={exit}
         onClick={props.handleClose}
+        alt={exitProps.hidden + "exit image"}
         style={{
           maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
           visibility: exitProps.hidden,
