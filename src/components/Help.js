@@ -72,14 +72,14 @@ function Help(props) {
             <ExitImage hidden="hidden"> </ExitImage>
             <Grid item>
               <Typography sx={{ m: 0, p: 0 }} variant="h4">
-                <b> HOW TO PLAY </b>
+                <b> How To Play</b>
               </Typography>
             </Grid>
             <ExitImage></ExitImage>
           </Grid>
           <Typography variant="h6">Guess the Collegedle in 6 tries.</Typography>
           <Typography variant="body1">
-            <ul>
+            <ul style={{ paddingLeft: 16 }}>
               <li>Each guess must be a valid US college.</li>
               <li>
                 The color of the dots on the map shows the distance from the
