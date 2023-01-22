@@ -7,18 +7,17 @@ import { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 import ConfettiShower from "./ConfettiShower";
-import { IN_PROGRESS, WIN } from "../util/constants";
+import { COLLEGEDLE_POOL, IN_PROGRESS, WIN } from "../util/constants";
 
 function Game() {
   const localData = JSON.parse(localStorage.getItem("collegedle"));
   const [guessOptions, setGuessOptions] = useState(collegeData);
   const gameID = Math.floor((Date.now() - new Date("01-01-2023")) / 86400000);
   const generateCollegedle = () => {
-    const softLaunch = 110;
     const today = new Date(Date.now());
     const index =
       (today.getFullYear() * (today.getDate() + today.getMonth() + 1)) %
-      softLaunch;
+      COLLEGEDLE_POOL;
     return guessOptions.find((item) => item.name === namesList[index]);
   };
   const [collegedle, setCollegedle] = useState(generateCollegedle());
