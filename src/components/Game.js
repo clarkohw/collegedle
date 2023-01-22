@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 import ConfettiShower from "./ConfettiShower";
-import { COLLEGEDLE_POOL, IN_PROGRESS, WIN } from "../util/constants";
+import { COLLEGEDLE_POOL, WIN } from "../util/constants";
 
 function Game() {
   const localData = JSON.parse(localStorage.getItem("collegedle"));
