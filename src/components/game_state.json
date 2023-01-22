@@ -1,0 +1,12 @@
+{
+  "game": {
+    "id": "**Days from Jan 1st 2023",
+    "status": 0,
+    "guesses": [
+      {
+        "name": "Harvard University",
+        "distance": 1000
+      }
+    ]
+  }
+}
