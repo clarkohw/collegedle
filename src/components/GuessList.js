@@ -3,20 +3,9 @@ import { generateTheme } from "../util/createTheme";
 import "./GuessList.css";
 import { addRem } from "../util/addrem";
 import { Grid } from "@mui/material";
-import { getDistance } from "../util/distance";
-import { maxDistance, MAX_GUESSES } from "../util/constants";
+import { MAX_GUESSES } from "../util/constants";
 
 function GuessList(props) {
-  const getGuessDistance = (guess, collegedle, maxDistance) => {
-    return Math.round(
-      getDistance(
-        guess.latitude,
-        guess.longitude,
-        collegedle.latitude,
-        collegedle.longitude
-      )
-    );
-  };
   const guessComponent = (guess, index) => {
     if (guess["name"] === props.collegedle["name"]) {
       return (
@@ -56,9 +45,7 @@ function GuessList(props) {
             </Grid>
             <Grid item>
               <Typography variant="body1">
-                <b>
-                  {getGuessDistance(guess, props.collegedle, maxDistance)} mi
-                </b>
+                <b>{guess["distance"]} mi</b>
               </Typography>
             </Grid>
           </Grid>

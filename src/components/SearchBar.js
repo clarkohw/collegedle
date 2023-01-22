@@ -18,9 +18,7 @@ function SearchBar(props) {
       props.setGuesses([
         ...props.guesses,
         {
-          name: guess["name"],
-          latitude: guess["latitude"],
-          longitude: guess["longitude"],
+          ...guess,
           distance: Math.round(
             getDistance(
               guess["latitude"],
