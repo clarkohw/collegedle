@@ -10,7 +10,9 @@ import ConfettiShower from "./ConfettiShower";
 import { IN_PROGRESS, WIN } from "../util/constants";
 
 function Game() {
+  const localData = JSON.parse(localStorage.getItem("collegedle"));
   const [guessOptions, setGuessOptions] = useState(collegeData);
+  const gameID = Math.floor((Date.now() - new Date("01-01-2023")) / 86400000);
   const generateCollegedle = () => {
     const softLaunch = 110;
     const today = new Date(Date.now());
@@ -20,20 +22,27 @@ function Game() {
     return guessOptions.find((item) => item.name === namesList[index]);
   };
   const [collegedle, setCollegedle] = useState(generateCollegedle());
+  const resetState = localData["game"]["id"] !== gameID;
   const [guesses, setGuesses] = useState(
-    // JSON.parse(localStorage.getItem("guesses")) || []
-    []
+    resetState ? [] : localData["game"]["guesses"] || []
   );
   const [gameState, setGameState] = useState(
-    // JSON.parse(localStorage.getItem("gameState")) || IN_PROGRESS
-    IN_PROGRESS
+    resetState ? IN_PROGRESS : localData["game"]["status"] || 0
   );
+
   useEffect(() => {
-    localStorage.setItem("guesses", JSON.stringify(guesses));
-  }, [guesses]);
-  useEffect(() => {
-    localStorage.setItem("gameState", JSON.stringify(gameState));
-  }, [gameState]);
+    localStorage.setItem(
+      "collegedle",
+      JSON.stringify({
+        game: {
+          id: gameID,
+          guesses: guesses,
+          status: gameState,
+        },
+      })
+    );
+  }, [guesses, gameState]);
+
   return (
     <div>
       <Container maxWidth="xs">
