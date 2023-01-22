@@ -22,12 +22,12 @@ function Game() {
     return guessOptions.find((item) => item.name === namesList[index]);
   };
   const [collegedle, setCollegedle] = useState(generateCollegedle());
-  const resetState = localData["game"]["id"] !== gameID;
+  const resetState = !localData || localData["game"]["id"] !== gameID;
   const [guesses, setGuesses] = useState(
-    resetState ? [] : localData["game"]["guesses"] || []
+    resetState ? [] : localData["game"]["guesses"]
   );
   const [gameState, setGameState] = useState(
-    resetState ? IN_PROGRESS : localData["game"]["status"] || 0
+    resetState ? 0 : localData["game"]["status"]
   );
 
   useEffect(() => {
@@ -41,7 +41,7 @@ function Game() {
         },
       })
     );
-  }, [guesses, gameState]);
+  }, [gameID, guesses, gameState]);
 
   return (
     <div>
