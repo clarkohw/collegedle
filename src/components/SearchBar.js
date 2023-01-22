@@ -4,6 +4,7 @@ import { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { IN_PROGRESS, LOSS, MAX_GUESSES, WIN } from "../util/constants";
+import { getDistance } from "../util/distance";
 
 function SearchBar(props) {
   const initialSeachValue = {
@@ -13,9 +14,22 @@ function SearchBar(props) {
   const [searchValue, setSearchValue] = useState(initialSeachValue);
   const submitGuess = () => {
     if (searchValue["label"] !== "") {
+      const guess = props.guessOptions[searchValue["id"]];
       props.setGuesses([
         ...props.guesses,
-        props.guessOptions[searchValue["id"]],
+        {
+          name: guess["name"],
+          latitude: guess["latitude"],
+          longitude: guess["longitude"],
+          distance: Math.round(
+            getDistance(
+              guess["latitude"],
+              guess["longitude"],
+              props.collegedle["latitude"],
+              props.collegedle["longitude"]
+            )
+          ),
+        },
       ]);
       props.setGuessOptions(
         props.guessOptions.filter(
