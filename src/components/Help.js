@@ -8,15 +8,24 @@ import { generateTheme } from "../util/createTheme";
 function Help(props) {
   const ExitImage = (exitProps) => (
     <Grid sx={{ pt: 0.5 }} item>
-      <img
-        src={exit}
-        onClick={props.handleClose}
-        alt={exitProps.hidden + "exit image"}
+      <button
         style={{
-          maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
-          visibility: exitProps.hidden,
+          backgroundColor: "transparent",
+          cursor: "pointer",
+          stroke: "none",
+          border: "none",
         }}
-      />
+        onClick={props.handleClose}
+      >
+        <img
+          src={exit}
+          alt={exitProps.hidden + "exit image"}
+          style={{
+            maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
+            visibility: exitProps.hidden,
+          }}
+        />
+      </button>
     </Grid>
   );
 

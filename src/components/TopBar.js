@@ -52,16 +52,25 @@ function TopBar() {
         <Typography variant="h4">
           <b>Collegedle</b>
         </Typography>
-        <Typography variant="h4">
-          <img
-            onClick={handleOpen}
-            src={questionMark}
-            style={{
-              maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
-            }}
-            alt="question mark"
-          />
-        </Typography>
+        <button
+          style={{
+            backgroundColor: "transparent",
+            cursor: "pointer",
+            stroke: "none",
+            border: "none",
+          }}
+          onClick={handleOpen}
+        >
+          <Typography variant="h4">
+            <img
+              src={questionMark}
+              style={{
+                maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
+              }}
+              alt="question mark"
+            />
+          </Typography>
+        </button>
 
         <Modal
           open={open}
