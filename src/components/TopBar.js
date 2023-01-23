@@ -9,7 +9,18 @@ import { Container } from "@mui/system";
 import Help from "./Help";
 
 function TopBar() {
-  const [open, setOpen] = useState(false);
+  const isNewPlayer = () => {
+    const localData = JSON.parse(localStorage.getItem("collegedle"));
+    if (localData) {
+      try {
+        return localData["game"]["timestamps"]["lastPlayed"] === null;
+      } catch {
+        return true;
+      }
+    }
+    return true;
+  };
+  const [open, setOpen] = useState(isNewPlayer());
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 

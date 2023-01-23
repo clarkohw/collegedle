@@ -37,6 +37,9 @@ function Game() {
           id: gameID,
           guesses: guesses,
           status: gameState,
+          timestamps: {
+            lastPlayed: Date.now(),
+          },
         },
       })
     );
