@@ -67,7 +67,7 @@ function Help(props) {
             justifyContent="space-between"
             alignItems="center"
             container
-            sx={{ py: 1 }}
+            sx={{ pb: 1, pt: 2 }}
           >
             <ExitImage hidden="hidden"> </ExitImage>
             <Grid item>
