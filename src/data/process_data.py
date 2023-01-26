@@ -8,15 +8,21 @@ college_names = json.load(f)
 f.close()
 
 def get_locale(code):
-    if 11 >= code <= 13:
-        return "City"
-    if 21 >= code <= 23:
-        return "Suburb"
-    if 31 >= code <= 33:
-        return "Town"
-    if 41 >= code <= 43:
-        return "Rural" 
-    
+    key = {
+        11: "City: Large",
+        12: "City: Midsize",
+        13: "City: Small",
+        21: "Suburb: Large",
+        22: "Suburb: Midsize",
+        23: "Subrub: Small",
+        31: "Town: Fringe",
+        32: "Town: Distant",
+        33: "Town Remote",
+        41: "Rural: Fringe",
+        42: "Rural: Distant",
+        43: "Rural: Remote"
+    }
+    return key[code] 
 def convert_df_to_json(df):
     res = []
     for _index, row in df.iterrows():
