@@ -9,11 +9,12 @@ import { Container } from "@mui/system";
 import ConfettiShower from "./ConfettiShower";
 import { COLLEGEDLE_POOL, WIN } from "../util/constants";
 import TopBar from "./TopBar";
+import moment from "moment";
 
 function Game() {
   const localData = JSON.parse(localStorage.getItem("collegedle"));
   const [guessOptions, setGuessOptions] = useState(collegeData);
-  const gameID = Math.floor((Date.now() - new Date("01-01-2023")) / 86400000);
+  const gameID = Math.floor((moment() - moment("20230101")) / 86400000);
   const generateCollegedle = () => {
     const today = new Date(Date.now());
     const index =
