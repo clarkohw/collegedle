@@ -5,8 +5,13 @@ import { addRem } from "../util/addrem";
 import { generateTheme } from "../util/createTheme";
 import Countdown from "react-countdown";
 import { getNextDate, shareText } from "../util/share";
+import Alert from "./Alert";
+import { useState } from "react";
+import ShareIcon from "@mui/icons-material/Share";
 
 function Share(props) {
+  const [showCopyAlert, setShowCopyAlert] = useState(false);
+
   const ExitImage = (exitProps) => (
     <Grid sx={{ pt: 0.5 }} item>
       <button
@@ -37,7 +42,9 @@ function Share(props) {
         style={{ height: "100vh" }}
         direction="column"
         justifyContent="center"
+        alignItems="center"
       >
+        <Alert message={"Copied to cliboard"} showFade={showCopyAlert} />
         <Box
           style={{
             backgroundColor: "white",
@@ -62,17 +69,23 @@ function Share(props) {
             </Grid>
             <ExitImage></ExitImage>
           </Grid>
-          <Grid container direction="column" alignItems="center">
+          <Grid rowGap={2} container direction="column" alignItems="center">
             <Typography variant="body1" align="center">
               Next Collegedle in...
               <Countdown daysInHours={true} date={getNextDate()}></Countdown>
             </Typography>
             <Button
+              variant="contained"
               onClick={() =>
-                shareText(props.gameID, props.guesses, props.gameStatus)
+                shareText(
+                  props.gameID,
+                  props.guesses,
+                  props.gameStatus,
+                  (shown) => setShowCopyAlert(shown)
+                )
               }
             >
-              Share
+              Share <ShareIcon></ShareIcon>
             </Button>
           </Grid>
         </Box>

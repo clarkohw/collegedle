@@ -1,15 +1,19 @@
-import { WIN } from "./constants";
+import { ALERT_TIME_MS, WIN } from "./constants";
 //array of guess objects (name, distance) => string
 //gameID
 //status of the game (1 =win, 2=loss)
-export const shareText = (gameID, guesses, status) => {
+export const shareText = (gameID, guesses, status, setShareModalOpen) => {
   const textToShare = createShareText(gameID, guesses, status);
   const shareData = { text: textToShare };
-  console.log(shareData);
-  if (navigator.canShare(shareData)) {
+  if (navigator.canShare && navigator.canShare(shareData)) {
     navigator.share(shareData);
   } else {
-    navigator.clipboard.writeText(textToShare);
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(textToShare).then(() => {
+        setShareModalOpen(true);
+        setTimeout(() => setShareModalOpen(false), ALERT_TIME_MS);
+      });
+    }
   }
 };
 
