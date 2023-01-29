@@ -67,6 +67,7 @@ function Help(props) {
             backgroundColor: "white",
             boxShadow: "0 4px 23px 0 rgb(0 0 0 / 20%)",
             borderRadius: "8px",
+            overflow: "scroll",
           }}
           sx={{ mb: 2, px: 4, pb: 2 }}
           className="modal"

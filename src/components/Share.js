@@ -86,7 +86,8 @@ function Share(props) {
                   props.gameID,
                   props.guesses,
                   props.gameStatus,
-                  (shown) => setShowCopyAlert(shown)
+                  (shown) => setShowCopyAlert(shown),
+                  (shown) => setShowCopyFailure(shown)
                 )
               }
             >
