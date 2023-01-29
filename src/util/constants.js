@@ -5,3 +5,4 @@ export const WIN = 1;
 export const LOSS = 2;
 export const COLLEGEDLE_POOL = 110;
 export const ALERT_TIME_MS = 2000;
+export const OVERRIDE_COLLEGEDLE = 0;

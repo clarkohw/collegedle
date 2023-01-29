@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 import ConfettiShower from "./ConfettiShower";
-import { COLLEGEDLE_POOL, WIN } from "../util/constants";
+import { COLLEGEDLE_POOL, OVERRIDE_COLLEGEDLE, WIN } from "../util/constants";
 import TopBar from "./TopBar";
 import moment from "moment";
 
@@ -17,9 +17,10 @@ function Game() {
   const gameID = Math.floor((moment() - moment("20230101")) / 86400000);
   const generateCollegedle = () => {
     const today = new Date(Date.now());
-    const index =
-      (today.getFullYear() * (today.getDate() + today.getMonth() + 1)) %
-      COLLEGEDLE_POOL;
+    const index = OVERRIDE_COLLEGEDLE
+      ? OVERRIDE_COLLEGEDLE
+      : (today.getFullYear() * (today.getDate() + today.getMonth() + 1)) %
+        COLLEGEDLE_POOL;
     return guessOptions.find((item) => item.name === namesList[index]);
   };
   const [collegedle, setCollegedle] = useState(generateCollegedle());
