@@ -31,11 +31,11 @@ function TopBar(props) {
     props.gameStatus !== IN_PROGRESS
   );
   const handleShareModalClose = () => setShareModalOpen(false);
-  const handleShareModalOpen = () => setShareModalOpen(true);
+  // const handleShareModalOpen = () => setShareModalOpen(true);
 
   useEffect(() => {
     setShareModalOpen(props.gameStatus !== IN_PROGRESS);
-  });
+  }, [props.gameStatus]);
 
   return (
     <Container
@@ -99,7 +99,12 @@ function TopBar(props) {
           aria-labelledby="Sharing modal"
           aria-describedby="A modal to share game results"
         >
-          <Share handleClose={handleShareModalClose}></Share>
+          <Share
+            gameID={props.gameID}
+            gameStatus={props.gameStatus}
+            guesses={props.guesses}
+            handleClose={handleShareModalClose}
+          ></Share>
         </Modal>
       </Grid>
     </Container>

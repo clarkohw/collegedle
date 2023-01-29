@@ -48,7 +48,7 @@ function Game() {
 
   return (
     <div>
-      <TopBar gameStatus={gameState}></TopBar>
+      <TopBar gameStatus={gameState} gameID={gameID} guesses={guesses}></TopBar>
       <Container maxWidth="xs">
         <ConfettiShower run={gameState === WIN} />
         <SearchBar

@@ -1,8 +1,10 @@
 import { Container } from "@mui/system";
-import { Grid, Box, Typography } from "@mui/material";
+import { Grid, Box, Typography, Button } from "@mui/material";
 import exit from "../images/icons/exit.png";
 import { addRem } from "../util/addrem";
 import { generateTheme } from "../util/createTheme";
+import Countdown from "react-countdown";
+import { getNextDate, shareText } from "../util/share";
 
 function Share(props) {
   const ExitImage = (exitProps) => (
@@ -34,7 +36,7 @@ function Share(props) {
         container
         style={{ height: "100vh" }}
         direction="column"
-        justifyContent="end"
+        justifyContent="center"
       >
         <Box
           style={{
@@ -60,7 +62,17 @@ function Share(props) {
             </Grid>
             <ExitImage></ExitImage>
           </Grid>
-          <Typography variant="h6">Next Collegedle in...</Typography>
+          <Typography variant="body1" align="center">
+            Next Collegedle in...
+            <Countdown daysInHours={true} date={getNextDate()}></Countdown>
+          </Typography>
+          <Button
+            onClick={() =>
+              shareText(props.gameID, props.guesses, props.gameStatus)
+            }
+          >
+            Share
+          </Button>
         </Box>
       </Grid>
     </Container>
