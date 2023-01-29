@@ -57,7 +57,7 @@ function Share(props) {
             <ExitImage hidden="hidden"> </ExitImage>
             <Grid item>
               <Typography sx={{ m: 0, p: 0 }} variant="h4">
-                <b> Statistics </b>
+                <b> Statistics </b> (WIP)
               </Typography>
             </Grid>
             <ExitImage></ExitImage>

@@ -4,8 +4,10 @@ import { WIN } from "./constants";
 //status of the game (1 =win, 2=loss)
 export const shareText = (gameID, guesses, status) => {
   const textToShare = createShareText(gameID, guesses, status);
-  if (navigator.canShare) {
-    navigator.share({ text: textToShare });
+  const shareData = { text: textToShare };
+  console.log(shareData);
+  if (navigator.canShare(shareData)) {
+    navigator.share(shareData);
   } else {
     navigator.clipboard.writeText(textToShare);
   }
