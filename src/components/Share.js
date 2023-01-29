@@ -62,17 +62,19 @@ function Share(props) {
             </Grid>
             <ExitImage></ExitImage>
           </Grid>
-          <Typography variant="body1" align="center">
-            Next Collegedle in...
-            <Countdown daysInHours={true} date={getNextDate()}></Countdown>
-          </Typography>
-          <Button
-            onClick={() =>
-              shareText(props.gameID, props.guesses, props.gameStatus)
-            }
-          >
-            Share
-          </Button>
+          <Grid container direction="column" alignItems="center">
+            <Typography variant="body1" align="center">
+              Next Collegedle in...
+              <Countdown daysInHours={true} date={getNextDate()}></Countdown>
+            </Typography>
+            <Button
+              onClick={() =>
+                shareText(props.gameID, props.guesses, props.gameStatus)
+              }
+            >
+              Share
+            </Button>
+          </Grid>
         </Box>
       </Grid>
     </Container>
