@@ -50,7 +50,7 @@ function Help(props) {
             borderRadius: "8px",
             overflow: "scroll",
           }}
-          sx={{ mb: 2, px: 4, pb: 2, mt: 10 }}
+          sx={{ mb: 2, px: 4, pb: 4, mt: 10 }}
           className="modal"
         >
           <Grid
@@ -104,7 +104,7 @@ function Help(props) {
             src={correctGuessGif}
           />
           <Divider sx={{ my: 2 }} />
-          <Typography variant="body1">
+          <Typography sx={{ py: 2 }} variant="body1">
             Have feedback? Email me at collegedle17@gmail.com
           </Typography>
         </Box>
