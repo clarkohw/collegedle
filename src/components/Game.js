@@ -8,6 +8,7 @@ import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 import ConfettiShower from "./ConfettiShower";
 import { COLLEGEDLE_POOL, WIN } from "../util/constants";
+import TopBar from "./TopBar";
 
 function Game() {
   const localData = JSON.parse(localStorage.getItem("collegedle"));
@@ -47,6 +48,7 @@ function Game() {
 
   return (
     <div>
+      <TopBar gameStatus={gameState}></TopBar>
       <Container maxWidth="xs">
         <ConfettiShower run={gameState === WIN} />
         <SearchBar

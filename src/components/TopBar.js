@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { addRem } from "../util/addrem";
 import { generateTheme } from "../util/createTheme";
 import Typography from "@mui/material/Typography";
@@ -7,8 +7,10 @@ import { Grid } from "@mui/material";
 import questionMark from "../images/icons/question-mark.png";
 import { Container } from "@mui/system";
 import Help from "./Help";
+import Share from "./Share";
+import { IN_PROGRESS } from "../util/constants";
 
-function TopBar() {
+function TopBar(props) {
   const isNewPlayer = () => {
     const localData = JSON.parse(localStorage.getItem("collegedle"));
     if (localData) {
@@ -20,9 +22,20 @@ function TopBar() {
     }
     return true;
   };
+
   const [open, setOpen] = useState(isNewPlayer());
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+  const [shareModalOpen, setShareModalOpen] = useState(
+    props.gameStatus !== IN_PROGRESS
+  );
+  const handleShareModalClose = () => setShareModalOpen(false);
+  const handleShareModalOpen = () => setShareModalOpen(true);
+
+  useEffect(() => {
+    setShareModalOpen(props.gameStatus !== IN_PROGRESS);
+  });
 
   return (
     <Container
@@ -79,6 +92,14 @@ function TopBar() {
           aria-describedby="modal-modal-description"
         >
           <Help handleClose={handleClose}></Help>
+        </Modal>
+        <Modal
+          open={shareModalOpen}
+          onClose={handleShareModalClose}
+          aria-labelledby="Sharing modal"
+          aria-describedby="A modal to share game results"
+        >
+          <Share handleClose={handleShareModalClose}></Share>
         </Modal>
       </Grid>
     </Container>
