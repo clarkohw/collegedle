@@ -11,6 +11,7 @@ import ShareIcon from "@mui/icons-material/Share";
 
 function Share(props) {
   const [showCopyAlert, setShowCopyAlert] = useState(false);
+  const [showCopyFailure, setShowCopyFailure] = useState(false);
 
   const ExitImage = (exitProps) => (
     <Grid sx={{ pt: 0.5 }} item>
@@ -44,7 +45,11 @@ function Share(props) {
         justifyContent="center"
         alignItems="center"
       >
-        <Alert message={"Copied to cliboard"} showFade={showCopyAlert} />
+        <Alert message={"Copied to clipboard"} showFade={showCopyAlert} />
+        <Alert
+          message={"Failed to copy to clipboard"}
+          showFade={showCopyFailure}
+        />
         <Box
           style={{
             backgroundColor: "white",

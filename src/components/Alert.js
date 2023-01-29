@@ -10,6 +10,7 @@ function Alert(props) {
           padding: "5px",
           borderRadius: "8px",
           maxWidth: "200px",
+          position: "absolute",
         }}
         align="center"
         variant="body1"

@@ -17,10 +17,33 @@ export const shareText = (gameID, guesses, status, setShareModalOpen) => {
   }
 };
 
-export const createShareText = (gameID, guesses, status) => {
+const createShareText = (gameID, guesses, status) => {
   let outputString = "Collegedle " + gameID + " ";
   outputString += (status === WIN ? guesses.length : "X") + "/6\n";
+  outputString += generateEmojiBlocks(guesses);
+  outputString += "\nhttps://collegedle.com/";
   return outputString;
+};
+
+const generateEmojiBlocks = (guesses) => {
+  return guesses
+    .map((guess) => mapDistanceToEmoji(guess.distance).repeat(5))
+    .join("\n");
+};
+
+const mapDistanceToEmoji = (distance) => {
+  const emojiTiles = ["🟩", "🟥", "🟧", "🟨", "⬜"];
+  if (distance === 0) {
+    return emojiTiles[0];
+  } else if (distance > 0 && distance <= 50) {
+    return emojiTiles[1];
+  } else if (distance > 50 && distance <= 250) {
+    return emojiTiles[2];
+  } else if (distance > 250 && distance <= 750) {
+    return emojiTiles[3];
+  } else if (distance > 750) {
+    return emojiTiles[4];
+  }
 };
 
 export const getNextDate = () => {
