@@ -8,7 +8,6 @@ export const shareText = (gameID, guesses, status) => {
     navigator.share({ text: textToShare });
   } else {
     navigator.clipboard.writeText(textToShare);
-    alert("Coppied to clipboard");
   }
 };
 
