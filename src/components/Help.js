@@ -4,6 +4,12 @@ import { Box, Container } from "@mui/system";
 import exit from "../images/icons/exit.png";
 import { addRem } from "../util/addrem";
 import { generateTheme } from "../util/createTheme";
+import Divider from "@mui/material/Divider";
+import searchBarGif from "../images/search-bar.gif";
+import guessMapGif from "../images/guess-map.gif";
+import guessInfoGif from "../images/guess-info.gif";
+import correctGuessGif from "../images/correct-guess.gif";
+import "./Help.css";
 
 function Help(props) {
   const ExitImage = (exitProps) => (
@@ -29,31 +35,6 @@ function Help(props) {
     </Grid>
   );
 
-  const Dot = (props) => (
-    <Grid item xs={6}>
-      <Grid
-        container
-        direction="column"
-        justifyContent="center"
-        alignItems="center"
-      >
-        <svg height={50} width={50}>
-          <circle
-            r={10}
-            cx={25}
-            cy={25}
-            strokeWidth={2}
-            stroke="black"
-            fill={props.color}
-          />
-        </svg>
-        <Typography align="center" variant="body2">
-          {props.text}
-        </Typography>
-      </Grid>
-    </Grid>
-  );
-
   return (
     <Container maxWidth="xs">
       <Grid
@@ -69,7 +50,7 @@ function Help(props) {
             borderRadius: "8px",
             overflow: "scroll",
           }}
-          sx={{ mb: 2, px: 4, pb: 2 }}
+          sx={{ mb: 2, px: 4, pb: 2, mt: 10 }}
           className="modal"
         >
           <Grid
@@ -101,17 +82,31 @@ function Help(props) {
               The guess will also appear in the guess list with a distance from
               the mystery school.
             </p>
-            <p>
-              For example, if the mystery college was Stanford University. The
-              following markers might appear on the map.
-            </p>
           </Typography>
-          <Grid container alignItems="center" justifyContent={"center"}>
-            <Dot color="#FCEEAB" text="Brown University"></Dot>
-            <Dot color="#EEC14E" text="University of Washington"></Dot>
-            <Dot color="#EE8F4E" text="University of Southern California"></Dot>
-            <Dot color="#D74031" text="University of California-Berkeley"></Dot>
-          </Grid>
+          <Typography sx={{ mt: 2 }}>
+            <b>Make your guess:</b>
+          </Typography>
+          <img className="tutorial-gif" alt="seach bar" src={searchBarGif} />
+          <Typography sx={{ mt: 2 }}>
+            <b>Your guess appears on the map</b>
+          </Typography>
+          <img className="tutorial-gif" alt="guess on map" src={guessMapGif} />
+          <Typography sx={{ mt: 2 }}>
+            <b>And in the guess list</b>
+          </Typography>
+          <img className="tutorial-gif" alt="guess info" src={guessInfoGif} />
+          <Typography sx={{ mt: 2 }}>
+            <b>Solve the puzzle!</b>
+          </Typography>
+          <img
+            className="tutorial-gif"
+            alt="correct guess"
+            src={correctGuessGif}
+          />
+          <Divider sx={{ my: 2 }} />
+          <Typography variant="body1">
+            Have feedback? Email me at collegedle17@gmail.com
+          </Typography>
         </Box>
       </Grid>
     </Container>
