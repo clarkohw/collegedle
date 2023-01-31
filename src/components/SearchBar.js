@@ -44,6 +44,7 @@ function SearchBar(props) {
       } else {
         if (props.guesses.length + 1 >= MAX_GUESSES) {
           props.setGameState(LOSS);
+          gaEventTracker("Loss");
         }
       }
     }
