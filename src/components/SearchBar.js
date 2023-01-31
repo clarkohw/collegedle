@@ -5,8 +5,11 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { IN_PROGRESS, LOSS, MAX_GUESSES, WIN } from "../util/constants";
 import { getDistance } from "../util/distance";
+import { useAnalyticsEventTracker } from "../util/googleAnalytics";
 
 function SearchBar(props) {
+  const gaEventTracker = useAnalyticsEventTracker();
+
   const initialSeachValue = {
     label: "",
     id: 999,
@@ -37,6 +40,7 @@ function SearchBar(props) {
       setSearchValue(initialSeachValue);
       if (searchValue["label"] === props.collegedle["name"]) {
         props.setGameState(WIN);
+        gaEventTracker("Win");
       } else {
         if (props.guesses.length + 1 >= MAX_GUESSES) {
           props.setGameState(LOSS);
