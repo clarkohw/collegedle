@@ -8,6 +8,7 @@ import { useEffect } from "react";
 
 function App() {
   ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
+  console.log("devlog", process.env.REACT_APP_TRACKING_ID);
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
