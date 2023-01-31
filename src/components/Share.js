@@ -55,8 +55,11 @@ function Share(props) {
             backgroundColor: "white",
             boxShadow: "0 4px 23px 0 rgb(0 0 0 / 20%)",
             borderRadius: "8px",
+            paddingLeft: "4px",
+            paddingRight: "4px",
           }}
-          sx={{ mb: 2, px: 4, pb: 2 }}
+          pb={4}
+          width="100%"
           className="modal"
         >
           <Grid
@@ -69,7 +72,7 @@ function Share(props) {
             <ExitImage hidden="hidden"> </ExitImage>
             <Grid item>
               <Typography sx={{ m: 0, p: 0 }} variant="h4">
-                <b> Statistics </b> (WIP)
+                <b> Statistics </b>
               </Typography>
             </Grid>
             <ExitImage></ExitImage>
