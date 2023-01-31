@@ -10,6 +10,7 @@ function GuessList(props) {
     if (guess["name"] === props.collegedle["name"]) {
       return (
         <Grid
+          key="collegedle"
           justifyContent="space-between"
           className="correct-guess"
           wrap="nowrap"
@@ -32,6 +33,7 @@ function GuessList(props) {
       return (
         <div className="guess-hint">
           <Grid
+            key={index}
             justifyContent="space-between"
             className="guess"
             wrap="nowrap"
