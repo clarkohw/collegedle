@@ -9,6 +9,7 @@ import { Container } from "@mui/system";
 import Help from "./Help";
 import Share from "./Share";
 import { IN_PROGRESS } from "../util/constants";
+import graphEmoji from "../images/icons/graph-emoji.png";
 
 function TopBar(props) {
   const isNewPlayer = () => {
@@ -52,16 +53,25 @@ function TopBar(props) {
         direction="row"
         alignItems="end"
       >
-        <Typography style={{ visibility: "hidden" }} variant="h4">
-          <img
-            onClick={handleOpen}
-            src={questionMark}
-            style={{
-              maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
-            }}
-            alt="invisible"
-          />
-        </Typography>
+        <button
+          style={{
+            backgroundColor: "transparent",
+            cursor: "pointer",
+            stroke: "none",
+            border: "none",
+          }}
+          onClick={() => setShareModalOpen(true)}
+        >
+          <Typography variant="h4">
+            <img
+              src={graphEmoji}
+              style={{
+                maxHeight: addRem(generateTheme().typography.h4.fontSize, -0.5),
+              }}
+              alt="question mark"
+            />
+          </Typography>
+        </button>
         <Typography variant="h4">
           <b>Collegedle</b>
         </Typography>
