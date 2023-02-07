@@ -8,6 +8,7 @@ import { getNextDate, shareText } from "../util/share";
 import Alert from "./Alert";
 import { useState } from "react";
 import ShareIcon from "@mui/icons-material/Share";
+import { IN_PROGRESS } from "../util/constants";
 
 function Share(props) {
   const [showCopyAlert, setShowCopyAlert] = useState(false);
@@ -55,8 +56,6 @@ function Share(props) {
             backgroundColor: "white",
             boxShadow: "0 4px 23px 0 rgb(0 0 0 / 20%)",
             borderRadius: "8px",
-            paddingLeft: "4px",
-            paddingRight: "4px",
           }}
           pb={4}
           width="100%"
@@ -77,26 +76,31 @@ function Share(props) {
             </Grid>
             <ExitImage></ExitImage>
           </Grid>
-          <Grid rowGap={2} container direction="column" alignItems="center">
-            <Typography variant="body1" align="center">
-              Next Collegedle in...
-              <Countdown daysInHours={true} date={getNextDate()}></Countdown>
-            </Typography>
-            <Button
-              variant="contained"
-              onClick={() =>
-                shareText(
-                  props.gameID,
-                  props.guesses,
-                  props.gameStatus,
-                  (shown) => setShowCopyAlert(shown),
-                  (shown) => setShowCopyFailure(shown)
-                )
-              }
-            >
-              Share <ShareIcon></ShareIcon>
-            </Button>
-          </Grid>
+          {props.gameStatus === IN_PROGRESS ? (
+            <div>Statistics are a WIP</div>
+          ) : (
+            <Grid rowGap={2} container direction="column" alignItems="center">
+              {" "}
+              <Typography variant="body1" align="center">
+                Next Collegedle in...
+                <Countdown daysInHours={true} date={getNextDate()}></Countdown>
+              </Typography>
+              <Button
+                variant="contained"
+                onClick={() =>
+                  shareText(
+                    props.gameID,
+                    props.guesses,
+                    props.gameStatus,
+                    (shown) => setShowCopyAlert(shown),
+                    (shown) => setShowCopyFailure(shown)
+                  )
+                }
+              >
+                Share <ShareIcon></ShareIcon>
+              </Button>
+            </Grid>
+          )}
         </Box>
       </Grid>
     </Container>
