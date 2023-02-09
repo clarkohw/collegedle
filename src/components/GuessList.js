@@ -3,7 +3,7 @@ import { generateTheme } from "../util/createTheme";
 import "./GuessList.css";
 import { addRem } from "../util/addrem";
 import { Grid } from "@mui/material";
-import { useSprings, animated } from "react-spring";
+import { animated } from "react-spring";
 import { MAX_GUESSES } from "../util/constants";
 
 function GuessList(props) {
