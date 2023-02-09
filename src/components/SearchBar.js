@@ -38,6 +38,7 @@ function SearchBar(props) {
         )
       );
       setSearchValue(initialSeachValue);
+      props.animateSprings();
       if (searchValue["label"] === props.collegedle["name"]) {
         props.setGameState(WIN);
         gaEventTracker("Win");

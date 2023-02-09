@@ -10,6 +10,7 @@ import ConfettiShower from "./ConfettiShower";
 import { COLLEGEDLE_POOL, OVERRIDE_COLLEGEDLE, WIN } from "../util/constants";
 import TopBar from "./TopBar";
 import moment from "moment";
+import { useSprings } from "react-spring";
 
 function Game() {
   const localData = JSON.parse(localStorage.getItem("collegedle"));
@@ -30,6 +31,20 @@ function Game() {
   );
   const [gameState, setGameState] = useState(
     resetState ? 0 : localData["game"]["status"]
+  );
+
+  const springFunction = (index) => ({
+    from: { value: 0 },
+    to: { value: guesses[index]["distance"] },
+    config: {
+      tension: 60,
+    },
+  });
+
+  const [springs, api] = useSprings(
+    guesses.length,
+    (index) => springFunction(index),
+    [guesses]
   );
 
   useEffect(() => {
@@ -54,6 +69,7 @@ function Game() {
       <Container maxWidth="xs">
         <ConfettiShower run={gameState === WIN} />
         <SearchBar
+          animateSprings={api.start((index) => springFunction(index), [])}
           collegedle={collegedle}
           setCollegedle={setCollegedle}
           gameState={gameState}
@@ -76,7 +92,11 @@ function Game() {
           <Map collegedle={collegedle} guesses={guesses} />
         </Grid>
         <Grid item lg={6} md={6} sm={12} xs={12}>
-          <GuessList collegedle={collegedle} guesses={guesses} />
+          <GuessList
+            springs={springs}
+            collegedle={collegedle}
+            guesses={guesses}
+          />
         </Grid>
       </Grid>
     </div>

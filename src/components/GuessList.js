@@ -3,6 +3,7 @@ import { generateTheme } from "../util/createTheme";
 import "./GuessList.css";
 import { addRem } from "../util/addrem";
 import { Grid } from "@mui/material";
+import { useSprings, animated } from "react-spring";
 import { MAX_GUESSES } from "../util/constants";
 
 function GuessList(props) {
@@ -47,7 +48,10 @@ function GuessList(props) {
             </Grid>
             <Grid item>
               <Typography variant="body1">
-                <b>{guess["distance"]} mi</b>
+                <animated.b>
+                  {props.springs[index].value.to((val) => Math.floor(val))}
+                </animated.b>
+                <b> mi</b>
               </Typography>
             </Grid>
           </Grid>
