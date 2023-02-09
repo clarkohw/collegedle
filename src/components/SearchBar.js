@@ -1,6 +1,6 @@
 import { Autocomplete } from "@mui/material";
 import { matchSorter } from "match-sorter";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { IN_PROGRESS, LOSS, MAX_GUESSES, WIN } from "../util/constants";
@@ -15,6 +15,15 @@ function SearchBar(props) {
     id: 999,
   };
   const [searchValue, setSearchValue] = useState(initialSeachValue);
+
+  const [searchBarEnabled, setSearchBarEnabled] = useState(
+    props.gameState !== IN_PROGRESS
+  );
+
+  useEffect(() => {
+    setSearchBarEnabled(props.gameState !== IN_PROGRESS);
+  }, [props.gameState]);
+
   const submitGuess = () => {
     if (searchValue["label"] !== "") {
       const guess = props.guessOptions[searchValue["id"]];
@@ -38,7 +47,6 @@ function SearchBar(props) {
         )
       );
       setSearchValue(initialSeachValue);
-      props.animateSprings();
       if (searchValue["label"] === props.collegedle["name"]) {
         props.setGameState(WIN);
         gaEventTracker("Win");
@@ -48,6 +56,7 @@ function SearchBar(props) {
           gaEventTracker("Loss");
         }
       }
+      props.animateSprings();
     }
   };
   const displayWinLossMessage = () => {
@@ -83,7 +92,7 @@ function SearchBar(props) {
       <div style={{ width: "100%", display: "flex" }}>
         <Autocomplete
           filterSelectedOptions
-          disabled={props.gameState !== IN_PROGRESS}
+          disabled={searchBarEnabled}
           filterOptions={filterOptions}
           fullWidth
           value={searchValue}
