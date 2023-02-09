@@ -9,18 +9,18 @@ f.close()
 
 def get_locale(code):
     key = {
-        11: "City: Large",
-        12: "City: Midsize",
-        13: "City: Small",
-        21: "Suburb: Large",
-        22: "Suburb: Midsize",
-        23: "Subrub: Small",
-        31: "Town: Fringe",
-        32: "Town: Distant",
-        33: "Town Remote",
-        41: "Rural: Fringe",
-        42: "Rural: Distant",
-        43: "Rural: Remote"
+        11: "large city",
+        12: "midsize city",
+        13: "small city",
+        21: "large suburb",
+        22: "midsize subrub",
+        23: "small subrub",
+        31: "fringe town",
+        32: "distant town",
+        33: "remote town",
+        41: "fringe rural",
+        42: "distant rural",
+        43: "remote rural"
     }
     return key[code] 
 def convert_df_to_json(df):
