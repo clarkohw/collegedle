@@ -43,14 +43,18 @@ function GuessList(props) {
             wrap="nowrap"
             container
             direction="row"
+            alignItems="center"
           >
-            <Grid item>
-              <Typography variant="body1">
-                <b>{guess["name"]}</b>
-              </Typography>
+            <Grid lg="10" className="distance-bar" item>
+              <animated.div className="fill" style={props.springs[index]}>
+                <Typography style={{ visibility: "visible" }} variant="body1">
+                  <b>{guess["name"]}</b>
+                </Typography>
+              </animated.div>
             </Grid>
-            <Grid item>
-              <Typography variant="body1">
+
+            <Grid lg="2" sm="2" style={{ border: "0px solid" }} item>
+              <Typography variant="body1" align="center">
                 <animated.b>
                   {props.springs[index].value.to((val) => Math.floor(val))}
                 </animated.b>
@@ -58,6 +62,7 @@ function GuessList(props) {
               </Typography>
             </Grid>
           </Grid>
+
           <Typography variant="body1" className="hint">
             {getHint(guess, index)}
           </Typography>

@@ -34,8 +34,14 @@ function Game() {
   );
 
   const springFunction = (index) => ({
-    from: { value: guesses[index].name === collegedle.name ? 1000 : 0 },
-    to: { value: guesses[index]["distance"] },
+    from: {
+      width: "0%",
+      value: guesses[index].name === collegedle.name ? 1000 : 0,
+    },
+    to: {
+      width: (1 - guesses[index].distance / 1000) * 100 + "%",
+      value: guesses[index]["distance"],
+    },
     config: {
       tension: 60,
     },

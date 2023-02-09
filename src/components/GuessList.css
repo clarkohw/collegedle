@@ -19,7 +19,6 @@
 
 .guess {
   background-color: #f6f4f4;
-  padding: 10px;
   border-radius: 8px;
 }
 
@@ -27,4 +26,18 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
+}
+
+.fill {
+  background: green;
+  white-space: nowrap;
+  border-radius: 8px;
+  padding: 10px;
+  padding-right: 0px;
+  /* visibility: hidden; */
+}
+
+.distance-bar {
+  border-radius: 8px;
+  /* border: 1px solid; */
 }
