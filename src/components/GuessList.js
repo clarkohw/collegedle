@@ -25,7 +25,10 @@ function GuessList(props) {
           </Grid>
           <Grid item>
             <Typography variant="body1">
-              <b>0 mi</b>
+              <animated.b>
+                {props.springs[index].value.to((val) => Math.floor(val))}
+              </animated.b>
+              <b> mi</b>
             </Typography>
           </Grid>
         </Grid>
