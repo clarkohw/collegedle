@@ -10,6 +10,7 @@ import ConfettiShower from "./ConfettiShower";
 import {
   BAR_FADE_DELAY,
   COLLEGEDLE_POOL,
+  MAX_DISTANCE,
   OVERRIDE_COLLEGEDLE,
   WIN,
 } from "../util/constants";
@@ -44,10 +45,10 @@ function Game() {
     (index) => ({
       from: {
         width: "0%",
-        value: guesses[index].name === collegedle.name ? 1000 : 0,
+        value: guesses[index].name === collegedle.name ? MAX_DISTANCE : 0,
       },
       to: {
-        width: (1 - guesses[index].distance / 1000) * 100 + "%",
+        width: (1 - guesses[index].distance / MAX_DISTANCE) * 100 + "%",
         value: guesses[index]["distance"],
       },
       config: {
