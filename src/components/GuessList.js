@@ -57,8 +57,8 @@ function GuessList(props) {
               <animated.div
                 className="fill"
                 style={{
-                  ...props.distanceBarSprings[index],
                   ...props.springs[index],
+                  ...props.distanceBarSprings[index],
                 }}
               >
                 <animated.div style={props.schoolNameSprings[index]}>

@@ -34,6 +34,7 @@
 .fill {
   background: green;
   white-space: nowrap;
+  width: 100%;
   border-radius: 8px;
   padding: 10px;
   /* visibility: hidden; */
@@ -41,6 +42,7 @@
 
 .distance-bar {
   border-radius: 8px;
+  overflow: scroll;
   /* border: 1px solid; */
 }
 
