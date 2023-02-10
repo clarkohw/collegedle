@@ -19,7 +19,7 @@ function GuessList(props) {
           direction="row"
           className="guess"
         >
-          <Grid lg={10} item>
+          <Grid xs={10} sm={10} lg={10} xl={10} item>
             <animated.div
               className="correct-guess"
               style={props.springs[index]}
@@ -53,7 +53,7 @@ function GuessList(props) {
             direction="row"
             alignItems="center"
           >
-            <Grid lg="10" className="distance-bar" item>
+            <Grid xs={10} sm={10} lg={10} xl={10} className="distance-bar" item>
               <animated.div
                 className="fill"
                 style={{
@@ -69,7 +69,7 @@ function GuessList(props) {
               </animated.div>
             </Grid>
 
-            <Grid lg="2" sm="2" item>
+            <Grid item>
               <Typography variant="body1" align="right" className="mile-marker">
                 <animated.b>
                   {props.springs[index].value.to((val) => Math.floor(val))}
