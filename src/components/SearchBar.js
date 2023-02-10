@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import { IN_PROGRESS, LOSS, MAX_GUESSES, WIN } from "../util/constants";
 import { getDistance } from "../util/distance";
 import { useAnalyticsEventTracker } from "../util/googleAnalytics";
+import { handleClickScroll } from "../util/scroll";
 
 function SearchBar(props) {
   const gaEventTracker = useAnalyticsEventTracker();
@@ -56,7 +57,6 @@ function SearchBar(props) {
           gaEventTracker("Loss");
         }
       }
-      props.animateSprings();
     }
   };
   const displayWinLossMessage = () => {

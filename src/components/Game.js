@@ -19,6 +19,7 @@ import TopBar from "./TopBar";
 import moment from "moment";
 import { useSprings } from "react-spring";
 import { getColor } from "../util/color";
+import { handleClickScroll } from "../util/scroll";
 
 function Game() {
   const localData = JSON.parse(localStorage.getItem("collegedle"));
@@ -95,6 +96,7 @@ function Game() {
         },
       })
     );
+    handleClickScroll("guess-" + (guesses.length - 1));
   }, [gameID, guesses, gameState]);
 
   return (

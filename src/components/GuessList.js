@@ -9,7 +9,7 @@ import { MAX_GUESSES } from "../util/constants";
 function GuessList(props) {
   const guessComponent = (guess, index) => {
     return (
-      <div className="guess-hint">
+      <div id={"guess-" + index} className="guess-hint">
         <Grid
           key={index}
           justifyContent="space-between"
