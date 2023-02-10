@@ -8,31 +8,42 @@ import { MAX_GUESSES } from "../util/constants";
 
 function GuessList(props) {
   const guessComponent = (guess, index) => {
-    if (guess["name"] === props.collegedle["name"]) {
-      return (
+    return (
+      <div className="guess-hint">
         <Grid
-          key="collegedle"
+          key={index}
           justifyContent="space-between"
-          alignItems="center"
+          className="guess"
           wrap="nowrap"
           container
           direction="row"
-          className="guess"
+          alignItems="center"
         >
-          <Grid xs={10} sm={10} lg={10} xl={10} item>
+          <Grid xs={10} sm={10} lg={10} xl={10} className="distance-bar" item>
             <animated.div
-              className="correct-guess"
-              style={props.springs[index]}
+              className="fill"
+              style={{
+                ...props.springs[index],
+                ...props.distanceBarSprings[index],
+              }}
             >
               <animated.div style={props.schoolNameSprings[index]}>
-                <Typography variant="body1">
+                <Typography
+                  color={
+                    props.guesses[index].name === props.collegedle.name
+                      ? "white"
+                      : "black"
+                  }
+                  variant="body1"
+                >
                   <b>{guess["name"]}</b>
                 </Typography>
               </animated.div>
             </animated.div>
           </Grid>
-          <Grid lg="2" item>
-            <Typography align="right" className="mile-marker" variant="body1">
+
+          <Grid item>
+            <Typography variant="body1" align="right" className="mile-marker">
               <animated.b>
                 {props.springs[index].value.to((val) => Math.floor(val))}
               </animated.b>
@@ -40,51 +51,12 @@ function GuessList(props) {
             </Typography>
           </Grid>
         </Grid>
-      );
-    } else {
-      return (
-        <div className="guess-hint">
-          <Grid
-            key={index}
-            justifyContent="space-between"
-            className="guess"
-            wrap="nowrap"
-            container
-            direction="row"
-            alignItems="center"
-          >
-            <Grid xs={10} sm={10} lg={10} xl={10} className="distance-bar" item>
-              <animated.div
-                className="fill"
-                style={{
-                  ...props.springs[index],
-                  ...props.distanceBarSprings[index],
-                }}
-              >
-                <animated.div style={props.schoolNameSprings[index]}>
-                  <Typography variant="body1">
-                    <b>{guess["name"]}</b>
-                  </Typography>
-                </animated.div>
-              </animated.div>
-            </Grid>
 
-            <Grid item>
-              <Typography variant="body1" align="right" className="mile-marker">
-                <animated.b>
-                  {props.springs[index].value.to((val) => Math.floor(val))}
-                </animated.b>
-                <b> mi</b>
-              </Typography>
-            </Grid>
-          </Grid>
-
-          <Typography variant="body1" className="hint">
-            {getHint(guess, index)}
-          </Typography>
-        </div>
-      );
-    }
+        <Typography variant="body1" className="hint">
+          {getHint(guess, index)}
+        </Typography>
+      </div>
+    );
   };
 
   const getHint = (guess, index) => {
