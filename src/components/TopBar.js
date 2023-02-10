@@ -8,7 +8,11 @@ import questionMark from "../images/icons/question-mark.png";
 import { Container } from "@mui/system";
 import Help from "./Help";
 import Share from "./Share";
-import { IN_PROGRESS } from "../util/constants";
+import {
+  BAR_FADE_DELAY,
+  IN_PROGRESS,
+  SHARE_MODAL_DELAY,
+} from "../util/constants";
 import graphEmoji from "../images/icons/graph-emoji.png";
 
 function TopBar(props) {
@@ -35,7 +39,10 @@ function TopBar(props) {
   // const handleShareModalOpen = () => setShareModalOpen(true);
 
   useEffect(() => {
-    setShareModalOpen(props.gameStatus !== IN_PROGRESS);
+    setTimeout(
+      () => setShareModalOpen(props.gameStatus !== IN_PROGRESS),
+      SHARE_MODAL_DELAY
+    );
   }, [props.gameStatus]);
 
   return (
