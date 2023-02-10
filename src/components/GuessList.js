@@ -46,10 +46,18 @@ function GuessList(props) {
             alignItems="center"
           >
             <Grid lg="10" className="distance-bar" item>
-              <animated.div className="fill" style={props.springs[index]}>
-                <Typography style={{ visibility: "visible" }} variant="body1">
-                  <b>{guess["name"]}</b>
-                </Typography>
+              <animated.div
+                className="fill"
+                style={{
+                  ...props.distanceBarSprings[index],
+                  ...props.springs[index],
+                }}
+              >
+                <animated.div style={props.schoolNameSprings[index]}>
+                  <Typography variant="body1">
+                    <b>{guess["name"]}</b>
+                  </Typography>
+                </animated.div>
               </animated.div>
             </Grid>
 

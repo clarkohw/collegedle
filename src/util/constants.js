@@ -6,3 +6,4 @@ export const LOSS = 2;
 export const COLLEGEDLE_POOL = 110;
 export const ALERT_TIME_MS = 2000;
 export const OVERRIDE_COLLEGEDLE = 0;
+export const BAR_FADE_DELAY = 2500;

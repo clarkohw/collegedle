@@ -7,10 +7,16 @@ import { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 import ConfettiShower from "./ConfettiShower";
-import { COLLEGEDLE_POOL, OVERRIDE_COLLEGEDLE, WIN } from "../util/constants";
+import {
+  BAR_FADE_DELAY,
+  COLLEGEDLE_POOL,
+  OVERRIDE_COLLEGEDLE,
+  WIN,
+} from "../util/constants";
 import TopBar from "./TopBar";
 import moment from "moment";
 import { useSprings } from "react-spring";
+import { getColor } from "../util/color";
 
 function Game() {
   const localData = JSON.parse(localStorage.getItem("collegedle"));
@@ -33,25 +39,35 @@ function Game() {
     resetState ? 0 : localData["game"]["status"]
   );
 
-  const springFunction = (index) => ({
-    from: {
-      width: "0%",
-      value: guesses[index].name === collegedle.name ? 1000 : 0,
-    },
-    to: {
-      width: (1 - guesses[index].distance / 1000) * 100 + "%",
-      value: guesses[index]["distance"],
-    },
-    config: {
-      tension: 60,
-    },
-  });
-
   const [springs, api] = useSprings(
     guesses.length,
-    (index) => springFunction(index),
+    (index) => ({
+      from: {
+        width: "0%",
+        value: guesses[index].name === collegedle.name ? 1000 : 0,
+      },
+      to: {
+        width: (1 - guesses[index].distance / 1000) * 100 + "%",
+        value: guesses[index]["distance"],
+      },
+      config: {
+        tension: 60,
+      },
+    }),
     [guesses]
   );
+
+  const [schoolNameSprings] = useSprings(guesses.length, () => ({
+    delay: BAR_FADE_DELAY,
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+  }));
+
+  const [distanceBarSprings] = useSprings(guesses.length, (index) => ({
+    delay: BAR_FADE_DELAY,
+    from: { background: getColor(guesses[index], collegedle) },
+    to: { background: "none" },
+  }));
 
   useEffect(() => {
     localStorage.setItem(
@@ -75,7 +91,7 @@ function Game() {
       <Container maxWidth="xs">
         <ConfettiShower run={gameState === WIN} />
         <SearchBar
-          animateSprings={api.start((index) => springFunction(index), [])}
+          animateSprings={api.start()}
           collegedle={collegedle}
           setCollegedle={setCollegedle}
           gameState={gameState}
@@ -99,6 +115,8 @@ function Game() {
         </Grid>
         <Grid item lg={6} md={6} sm={12} xs={12}>
           <GuessList
+            schoolNameSprings={schoolNameSprings}
+            distanceBarSprings={distanceBarSprings}
             springs={springs}
             collegedle={collegedle}
             guesses={guesses}
