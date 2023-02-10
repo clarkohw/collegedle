@@ -42,19 +42,22 @@ function Game() {
 
   const [springs, api] = useSprings(
     guesses.length,
-    (index) => ({
-      from: {
-        width: "0%",
-        value: guesses[index].name === collegedle.name ? MAX_DISTANCE : 0,
-      },
-      to: {
-        width: (1 - guesses[index].distance / MAX_DISTANCE) * 100 + "%",
-        value: guesses[index]["distance"],
-      },
-      config: {
-        tension: 60,
-      },
-    }),
+    (index) => {
+      const correct = guesses[index].name === collegedle.name;
+      return {
+        from: {
+          width: "0%",
+          value: correct ? MAX_DISTANCE : 0,
+        },
+        to: {
+          width: (1 - guesses[index].distance / MAX_DISTANCE) * 100 + "%",
+          value: guesses[index]["distance"],
+        },
+        config: {
+          tension: 60,
+        },
+      };
+    },
     [guesses]
   );
 
@@ -64,11 +67,15 @@ function Game() {
     to: { opacity: 1 },
   }));
 
-  const [distanceBarSprings] = useSprings(guesses.length, (index) => ({
-    delay: BAR_FADE_DELAY,
-    from: { background: getColor(guesses[index], collegedle) },
-    to: { background: "none" },
-  }));
+  const [distanceBarSprings] = useSprings(guesses.length, (index) => {
+    const correct = guesses[index].name === collegedle.name;
+    const color = getColor(guesses[index], collegedle);
+    return {
+      delay: BAR_FADE_DELAY,
+      from: { background: color },
+      to: { background: correct ? color : "none" },
+    };
+  });
 
   useEffect(() => {
     localStorage.setItem(
