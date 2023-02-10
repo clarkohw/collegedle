@@ -50,7 +50,6 @@ function SearchBar(props) {
       if (searchValue["label"] === props.collegedle["name"]) {
         props.setGameState(WIN);
         gaEventTracker("Win");
-        props.correctGuessAnimation();
       } else {
         if (props.guesses.length + 1 >= MAX_GUESSES) {
           props.setGameState(LOSS);

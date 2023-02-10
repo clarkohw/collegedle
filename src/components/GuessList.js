@@ -22,7 +22,7 @@ function GuessList(props) {
           <Grid lg={10} item>
             <animated.div
               className="correct-guess"
-              style={props.distanceBarSprings[index]}
+              style={props.springs[index]}
             >
               <animated.div style={props.schoolNameSprings[index]}>
                 <Typography variant="body1">

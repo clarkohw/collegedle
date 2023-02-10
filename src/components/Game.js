@@ -50,7 +50,9 @@ function Game() {
           value: correct ? MAX_DISTANCE : 0,
         },
         to: {
-          width: (1 - guesses[index].distance / MAX_DISTANCE) * 100 + "%",
+          width: correct
+            ? "100%"
+            : (1 - guesses[index].distance / MAX_DISTANCE) * 100 + "%",
           value: guesses[index]["distance"],
         },
         config: {
