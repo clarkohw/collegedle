@@ -9,6 +9,7 @@ import { Container } from "@mui/system";
 import ConfettiShower from "./ConfettiShower";
 import {
   BAR_FADE_DELAY,
+  COLLEGEDLE_OFFSET,
   COLLEGEDLE_POOL,
   MAX_DISTANCE,
   OVERRIDE_COLLEGEDLE,
@@ -27,7 +28,8 @@ function Game() {
     const today = new Date(Date.now());
     const index = OVERRIDE_COLLEGEDLE
       ? OVERRIDE_COLLEGEDLE
-      : (today.getFullYear() * (today.getDate() + today.getMonth() + 1)) %
+      : (today.getFullYear() *
+          (today.getDate() + today.getMonth() + COLLEGEDLE_OFFSET)) %
         COLLEGEDLE_POOL;
     return guessOptions.find((item) => item.name === namesList[index]);
   };
