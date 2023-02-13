@@ -9,6 +9,7 @@ import Alert from "./Alert";
 import { useState } from "react";
 import ShareIcon from "@mui/icons-material/Share";
 import { IN_PROGRESS } from "../util/constants";
+import { useAnalyticsEventTracker } from "../util/googleAnalytics";
 
 function Share(props) {
   const [showCopyAlert, setShowCopyAlert] = useState(false);
@@ -36,6 +37,8 @@ function Share(props) {
       </button>
     </Grid>
   );
+
+  const gaEventTracker = useAnalyticsEventTracker();
 
   return (
     <Container maxWidth="xs">
@@ -87,15 +90,16 @@ function Share(props) {
               </Typography>
               <Button
                 variant="contained"
-                onClick={() =>
+                onClick={() => {
                   shareText(
                     props.gameID,
                     props.guesses,
                     props.gameStatus,
                     (shown) => setShowCopyAlert(shown),
                     (shown) => setShowCopyFailure(shown)
-                  )
-                }
+                  );
+                  gaEventTracker("Click share button");
+                }}
               >
                 Share <ShareIcon></ShareIcon>
               </Button>
