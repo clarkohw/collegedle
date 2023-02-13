@@ -111,6 +111,7 @@ function TopBar(props) {
           onClose={handleShareModalClose}
           aria-labelledby="Sharing modal"
           aria-describedby="A modal to share game results"
+          disableScrollLock
         >
           <Share
             gameID={props.gameID}
