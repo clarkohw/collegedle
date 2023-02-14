@@ -4,11 +4,11 @@ import exit from "../images/icons/exit.png";
 import { addRem } from "../util/addrem";
 import { generateTheme } from "../util/createTheme";
 import Countdown from "react-countdown";
-import { getNextDate, shareText } from "../util/share";
+import { getNextDate, shareText, generateEmojiBlocks } from "../util/share";
 import Alert from "./Alert";
 import { useState } from "react";
 import ShareIcon from "@mui/icons-material/Share";
-import { IN_PROGRESS } from "../util/constants";
+import { IN_PROGRESS, WIN } from "../util/constants";
 import { useAnalyticsEventTracker } from "../util/googleAnalytics";
 
 function Share(props) {
@@ -39,6 +39,8 @@ function Share(props) {
   );
 
   const gaEventTracker = useAnalyticsEventTracker();
+
+  console.log("devlog", generateEmojiBlocks(props.guesses));
 
   return (
     <Container maxWidth="xs">
@@ -88,6 +90,17 @@ function Share(props) {
                 Next Collegedle in...
                 <Countdown daysInHours={true} date={getNextDate()}></Countdown>
               </Typography>
+              <Typography>
+                Collegedle {props.gameID + "  "}
+                {props.gameStatus === WIN ? props.guesses.length : "X"} / 6
+              </Typography>
+              <div>
+                {generateEmojiBlocks(props.guesses)
+                  .split("\n")
+                  .map((s) => (
+                    <div>{s}</div>
+                  ))}
+              </div>
               <Button
                 variant="contained"
                 onClick={() => {

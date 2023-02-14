@@ -29,7 +29,7 @@ export const shareText = (
   }
 };
 
-const createShareText = (gameID, guesses, status) => {
+export const createShareText = (gameID, guesses, status) => {
   let outputString = "Collegedle " + gameID + " ";
   outputString += (status === WIN ? guesses.length : "X") + "/6\n";
   outputString += generateEmojiBlocks(guesses);
@@ -37,7 +37,7 @@ const createShareText = (gameID, guesses, status) => {
   return outputString;
 };
 
-const generateEmojiBlocks = (guesses) => {
+export const generateEmojiBlocks = (guesses) => {
   return guesses
     .map((guess) => mapDistanceToEmoji(guess.distance).repeat(5))
     .join("\n");
