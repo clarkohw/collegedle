@@ -50,11 +50,11 @@ function Share(props) {
         direction="column"
         justifyContent="center"
       >
-        {/* <Alert message={"Copied to clipboard"} showFade={showCopyAlert} />
+        <Alert message={"Copied to clipboard"} showFade={showCopyAlert} />
         <Alert
           message={"Failed to copy to clipboard"}
           showFade={showCopyFailure}
-        /> */}
+        />
         <Box
           style={{
             backgroundColor: "white",
@@ -71,7 +71,7 @@ function Share(props) {
             justifyContent="space-between"
             alignItems="center"
             container
-            sx={{ pt: 2, pb: 1 }}
+            sx={{ pt: 2, pb: 1, mb: 1 }}
           >
             <ExitImage hidden="hidden"> </ExitImage>
             <Grid item>
