@@ -49,21 +49,21 @@ function Share(props) {
         style={{ height: "100vh" }}
         direction="column"
         justifyContent="center"
-        alignItems="center"
       >
-        <Alert message={"Copied to clipboard"} showFade={showCopyAlert} />
+        {/* <Alert message={"Copied to clipboard"} showFade={showCopyAlert} />
         <Alert
           message={"Failed to copy to clipboard"}
           showFade={showCopyFailure}
-        />
+        /> */}
         <Box
           style={{
             backgroundColor: "white",
             boxShadow: "0 4px 23px 0 rgb(0 0 0 / 20%)",
             borderRadius: "8px",
+            width: "100%",
+            boxSizing: "border-box",
           }}
-          pb={4}
-          width="100%"
+          sx={{ mb: 2, px: 4, pb: 4, mt: 10 }}
           className="modal"
         >
           <Grid
@@ -71,7 +71,7 @@ function Share(props) {
             justifyContent="space-between"
             alignItems="center"
             container
-            sx={{ pb: 1, pt: 2 }}
+            sx={{ pt: 2, pb: 1 }}
           >
             <ExitImage hidden="hidden"> </ExitImage>
             <Grid item>
