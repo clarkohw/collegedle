@@ -40,8 +40,6 @@ function Share(props) {
 
   const gaEventTracker = useAnalyticsEventTracker();
 
-  console.log("devlog", generateEmojiBlocks(props.guesses));
-
   return (
     <Container maxWidth="xs">
       <Grid
