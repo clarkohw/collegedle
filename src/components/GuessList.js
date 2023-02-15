@@ -92,7 +92,7 @@ function GuessList(props) {
       );
     } else if (index === 3) {
       return (
-        "Hint: Atheltic conference is " + props.collegedle["athleticConference"]
+        "Hint: Athletic conference is " + props.collegedle["athleticConference"]
       );
     } else if (index === 4) {
       return "Hint: Mascot is " + props.collegedle["mascot"];
