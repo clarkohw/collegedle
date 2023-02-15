@@ -82,7 +82,7 @@ function Share(props) {
             <ExitImage></ExitImage>
           </Grid>
           {props.gameStatus === IN_PROGRESS ? (
-            <div>Statistics are a WIP</div>
+            <Typography align="center">Statistics are a WIP</Typography>
           ) : (
             <Grid rowGap={2} container direction="column" alignItems="center">
               {" "}
