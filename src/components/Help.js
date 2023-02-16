@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import { Grid } from "@mui/material";
 import { Box, Container } from "@mui/system";
 import exit from "../images/icons/exit.png";
@@ -103,6 +103,16 @@ function Help(props) {
             alt="correct guess"
             src={correctGuessGif}
           />
+          <Grid container direction="row" justifyContent="center">
+            <Button
+              onClick={props.handleClose}
+              sx={{ mt: 4, mb: 2 }}
+              variant="contained"
+            >
+              click to play!
+            </Button>
+          </Grid>
+
           <Divider sx={{ my: 2 }} />
           <Typography sx={{ py: 2 }} variant="body1">
             Have feedback? Email me at collegedle17@gmail.com
