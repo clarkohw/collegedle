@@ -42,12 +42,7 @@ function Share(props) {
 
   return (
     <Container maxWidth="xs">
-      <Grid
-        container
-        style={{ height: "100vh" }}
-        direction="column"
-        justifyContent="center"
-      >
+      <Grid container direction="column" justifyContent="center">
         <Alert message={"Copied to clipboard"} showFade={showCopyAlert} />
         <Alert
           message={"Failed to copy to clipboard"}
@@ -60,6 +55,7 @@ function Share(props) {
             borderRadius: "8px",
             width: "100%",
             boxSizing: "border-box",
+            marginTop: "25vh",
           }}
           sx={{ mb: 2, px: 4, pb: 4, mt: 10 }}
           className="modal"
