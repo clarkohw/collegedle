@@ -42,13 +42,7 @@ function Share(props) {
 
   return (
     <Container maxWidth="xs">
-      <Grid
-        container
-        style={{ height: "100vh" }}
-        direction="column"
-        justifyContent="center"
-        alignItems="center"
-      >
+      <Grid container direction="column" justifyContent="center">
         <Alert message={"Copied to clipboard"} showFade={showCopyAlert} />
         <Alert
           message={"Failed to copy to clipboard"}
@@ -59,9 +53,11 @@ function Share(props) {
             backgroundColor: "white",
             boxShadow: "0 4px 23px 0 rgb(0 0 0 / 20%)",
             borderRadius: "8px",
+            width: "100%",
+            boxSizing: "border-box",
+            marginTop: "25vh",
           }}
-          pb={4}
-          width="100%"
+          sx={{ mb: 2, px: 4, pb: 4, mt: 10 }}
           className="modal"
         >
           <Grid
@@ -69,7 +65,7 @@ function Share(props) {
             justifyContent="space-between"
             alignItems="center"
             container
-            sx={{ pb: 1, pt: 2 }}
+            sx={{ pt: 2, pb: 1, mb: 1 }}
           >
             <ExitImage hidden="hidden"> </ExitImage>
             <Grid item>
@@ -80,7 +76,7 @@ function Share(props) {
             <ExitImage></ExitImage>
           </Grid>
           {props.gameStatus === IN_PROGRESS ? (
-            <div>Statistics are a WIP</div>
+            <Typography align="center">Statistics are a WIP</Typography>
           ) : (
             <Grid rowGap={2} container direction="column" alignItems="center">
               {" "}
