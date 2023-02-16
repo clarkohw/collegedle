@@ -9,3 +9,4 @@ export const ALERT_TIME_MS = 2000;
 export const OVERRIDE_COLLEGEDLE = 0;
 export const BAR_FADE_DELAY = 2500;
 export const SHARE_MODAL_DELAY = 2000;
+export const CONFETTI_MS_DELAY = 500;
