@@ -1,14 +1,14 @@
 import React from "react";
 import Confetti from "react-confetti";
 import useWindowSize from "react-use/lib/useWindowSize";
-import { SHARE_MODAL_DELAY } from "../util/constants";
+import { CONFETTI_MS_DELAY } from "../util/constants";
 import { useState, useEffect } from "react";
 
 function ConfettiShower(props) {
   const { width, height } = useWindowSize();
   const [run, setRun] = useState(false);
   useEffect(() => {
-    setTimeout(() => setRun(props.run), SHARE_MODAL_DELAY);
+    setTimeout(() => setRun(props.run), CONFETTI_MS_DELAY);
   }, [props.run]);
   return (
     <Confetti
