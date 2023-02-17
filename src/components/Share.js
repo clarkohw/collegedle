@@ -42,7 +42,12 @@ function Share(props) {
 
   return (
     <Container maxWidth="xs">
-      <Grid container direction="column" justifyContent="center">
+      <Grid
+        container
+        alignItems="center"
+        direction="column"
+        justifyContent="center"
+      >
         <Alert message={"Copied to clipboard"} showFade={showCopyAlert} />
         <Alert
           message={"Failed to copy to clipboard"}
