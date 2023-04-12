@@ -8,7 +8,7 @@ import { getNextDate, shareText, generateEmojiBlocks } from "../util/share";
 import Alert from "./Alert";
 import { useState } from "react";
 import ShareIcon from "@mui/icons-material/Share";
-import { IN_PROGRESS, WIN } from "../util/constants";
+import { IN_PROGRESS, SPECIAL_MESSAGE_TEXT, WIN } from "../util/constants";
 import { useAnalyticsEventTracker } from "../util/googleAnalytics";
 
 function Share(props) {
@@ -115,6 +115,9 @@ function Share(props) {
               >
                 Share <ShareIcon></ShareIcon>
               </Button>
+              <Typography variant="body1" align="center">
+                <b>{SPECIAL_MESSAGE_TEXT}</b>
+              </Typography>
             </Grid>
           )}
         </Box>
