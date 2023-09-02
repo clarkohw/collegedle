@@ -9,8 +9,6 @@ import { Container } from "@mui/system";
 import ConfettiShower from "./ConfettiShower";
 import {
   BAR_FADE_DELAY,
-  COLLEGEDLE_OFFSET,
-  COLLEGEDLE_POOL,
   MAX_DISTANCE,
   OVERRIDE_COLLEGEDLE,
   WIN,
@@ -20,21 +18,20 @@ import moment from "moment";
 import { useSprings } from "react-spring";
 import { getColor } from "../util/color";
 import { handleClickScroll } from "../util/scroll";
+import { randomNumberForDate } from "../util/random";
 
 function Game() {
   const localData = JSON.parse(localStorage.getItem("collegedle"));
   const [guessOptions, setGuessOptions] = useState(collegeData);
   const gameID = Math.floor((moment() - moment("20230101")) / 86400000);
   const generateCollegedle = () => {
-    const today = new Date(Date.now());
     const index = OVERRIDE_COLLEGEDLE
       ? OVERRIDE_COLLEGEDLE
-      : (today.getFullYear() *
-          (today.getDate() + today.getMonth() + COLLEGEDLE_OFFSET)) %
-        COLLEGEDLE_POOL;
+      : randomNumberForDate();
     return guessOptions.find((item) => item.name === namesList[index]);
   };
   const [collegedle, setCollegedle] = useState(generateCollegedle());
+  console.log(collegedle);
   const resetState = !localData || localData["game"]["id"] !== gameID;
   const [guesses, setGuesses] = useState(
     resetState ? [] : localData["game"]["guesses"]
