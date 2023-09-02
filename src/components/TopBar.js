@@ -114,6 +114,7 @@ function TopBar(props) {
           disableScrollLock
         >
           <Share
+            collegedle={props.collegedle}
             gameID={props.gameID}
             gameStatus={props.gameStatus}
             guesses={props.guesses}

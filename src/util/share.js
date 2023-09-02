@@ -3,13 +3,14 @@ import { ALERT_TIME_MS, WIN } from "./constants";
 //gameID
 //status of the game (1 =win, 2=loss)
 export const shareText = (
+  collegedle,
   gameID,
   guesses,
   status,
   setShareModalOpen,
   setCopyFailureOpen
 ) => {
-  const textToShare = createShareText(gameID, guesses, status);
+  const textToShare = createShareText(collegedle, gameID, guesses, status);
   const shareData = { text: textToShare };
   if (navigator.canShare && navigator.canShare(shareData)) {
     navigator.share(shareData);
@@ -29,25 +30,26 @@ export const shareText = (
   }
 };
 
-export const createShareText = (gameID, guesses, status) => {
+export const createShareText = (collegedle, gameID, guesses, status) => {
   let outputString = "Collegedle " + gameID + " ";
   outputString += (status === WIN ? guesses.length : "X") + "/6\n";
-  outputString += generateEmojiBlocks(guesses);
+  outputString += generateEmojiBlocks(collegedle, guesses);
   outputString += "\nhttps://collegedle.com/";
   return outputString;
 };
 
-export const generateEmojiBlocks = (guesses) => {
+export const generateEmojiBlocks = (collegedle, guesses) => {
   return guesses
-    .map((guess) => mapDistanceToEmoji(guess.distance).repeat(5))
+    .map((guess) => mapDistanceToEmoji(collegedle, guess).repeat(5))
     .join("\n");
 };
 
-const mapDistanceToEmoji = (distance) => {
+const mapDistanceToEmoji = (collegedle, guess) => {
+  const distance = guess.distance;
   const emojiTiles = ["🟩", "🟥", "🟧", "🟨", "⬜"];
-  if (distance === 0) {
+  if (guess.name === collegedle.name) {
     return emojiTiles[0];
-  } else if (distance > 0 && distance <= 50) {
+  } else if (distance >= 0 && distance <= 50) {
     return emojiTiles[1];
   } else if (distance > 50 && distance <= 250) {
     return emojiTiles[2];

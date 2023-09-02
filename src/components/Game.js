@@ -31,7 +31,6 @@ function Game() {
     return guessOptions.find((item) => item.name === namesList[index]);
   };
   const [collegedle, setCollegedle] = useState(generateCollegedle());
-  console.log(collegedle);
   const resetState = !localData || localData["game"]["id"] !== gameID;
   const [guesses, setGuesses] = useState(
     resetState ? [] : localData["game"]["guesses"]
@@ -98,7 +97,12 @@ function Game() {
 
   return (
     <div>
-      <TopBar gameStatus={gameState} gameID={gameID} guesses={guesses}></TopBar>
+      <TopBar
+        collegedle={collegedle}
+        gameStatus={gameState}
+        gameID={gameID}
+        guesses={guesses}
+      ></TopBar>
       <Container maxWidth="xs">
         <ConfettiShower run={gameState === WIN} />
         <SearchBar

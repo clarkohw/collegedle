@@ -94,7 +94,7 @@ function Share(props) {
                 {props.gameStatus === WIN ? props.guesses.length : "X"} / 6
               </Typography>
               <div>
-                {generateEmojiBlocks(props.guesses)
+                {generateEmojiBlocks(props.collegedle, props.guesses)
                   .split("\n")
                   .map((s) => (
                     <div>{s}</div>
@@ -104,6 +104,7 @@ function Share(props) {
                 variant="contained"
                 onClick={() => {
                   shareText(
+                    props.collegedle,
                     props.gameID,
                     props.guesses,
                     props.gameStatus,
