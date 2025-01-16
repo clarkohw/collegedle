@@ -26,7 +26,6 @@ function Game() {
   const gameID = Math.floor((moment() - moment("20230101")) / 86400000);
   const generateCollegedle = () => {
     const randomIndex = randomNumberForDate();
-    const overrideIndex = OVERRIDE_COLLEGEDLE;
     const index = OVERRIDE_COLLEGEDLE !== null && OVERRIDE_COLLEGEDLE !== undefined
       ? OVERRIDE_COLLEGEDLE 
       : randomIndex;
