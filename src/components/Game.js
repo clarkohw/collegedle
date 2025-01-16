@@ -25,9 +25,11 @@ function Game() {
   const [guessOptions, setGuessOptions] = useState(collegeData);
   const gameID = Math.floor((moment() - moment("20230101")) / 86400000);
   const generateCollegedle = () => {
-    const index = OVERRIDE_COLLEGEDLE
-      ? OVERRIDE_COLLEGEDLE
-      : randomNumberForDate();
+    const randomIndex = randomNumberForDate();
+    const overrideIndex = OVERRIDE_COLLEGEDLE;
+    const index = OVERRIDE_COLLEGEDLE !== null && OVERRIDE_COLLEGEDLE !== undefined
+      ? OVERRIDE_COLLEGEDLE 
+      : randomIndex;
     return guessOptions.find((item) => item.name === namesList[index]);
   };
   const [collegedle, setCollegedle] = useState(generateCollegedle());
