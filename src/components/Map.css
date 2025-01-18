@@ -9,6 +9,7 @@
 .map {
   overflow: hidden;
   cursor: grab;
+  touch-action: none !important;
 }
 
 .map:active {
@@ -17,6 +18,7 @@
 
 .map-container {
   position: relative;
+  touch-action: none !important;
 }
 
 .zoom-controls {
@@ -29,4 +31,12 @@
   align-items: center;
   gap: 12px;
   z-index: 1000;
+}
+
+.no-wheel {
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

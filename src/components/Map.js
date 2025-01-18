@@ -19,14 +19,6 @@ function Map(props) {
   const defaultZoomState = { zoom: 1, center: [-97, 37] };
   const [zoom, setZoom] = useState(defaultZoomState);
 
-  const handleZoom = (event) => {
-    if (!event.deltaY) return;
-    setZoom((prev) => ({
-      ...prev,
-      zoom: Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, prev.zoom + (event.deltaY < 0 ? 0.2 : -0.2))),
-    }));
-  };
-
   const handleSliderChange = (event, newValue) => {
     setZoom(prev => ({
       ...prev,
@@ -100,11 +92,15 @@ function Map(props) {
         className="map"
       >
         <ZoomableGroup
-          onWheel={handleZoom}
           center={zoom.center}
           zoom={zoom.zoom}
           minZoom={MIN_ZOOM}
           maxZoom={MAX_ZOOM}
+          wheelEnabled={false}
+          zoomEnabled={false}
+          onMoveStart={(e) => e.preventDefault()}
+          onMove={(e) => e.preventDefault()}
+          onMoveEnd={(e) => e.preventDefault()}
         >
           <Geographies geography={geoUrl} fill="#D6D6DA" stroke="#FFFFFF">
             {({ geographies }) =>
