@@ -1,4 +1,4 @@
-import { COLLEGEDLE_OFFSET, COLLEGEDLE_POOL } from "./constants";
+import { COLLEGEDLE_POOL } from "./constants";
 
 export const randomNumberForDate = () => {
   const today = new Date();
